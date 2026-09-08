@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Git und Projektgedächtnis
 
-- Quelle des Stands: dieses Repository, nicht der Chat. Nach einem abgeschlossenen Schritt `docs/status.md` und `docs/entscheidungen.md` aktualisieren, committen, nach `origin/main` pushen — außer Dennis sagt ausdrücklich etwas anderes.
+- Quelle des Stands: dieses Repository, nicht der Chat. Nach einem abgeschlossenen Schritt `docs/status.md` und `docs/entscheidungen.md` aktualisieren, committen, nach `origin/main` pushen — außer Dennis sagt ausdrücklich etwas anderes. Ein Merge ist keine Zustimmung zu jeder Produktannahme.
 - GitHub ist Codeablage, nicht Speicherort persönlicher App-Daten.
 - Nicht committen: `.env`, Schlüssel, Tokens, echte Nutzdaten. Synthetische Beispieldaten sind erlaubt und als solche zu kennzeichnen.
 - Kein Force-Push auf `main`, keine `--no-verify`-Hooks.

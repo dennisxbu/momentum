@@ -1,7 +1,17 @@
 # Projektstatus
 
-Stand: 8. September 2026  
-Aktueller Schritt: **Schritt 1 abgeschlossen** (Nutzungskonzept und offene Produktfragen). Warte auf Antworten zu den fünf Fragen in [nutzungskonzept.md](nutzungskonzept.md), soweit sie den Umfang von Version 1 verändern.
+Stand: 8. September 2026
+
+## Schritt und Dokumentationsstand
+
+| Ebene | Stand |
+| --- | --- |
+| Beauftragter Schritt | Schritt 1 (Nutzungskonzept). Schritt 2 ist **nicht** beauftragt. |
+| Dokumentationsarbeit | Überarbeitung von Schritt 1 ausgeführt (Abgleich mit der Vision). |
+| Nutzerfeedback | Korrekturauftrag vom 8.9.2026 eingearbeitet. Die fünf offenen Fragen sind **nicht** beantwortet. |
+| Produktentscheidungen | Siehe [entscheidungen.md](entscheidungen.md). Keine Zustimmung behaupten, die nicht belegt ist. PR-Merge von Schritt 1 ist keine Freigabe jeder Formulierung. |
+
+Nächste inhaltliche Arbeit: Antworten auf die fünf Fragen in [nutzungskonzept.md](nutzungskonzept.md) und/oder ausdrücklicher Auftrag für Schritt 2.
 
 ## Tatsächlich vorhandene Funktionen
 
@@ -11,37 +21,37 @@ Vorhanden: Projektdokumentation, GitHub als Codeablage, Nutzungskonzept als Vors
 
 ## Offene Grenzen
 
-- Umfang von Version 1 ist nicht beschlossen (Schritt 2, abhängig von den fünf Fragen).
+- Umfang von Version 1 ist nicht beschlossen.
 - Bedienkonzept und Navigation sind nicht beschlossen.
-- Technik-Stack, lokale Speicherung, Offline-Nutzung und Auslieferungsform sind nicht beschlossen.
-- KI-Nutzung, Anbieter/lokal, erlaubte Datennutzung und Budget unterhalb von 50 Euro sind nicht beschlossen.
-- Planungsvollmacht innerhalb eines gesetzten Blocks ist nicht beschlossen.
-- Tiefe der Konfigurierbarkeit ist nicht beschlossen.
-- Rolle von Diät/Ernährung, Verbindlichkeit des Abendrückblicks, Herkunft der Termine und Gewicht beruflicher Entwicklung im Tagesfluss: siehe die fünf Fragen in Schritt 1.
+- Technik-Stack, Speicherung, Offline und Auslieferung sind nicht beschlossen.
+- KI unterhalb der 50-Euro-Grenze ist nicht beschlossen.
+- O5 und O7–O10: Planungsvorschläge, Diät/Training, Abendroutine, Termine, berufliche Entwicklung.
+- Tiefe der Konfigurierbarkeit (O6) ist nicht beschlossen.
+
+„Nicht beschlossen“ heißt nicht verboten. Windows bleibt Zielplattform ohne mobiles Jetzt-und-Nie.
 
 GitHub ist Codeablage. Speicherort persönlicher App-Daten bleibt offen.
 
 ## Nächste Entscheidung
 
-Die fünf Fragen am Ende von [nutzungskonzept.md](nutzungskonzept.md). Danach kann Schritt 2 (Umfang Version 1) beauftragt werden.
+Die fünf Fragen am Ende von [nutzungskonzept.md](nutzungskonzept.md). Schritt 2 erst nach ausdrücklichem Auftrag.
 
 ## Umfang der ersten Version
 
-Noch nicht festgelegt. Schritt 2 schlägt den überprüfbaren Umfang vor. Bis dahin gilt:
+Noch nicht festgelegt. Sobald Schritt 2 beauftragt ist, muss der V1-Vorschlag zeigen, wie die wesentlichen Ansprüche erlebbar bleiben und welche Unsicherheiten früh zu prüfen sind. Ein kleiner Umfang darf nicht stillschweigend nur Aufgaben und Termine bedeuten.
 
-- enthalten: nichts beschlossen
-- später: nichts beschlossen
-- offen: gesamter Funktionsumfang von Version 1
+Separat beauftragbar (**Vorschlag V8**): kleiner Konzept-/Machbarkeitscheck zu Datenbedarf und Entscheidungsqualität. Nicht ausgeführt.
 
 ## Abnahmeprotokoll
 
 | Schritt | Was geprüft wurde | Ergebnis |
 | --- | --- | --- |
-| Initialprompt | Kontextdateien, Git-Remote, keine App-Dateien | erfüllt |
-| Schritt 1 | Nutzungskonzept beschreibt Donnerstag-Ablauf, Prüfszenarien, Unterscheidung der Ding-Arten, Prinzipien als Vorschlag, max. fünf Fragen; keine Navigation, keine Screens, keine Technik | dokumentiert, Freigabe durch Dennis steht aus |
+| Initialprompt | Kontextdateien, Git-Remote, keine App-Dateien | Dokumentationsarbeit erfüllt |
+| Schritt 1, erste Fassung | Donnerstag-Ablauf, Prüfszenarien, Prinzipien als Vorschlag | dokumentiert; Merge ≠ Zustimmung |
+| Schritt 1, Überarbeitung | Abgleich mit Originalnachrichten und Korrekturauftrag 8.9.2026 | Dokumentationsarbeit erfüllt; fünf Fragen und V1-Umfang offen |
 
 Noch keine App-Abnahme.
 
 ## GitHub
 
-Remote `origin`: `https://github.com/dennisxbu/momentum.git`. Standardbranch `main`.
+Remote `origin`: `https://github.com/dennisxbu/momentum.git`. Grundlage dieser Überarbeitung: `main` bei `e015b65`.

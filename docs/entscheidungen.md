@@ -1,20 +1,35 @@
 # Entscheidungen
 
-Vorschlag und Zustimmung bleiben getrennt. Eine Idee aus der Arbeitsnotiz oder aus einem Schritt ist kein Beschluss, solange der Status nicht „beschlossen“ ist.
+Vorschlag und Zustimmung bleiben getrennt. Eine Idee aus der Arbeitsnotiz oder aus einem Schritt ist kein Beschluss, solange der Status nicht „beschlossen“ oder **Fakt** ist.
 
-Legende: **beschlossen** · **Fakt** (von Dennis genannt, keine Produktarchitektur) · **Vorschlag** · **offen**
+Eine Zusammenführung in Git ist keine automatische Zustimmung zu jeder Produktannahme in den zusammengeführten Dateien.
+
+Legende: **beschlossen** · **Fakt** (von Dennis genannt, keine fertige Umsetzung) · **Vorschlag** · **offen**
+
+„Offen“ und „nicht beschlossen“ sind keine dauerhaften Verbote.
+
+Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegungen stehen hier.
 
 ## Beschlossen oder als Fakt festgehalten
 
 | ID | Thema | Status | Inhalt | Grundlage |
 | --- | --- | --- | --- | --- |
-| D1 | Zielplattform und Nutzung | Fakt | Persönliche Windows-App nur für Dennis, privater Alltag, ein Nutzer. Kein kommerzielles Produkt, keine Mehrbenutzer-App, keine mobile App, kein öffentliches Angebot. | Arbeitsnotiz, Originalnachricht 1 und 6 |
-| D2 | 50-Euro-Grenze | beschlossen | Monatliche KI-API-Kosten von etwa 50 Euro bei täglicher Nutzung sind nicht akzeptabel. | Originalnachricht 6 |
+| D1 | Zielplattform und Nutzung | Fakt | Persönliche Windows-App für Dennis, privater Alltag, ein Nutzer. Kein kommerzielles Produkt, keine Mehrbenutzer-App, kein öffentliches Angebot. Windows ist die Zielplattform. Daraus folgt kein Auftrag, jetzt mobil zu entwickeln, und kein endgültiges Verbot einer späteren mobilen Begleitung. | Original 1 und 6; Korrektur Dennis 8.9.2026 |
+| D2 | 50-Euro-Grenze | beschlossen | Monatliche KI-API-Kosten von etwa 50 Euro bei täglicher Nutzung sind nicht akzeptabel. | Original 6 |
 | D3 | Codeablage | Fakt | Projektdateien liegen in `https://github.com/dennisxbu/momentum`. | Dennis, 8.9.2026 |
 | D4 | GitHub ≠ App-Daten | beschlossen | GitHub entscheidet nicht, wo persönliche App-Daten gespeichert werden. | Prompt-Sammlung Schritt 4; Initialprompt |
 | D5 | Synthetische Entwicklungsdaten | beschlossen | Entwicklung und Vorführungen verwenden eindeutig synthetische Daten. | Initialprompt |
 | D6 | Schrittarbeit | beschlossen | Jeweils nur der ausdrücklich beauftragte Schritt. Keine vollständige Software aus der Vision ableiten. | Prompt-Sammlung; AGENTS.md |
-| D7 | iOS-Kopie | beschlossen | iPhone ist Bediengefühl-Referenz, kein Auftrag zu einer iOS-Optik. | Arbeitsnotiz, Originalnachricht 3 |
+| D7 | iOS-Kopie | beschlossen | iPhone ist Bediengefühl-Referenz, kein Auftrag zu einer iOS-Optik. | Original 3 |
+| D8 | Visuelle und erfreuliche Nutzung | Fakt | Detailliert, visuell anregend und hochwertig; Benutzen soll Spaß machen. Geringer Pflegeaufwand allein reicht nicht. | Original 1, 2 und 4; Korrektur 8.9.2026 |
+| D9 | Intuitive Anpassbarkeit | Fakt | Modular, möglichst wenig fest verdrahtet, Platz für Ziel- und Bereichsänderungen; Konfigurierbarkeit so intuitiv wie möglich. | Original 1 und 3 |
+| D10 | Daten werden verarbeitet | Fakt | Mit Daten und Informationen soll etwas passieren: Statistiken, Trends, Analysen — nicht triviale Anzeigen oder bloß rotierende Sprüche. | Original 2 |
+| D11 | Kontextbezogene Unterstützung | Fakt | Vorschläge sollen in der Lage sinnvoll sein, nicht weil fest `A + B = C` gilt. | Original 5 |
+| D12 | Wissenschaftlich begründete Prozesse | Fakt | Tools und Prozesse sollen einen klaren wissenschaftlichen oder psychologischen Ansatz haben, auf Dennis abgestimmt, als investierte Zeit. Die Wirkung *dieser* App ist nicht bewiesen. | Original 2 |
+| D13 | Ausgelassene Reflexion | Fakt | Eine ausgelassene Reflexion löscht keine vorhandenen Informationen und beweist keine unterlassene Aktivität. Unbekannt bleibt unbekannt. | Korrektur Dennis 8.9.2026 |
+| D14 | Offenheit für Motivation | Fakt | Grundsätzlich nichts gegen Motivationssprüche; Ablehnung gilt einer billigen App ohne Substanz. Keine Pflicht zu Gamification, Sprüchen oder Animationen. | Original 2; Korrektur 8.9.2026 |
+
+Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1).
 
 ## Vorschläge (nicht beschlossen)
 
@@ -25,22 +40,23 @@ Legende: **beschlossen** · **Fakt** (von Dennis genannt, keine Produktarchitekt
 | V3 | KI-Aufgabenteilung | Vorschlag | Berechnungen lokal; KI für Kontext und Formulierungen. | Assistenz |
 | V4 | KI-Budgetziel | Vorschlag | Rund 5 Euro monatlich als Entwicklungsziel. | Assistenz; nicht von Dennis bestätigt |
 | V5 | Bausteine | Vorschlag | Ziele, Projekte/Aufgaben, Routinen, Messwerte, Notizen, Ansichten. | Assistenz |
-| V6 | Nutzungskonzept | Vorschlag | Zusammenhängender Tagesfluss (Morgen, Erledigungen, Lernen, Training, Abend, Folgetag); Prüfszenarien Überlastung und Wiedereinstieg; Unterscheidung Termin / einmalige Aufgabe / Routine / Ziel / Beobachtung. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
-| V7 | Grundprinzipien | Vorschlag | Ein Tag statt getrennter Tracker; einmaliges bleibt einmalig; unbekannt ≠ gescheitert; Eingabe nur mit späterem Nutzen; empfehlen heißt abwägen; kein Lebens-Score; sofort brauchbar. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
+| V6 | Nutzungskonzept | Vorschlag | Tagesorientierung plus Prüfszenarien (Überlastung, Wiedereinstieg, Zielverlauf, Zieländerung). Die Verständnishilfe zu Arten von Dingen ist kein Datenmodell. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
+| V7 | Ausgestaltung des Tages | Vorschlag | Bestimmtes Tagesmodell; Vermeiden einer Schulnote für den ganzen Tag. Kein Verbot erfreulicher Rückmeldung. | Schritt 1; nicht mit D8–D12 verwechseln |
+| V8 | Früher Machbarkeitscheck | Vorschlag | Separat beauftragbarer kleiner Check zu Datenbedarf und Entscheidungsqualität, bevor Architektur festzementiert wird. Keine festgelegten Ergebnisse, keine KI-Entscheidung. | Korrektur 8.9.2026; [nutzungskonzept.md](nutzungskonzept.md) |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umfang Version 1 | offen | Wird in Schritt 2 vorgeschlagen und von Dennis ausgewählt. |
+| O1 | Umfang Version 1 | offen | Wird in Schritt 2 vorgeschlagen und von Dennis ausgewählt. Schritt 2 ist nicht beauftragt. |
 | O2 | Bedienkonzept | offen | Schritt 3 vergleicht Konzepte. |
 | O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
-| O5 | Automatik vs. Vorschlag | offen | Frage 1 in Schritt 1: Fachwahl innerhalb eines gesetzten Blocks selbst eintragen oder nur vorschlagen? Keine pauschale Erlaubnis für beliebige Kalenderänderungen. |
+| O5 | Arten von Planungsvorschlägen | offen | Frage 1: bei welchen konkreten Änderungen nur anzeigen bis zur Zustimmung, bei welchen innerhalb eines gesetzten Rahmens eintragen? Keine Alles-oder-nichts-Entscheidung, kein Einstellungsapparat. |
 | O6 | Konfigurierbarkeit-Tiefe | offen | Vorlagen und Felder vs. eigene Formeln oder Module. |
-| O7 | Diät im Tagesfluss | offen | Frage 2: Ernährung morgens/abends vs. vorerst nur geplantes Training. |
-| O8 | Verbindlichkeit Abendrückblick | offen | Frage 3: erwartete, auslassbare Routine vs. klar optional. |
-| O9 | Termine im Konzept | offen | Frage 4: selbst festhalten vs. Kalenderanbindung als Teil des Nutzungskonzepts. |
-| O10 | Berufliche Entwicklung im Tag | offen | Frage 5: eigene nächste Schritte im Tagesfluss vs. zurücktreten, bis ein Anlass da ist. |
+| O7 | Diät und Training | offen | Frage 2: welche Hilfe und welche Informationen Dennis beitragen möchte. Nicht auf tägliche Ernährung vs. nur Training reduziert. |
+| O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
+| O9 | Herkunft und Pflege von Terminen | offen | Frage 4: woher Termine vorerst kommen und wie sie gepflegt werden. Keine bestimmte Integration ohne Bedarf. |
+| O10 | Form beruflicher Entwicklung | offen | Frage 5: welche Formen und Zeitpunkte möglich sein sollen; nicht nur tägliche Aufgaben oder Warten auf einen Anlass. |
 
 Änderungen an diesem Dokument kennzeichnen, ob Dennis zugestimmt hat oder ob nur ein Vorschlag nachgetragen wurde.
