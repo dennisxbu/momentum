@@ -28,8 +28,9 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D12 | Wissenschaftlich begründete Prozesse | Fakt | Tools und Prozesse sollen einen klaren wissenschaftlichen oder psychologischen Ansatz haben, auf Dennis abgestimmt, als investierte Zeit. Die Wirkung *dieser* App ist nicht bewiesen. | Original 2 |
 | D13 | Ausgelassene Reflexion | Fakt | Eine ausgelassene Reflexion löscht keine vorhandenen Informationen und beweist keine unterlassene Aktivität. Unbekannt bleibt unbekannt. | Korrektur Dennis 8.9.2026 |
 | D14 | Offenheit für Motivation | Fakt | Grundsätzlich nichts gegen Motivationssprüche; Ablehnung gilt einer billigen App ohne Substanz. Keine Pflicht zu Gamification, Sprüchen oder Animationen. | Original 2; Korrektur 8.9.2026 |
+| D15 | Schritt 3 beauftragt | Fakt | Dennis hat Schritt 3 beauftragt („starte mit Schritt 3 wenn das soweit passt“). Der korrigierte V1-Vorschlag ist Arbeitsgrundlage für den Konzeptvergleich, keine App-Abnahme und keine Antwort auf O5, O7–O10, O3, O4. | Auftrag Dennis 8.9.2026 |
 
-Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange Dennis V9 nicht ausgewählt hat.
+Die konkrete Umsetzung von Version 1 ist nicht abgenommen. Der korrigierte V1-Vorschlag ist seit dem Auftrag zu Schritt 3 (8.9.2026) **Arbeitsgrundlage für den Konzeptvergleich** (siehe O1). O5 und O7–O10 bleiben offen.
 
 ## Vorschläge (nicht beschlossen)
 
@@ -43,19 +44,20 @@ Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange 
 | V6 | Nutzungskonzept | Vorschlag | Tagesorientierung plus Prüfszenarien (Überlastung, Wiedereinstieg, Zielverlauf, Zieländerung). Die Verständnishilfe zu Arten von Dingen ist kein Datenmodell. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
 | V7 | Ausgestaltung des Tages | Vorschlag | Bestimmtes Tagesmodell; Vermeiden einer Schulnote für den ganzen Tag. Kein Verbot erfreulicher Rückmeldung. | Schritt 1; nicht mit D8–D12 verwechseln |
 | V8 | Früher Machbarkeitscheck | Vorschlag | Nach Auswahl des V1-Umfangs und vor verbindlicher Architektur (Schritt 4); Schritt 3 darf parallel laufen. Eigener Auftrag, nicht ausgeführt. Klärt Datenbedarf, erreichbare Qualität, Folgen für den Umfang. Negativ: begrenzte Überarbeitung. Keine kostenpflichtigen Aufrufe. | Korrektur Schritt 2; [umfang-v1.md](umfang-v1.md) |
-| V9 | Umfang Version 1 | Vorschlag | Kleinste Version mit nützlichem Tag, ehrlichem Verlauf, Unterstützungs**qualität** (Technik offen), Messgröße mit Einheit, getrennter Export/Wiederherstellung. Siehe [umfang-v1.md](umfang-v1.md). PR-Merge entscheidet das nicht. | Schritt 2 |
-| V10 | V1-Anpassbarkeit | Vorschlag | Kleinste Tiefe: selbst benannte Messgröße, Einheit, datierte Beobachtungen; kein Formel-Editor. Prüffall z. B. Taillenumfang in cm. | Korrektur Schritt 2; [umfang-v1.md](umfang-v1.md) |
+| V9 | Umfang Version 1 | Vorschlag | Kleinste Version mit nützlichem Tag, ehrlichem Verlauf, Unterstützungs**qualität** (Technik offen), Messgröße mit Einheit, getrennter Export/Wiederherstellung. Siehe [umfang-v1.md](umfang-v1.md). Seit D15 Arbeitsgrundlage für Schritt 3, keine App-Abnahme. | Schritt 2; Auftrag Schritt 3 |
+| V10 | V1-Anpassbarkeit | Vorschlag | Kleinste Tiefe: selbst benannte Messgröße, Einheit, datierte Beobachtungen; kein Formel-Editor. Prüffall z. B. Taillenumfang in cm. In den Bedienkonzepten als Arbeitsannahme gezeigt. | Korrektur Schritt 2; [umfang-v1.md](umfang-v1.md) |
+| V11 | Bedienkonzept | Vorschlag | Drei Konzepte verglichen. Empfehlung: **A Tag als Heimat**, Verlauf und Ziele als Tiefe am Tag, nicht als gleichrangiges zweites Zuhause. B (drei Orte) und C (Lage zuerst) als Alternativen. Siehe [bedienkonzepte.md](bedienkonzepte.md). | Schritt 3 |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umfang Version 1 | offen | Vorschlag in [umfang-v1.md](umfang-v1.md). Noch keine Auswahl durch Dennis. |
-| O2 | Bedienkonzept | offen | Schritt 3 vergleicht Konzepte. |
+| O1 | Umfang Version 1 | offen | Tabelle in [umfang-v1.md](umfang-v1.md) ist Arbeitsgrundlage für Schritt 3 (D15). Keine App-Abnahme. V10-Tiefe enger/weiter sowie O5, O7–O10 weiter offen. |
+| O2 | Bedienkonzept | offen | Drei Konzepte und Empfehlung V11 in [bedienkonzepte.md](bedienkonzepte.md). Auswahl durch Dennis offen. |
 | O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
 | O5 | Arten von Planungsvorschlägen | offen | Frage 1: bei welchen konkreten Änderungen nur anzeigen bis zur Zustimmung, bei welchen innerhalb eines gesetzten Rahmens eintragen? Keine Alles-oder-nichts-Entscheidung, kein Einstellungsapparat. |
-| O6 | Konfigurierbarkeit-Tiefe | offen | V1-Vorschlag V10 (Messgröße mit Einheit). Formeleditor und Module nicht V1. Nicht durch diesen Korrekturauftrag beschlossen. |
+| O6 | Konfigurierbarkeit-Tiefe | offen | V1-Vorschlag V10 (Messgröße mit Einheit). Formeleditor und Module nicht V1. Weder Schritt-2-Korrektur noch Schritt 3 beschließen das. |
 | O7 | Diät und Training | offen | Frage 2: welche Hilfe und welche Informationen Dennis beitragen möchte. Nicht auf tägliche Ernährung vs. nur Training reduziert. |
 | O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
 | O9 | Herkunft und Pflege von Terminen | offen | Frage 4: woher Termine vorerst kommen und wie sie gepflegt werden. Keine bestimmte Integration ohne Bedarf. |

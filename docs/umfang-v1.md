@@ -1,10 +1,10 @@
 # Umfang Version 1
 
-Stand: 8. September 2026 · Schritt 2, Korrektur · **gesamter Inhalt ist Vorschlag, kein Beschluss**
+Stand: 8. September 2026 · Schritt 2, Korrektur · **Vorschlag**; seit Beauftragung von Schritt 3 **Arbeitsgrundlage für den Konzeptvergleich**, keine App-Abnahme.
 
 Die kleinste erste Version, die einen vollständigen, nützlichen Tag ermöglicht **und** die wesentlichen Ansprüche der Vision erlebbar macht. Kein Attrappen-Dashboard. Keine Plattform mit allen Erweiterungen.
 
-Ein PR-Merge und dieser Korrekturauftrag entscheiden **nicht** über Planungsvollmacht, Diät-Tiefe, Kalenderanbindung oder andere offene Produktfragen. Die fünf Fragen aus Schritt 1 sind weiterhin unbeantwortet. Unten stehen Defaults als **Vorschläge**.
+Dennis hat am 8. September 2026 Schritt 3 beauftragt („starte mit Schritt 3 wenn das soweit passt“). Das nimmt diese Tabelle als Arbeitsgrundlage für Bedienkonzepte. Es entscheidet **nicht** über Planungsvollmacht, Diät-Tiefe, Kalenderanbindung oder andere offene Produktfragen. Die fünf Fragen aus Schritt 1 sind weiterhin unbeantwortet. Unten stehen Defaults als **Vorschläge**.
 
 Morgen- und Abendzeiten sind Nutzungsszenario, keine Pflichtmindestdauer. Keine erfundene Gesamtpunktzahl für den Arbeitsmarktwert.
 

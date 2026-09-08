@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Momentum — Bedienkonzepte (wegwerfbar)</title>
+  <style>
+    :root {
+      --paper: #f3eee4;
+      --ink: #1f1b16;
+      --muted: #6b645b;
+      --line: #d9d0c3;
+      --card: #fffaf3;
+      --accent: #3f5c48;
+      --accent-soft: #e4eee7;
+      --warn: #8a6230;
+      --warn-soft: #f4ead8;
+      --unknown: #5c6570;
+      --chrome: #2b2723;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 15px/1.45 "Segoe UI", "Candara", system-ui, sans-serif;
+      background: #cfc6b8;
+      color: var(--ink);
+    }
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 20px 16px 48px;
+    }
+    .banner {
+      background: var(--warn-soft);
+      border: 1px solid #e0d0ae;
+      color: #5c431c;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+    h1 { font-size: 22px; font-weight: 650; margin: 0 0 6px; }
+    .lead { color: var(--muted); margin: 0 0 16px; }
+    .switch {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    button {
+      font: inherit;
+      cursor: pointer;
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 8px 12px;
+    }
+    button[aria-pressed="true"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #f6fff8;
+    }
+    button.ghost[aria-pressed="true"] {
+      background: var(--chrome);
+      border-color: var(--chrome);
+    }
+    .window {
+      background: var(--paper);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 18px 40px rgba(40, 30, 16, 0.18);
+      min-height: 640px;
+      display: flex;
+      flex-direction: column;
+    }
+    .titlebar {
+      background: var(--chrome);
+      color: #f4efe7;
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .titlebar small { opacity: 0.7; }
+    .app {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      flex: 1;
+    }
+    .app-head {
+      padding: 16px 20px 8px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+      border-bottom: 1px solid var(--line);
+    }
+    .app-head h2 { margin: 0; font-size: 20px; }
+    .app-head p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+    .places {
+      display: flex;
+      gap: 6px;
+      padding: 8px 20px 0;
+    }
+    .places span, .places button {
+      font-size: 13px;
+      padding: 6px 10px;
+    }
+    .places span {
+      border-radius: 8px;
+      color: var(--muted);
+    }
+    .places span.on {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .body {
+      padding: 16px 20px 24px;
+      display: grid;
+      gap: 10px;
+      align-content: start;
+    }
+    .row, .card, .item {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+    .item {
+      display: grid;
+      grid-template-columns: 92px 1fr auto;
+      gap: 12px;
+      align-items: start;
+    }
+    .when { color: var(--muted); font-size: 13px; }
+    .item h3, .card h3 { margin: 0 0 4px; font-size: 16px; }
+    .meta { font-size: 13px; color: var(--muted); }
+    .tag {
+      font-size: 11px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      background: #eee7db;
+      color: #4a453e;
+      border-radius: 999px;
+      padding: 4px 8px;
+      white-space: nowrap;
+    }
+    .tag.vorschlag { background: var(--warn-soft); color: var(--warn); }
+    .tag.unbekannt { background: #e7ebef; color: var(--unknown); }
+    .tag.termin { background: var(--accent-soft); color: var(--accent); }
+    .hint {
+      margin-top: 8px;
+      padding: 8px 10px;
+      background: var(--warn-soft);
+      border-radius: 8px;
+      font-size: 13px;
+    }
+    .hint strong { color: var(--warn); }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+    .actions button { padding: 6px 10px; font-size: 13px; }
+    .actions button.primary {
+      background: var(--accent);
+      color: #f6fff8;
+      border-color: var(--accent);
+    }
+    .composer {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .composer input, .composer select {
+      font: inherit;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+      flex: 1;
+    }
+    .dots {
+      display: flex;
+      gap: 8px;
+      align-items: flex-end;
+      height: 88px;
+      padding: 8px 4px 0;
+    }
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      width: 56px;
+    }
+    .bar {
+      width: 18px;
+      border-radius: 6px 6px 0 0;
+      background: var(--accent);
+    }
+    .bar.gap {
+      background: repeating-linear-gradient(
+        -45deg,
+        #d7d2ca,
+        #d7d2ca 4px,
+        #eeeae2 4px,
+        #eeeae2 8px
+      );
+      height: 18px !important;
+    }
+    .col span { font-size: 11px; color: var(--muted); }
+    .note {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0;
+    }
+    .stack { display: grid; gap: 10px; }
+    .split {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 10px;
+    }
+    @media (max-width: 800px) {
+      .item, .split { grid-template-columns: 1fr; }
+    }
+    .skip {
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px dashed var(--line);
+      padding-top: 10px;
+    }
+    a.inline { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <p class="banner">
+      Wegwerfbarer Konzeptentwurf für Schritt 3 — synthetische Daten, kein produktiver Stack, keine Technikwahl.
+      Vergleich und Empfehlung: <a class="inline" href="../bedienkonzepte.md">docs/bedienkonzepte.md</a>
+    </p>
+    <h1>Denselben Donnerstag in drei Bedienkonzepten</h1>
+    <p class="lead">Unterscheidung in Orientierung und Interaktion, nicht in Farbe. Wähle Konzept und Weg.</p>
+
+    <div class="switch" id="concepts" role="tablist" aria-label="Konzepte"></div>
+    <div class="switch" id="screens" role="tablist" aria-label="Wege"></div>
+
+    <div class="window" id="window"></div>
+  </div>
+  <script>
+    const CONCEPTS = [
+      { id: "a", label: "A · Tag als Heimat" },
+      { id: "b", label: "B · Drei Orte" },
+      { id: "c", label: "C · Lage zuerst" }
+    ];
+    const SCREENS = [
+      { id: "morgen", label: "Morgen" },
+      { id: "aufgabe", label: "Aufgabe erfassen" },
+      { id: "verlauf", label: "Entwicklung" },
+      { id: "abend", label: "Abendrückblick" }
+    ];
+
+    let concept = "a";
+    let screen = "morgen";
+    let captured = false;
+
+    function tags(kind, text) {
+      return `<span class="tag ${kind}">${text}</span>`;
+    }
+
+    function item(when, title, meta, tagHtml, extra = "") {
+      return `
+        <article class="item">
+          <div class="when">${when}</div>
+          <div>
+            <h3>${title}</h3>
+            <div class="meta">${meta}</div>
+            ${extra}
+          </div>
+          <div>${tagHtml}</div>
+        </article>`;
+    }
+
+    const mathHint = `
+      <div class="hint">
+        <strong>Vorschlag, unsicher:</strong> Mathe, weil Testat in 10 Tagen und zuletzt andere Fächer.
+        Stand unbekannt — erst klären, nicht lang pauken.
+        Alternative: anderes Fach, wenn du den Stand schon kennst.
+        <div class="actions">
+          <button type="button" class="primary">Mathe übernehmen</button>
+          <button type="button">Anderes Fach</button>
+          <button type="button">Heute Datenbanken</button>
+        </div>
+      </div>`;
+
+    function dayItems() {
+      const extra = captured
+        ? item("heute", "Batterien für die Taschenlampe", "Gerade erfasst · keine Routine angelegt", tags("", "offen"))
+        : "";
+      return [
+        item("Vormittag", "Uni Wirtschaftsinformatik", "Zeitfenster von dir erfasst. Wegezeiten unbekannt — nicht erfunden.", tags("termin", "Termin")),
+        item("danach", "Lernblock 90 Minuten", "Zweck soll sichtbar sein, nicht „irgendwas lernen“.", tags("vorschlag", "Vorschlag"), mathHint),
+        item("Nachmittag", "Paket von der Post", "Einmalig. Frist im Detail unbekannt.", tags("", "offen")),
+        item("Nachmittag", "Geschenk für Mama", "Geburtstag am Wochenende. Kein Routinebaukasten.", tags("", "offen")),
+        item("Abend", "Gym · Beine und Cardio", "Geplant. Durchführung noch unbekannt — nicht als nicht erledigt zählen.", tags("unbekannt", "unbekannt")),
+        extra
+      ].join("");
+    }
+
+    function composer(place) {
+      const second = concept === "c"
+        ? `<select aria-label="Zuordnung"><option>Danach zuordnen…</option><option>Heute, ohne Ziel</option><option>Ziel Testat</option></select>`
+        : "";
+      return `
+        <form class="row" onsubmit="event.preventDefault(); captured = true; screen = 'morgen'; draw();">
+          <p class="meta">${place}</p>
+          <div class="composer">
+            <input name="task" placeholder="Was liegt im Weg?" value="Batterien für die Taschenlampe" aria-label="Neue Aufgabe">
+            ${second}
+            <button type="submit" class="primary">Erfassen</button>
+          </div>
+          <p class="note">Keine Pflichtfelder darüber hinaus. Keine Routine „Batterien“.</p>
+        </form>`;
+    }
+
+    function course() {
+      return `
+        <section class="card">
+          <h3>Testat Mathe</h3>
+          <p class="meta">Zeitraum 27. Aug – 10. Sep · vorhandene Beobachtungen 3 · bekannte Lücken 1</p>
+          <div class="dots" aria-label="Verlauf mit Lücke">
+            <div class="col"><div class="bar" style="height:36px"></div><span>27.8.</span></div>
+            <div class="col"><div class="bar" style="height:52px"></div><span>3.9.</span></div>
+            <div class="col"><div class="bar gap"></div><span>Lücke</span></div>
+            <div class="col"><div class="bar" style="height:28px"></div><span>10.9.</span></div>
+          </div>
+          <p class="note">Die Lücke ist kein 0-Wert und kein „nicht gelernt“. Restliche Tage sind keine vollständige Beobachtung. Kein Trend aus einem Tag.</p>
+          <div class="actions">
+            <button type="button">Ziel umbenennen</button>
+            <button type="button">Pausieren</button>
+            <button type="button" class="primary">Messgröße anlegen</button>
+          </div>
+        </section>
+        <section class="card">
+          <h3>Messgröße · Arbeitsannahme V10</h3>
+          <p class="meta">Taillenumfang · cm · von dir benannt</p>
+          <p>12.8. 86 · 26.8. 85 · 2.9. <em>keine Angabe</em> · 9.9. 84</p>
+          <p class="note">Der leere Tag erscheint als Lücke, nicht als 0 cm. Tagesansicht bleibt der Alltag, kein Analyseprodukt.</p>
+        </section>`;
+    }
+
+    function eveningPoints() {
+      return `
+        <article class="card">
+          <h3>Nur was noch offen ist</h3>
+          <p class="meta">Bekanntes wird nicht noch einmal abgefragt.</p>
+          <div class="stack" style="margin-top:8px">
+            <div>Paket — erledigt / verschoben / <strong>unbekannt lassen</strong></div>
+            <div>Geschenk — erledigt / verschoben / unbekannt lassen</div>
+            <div>Lernblock — stattgefunden / entfallen / unbekannt · optionale Beobachtung</div>
+            <div>Gym — stattgefunden / entfallen / unbekannt</div>
+          </div>
+          <div class="actions">
+            <button type="button" class="primary">Speichern</button>
+            <button type="button">Freitext, gilt nicht von selbst als Messung</button>
+          </div>
+          <p class="skip">Rückblick heute auslassen. Vorhandenes bleibt. Das beweist kein „nicht trainiert“.</p>
+        </article>`;
+    }
+
+    function renderA() {
+      if (screen === "morgen") {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Donnerstag, 10. September</h2>
+              <p>Heute erkennen, nicht das System einrichten · synthetisch</p>
+            </div>
+            <button type="button" onclick="screen='verlauf'; draw();">Ziele</button>
+          </header>
+          <div class="body">${dayItems()}</div>`;
+      }
+      if (screen === "aufgabe") {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Am heutigen Tag erfassen</h2>
+              <p>Fällt in den Fluss von Donnerstag. Kein zweiter Ort.</p>
+            </div>
+          </header>
+          <div class="body">
+            ${composer("Kurz am Tag")}
+            ${item("heute", "Wird hier einsortiert", "Nach dem Speichern zwischen Nachmittag und Abend sichtbar.", tags("", "neu"))}
+          </div>`;
+      }
+      if (screen === "verlauf") {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Vom Lernblock hierher</h2>
+              <p>Ein Schritt in den Verlauf, zurück ist wieder der Tag.</p>
+            </div>
+            <button type="button" onclick="screen='morgen'; draw();">Zurück zum Tag</button>
+          </header>
+          <div class="body split">${course()}</div>`;
+      }
+      return `
+        <header class="app-head">
+          <div>
+            <h2>Abend auf demselben Tag</h2>
+            <p>Keine zweite App-Welt. Auslassen löscht nichts.</p>
+          </div>
+        </header>
+        <div class="body">${eveningPoints()}</div>`;
+    }
+
+    function renderB() {
+      const place = screen === "verlauf" ? "Detail" : screen === "abend" ? "Heute · schließen" : "Heute";
+      const nav = `
+        <nav class="places" aria-label="Orte">
+          <span class="${place.startsWith("Heute") ? "on" : ""}">Heute</span>
+          <span class="${screen === "verlauf" ? "" : ""}">Überblick</span>
+          <span class="${screen === "verlauf" ? "on" : ""}">Detail</span>
+        </nav>`;
+      if (screen === "morgen") {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Heute</h2>
+              <p>Drei Orte. Zuerst wählen, wo du bist.</p>
+            </div>
+          </header>
+          ${nav}
+          <div class="body">
+            <article class="card"><h3>Eng</h3><p>Uni vormittags begrenzt den Nachmittag.</p></article>
+            <article class="card"><h3>Offen</h3><p>Paket · Geschenk Mama (Wochenende)${captured ? " · Batterien" : ""}</p></article>
+            <article class="card"><h3>Block</h3><p>90 Minuten Lernen. ${mathHint}</p></article>
+            <article class="card"><h3>Abend</h3><p>Gym geplant, Durchführung unbekannt.</p></article>
+            <article class="card"><h3>Demnächst</h3><p>Testat in 10 Tagen · Geburtstag am Wochenende</p></article>
+          </div>`;
+      }
+      if (screen === "aufgabe") {
+        return `
+          <header class="app-head"><div><h2>Erfassen in Heute</h2><p>Der neue Punkt landet unter Offen.</p></div></header>
+          ${nav}
+          <div class="body">${composer("Ort: Heute")}</div>`;
+      }
+      if (screen === "verlauf") {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Detail · Testat Mathe</h2>
+              <p>Über Überblick gewählt. Der Tag ist jetzt nicht mehr da.</p>
+            </div>
+          </header>
+          ${nav}
+          <div class="body split">${course()}</div>`;
+      }
+      return `
+        <header class="app-head">
+          <div>
+            <h2>Tag schließen</h2>
+            <p>Eigener Schritt in Heute. Überblick und Detail bleiben parallel erreichbar.</p>
+          </div>
+        </header>
+        ${nav}
+        <div class="body">${eveningPoints()}</div>`;
+    }
+
+    function renderC() {
+      if (screen === "morgen") {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Lage</h2>
+              <p>Filter: Donnerstag, 10. September — der Tag ist nicht das Zuhause.</p>
+            </div>
+          </header>
+          <div class="body">
+            <article class="card">
+              <h3>Testat Mathe · in 10 Tagen</h3>
+              <p class="meta">Stand unbekannt. 90-Minuten-Block existiert, liegt aber hinter der Karte.</p>
+              ${mathHint}
+            </article>
+            <article class="card">
+              <h3>Paket</h3>
+              <p class="meta">Heute? Frist unbekannt. Einmalig, ohne Zielzwang — hier trotzdem eine Karte.</p>
+            </article>
+            <article class="card">
+              <h3>Geschenk Mama</h3>
+              <p class="meta">Wochenende. Liegt neben dem Testat, als wäre es dasselbe Format.</p>
+            </article>
+            <article class="card">
+              <h3>Training</h3>
+              <p class="meta">Geplant. Durchführung unbekannt.</p>
+            </article>
+            <p class="note">Uni steht nur als Hinweis „Vormittag belegt“, nicht als erste Zeile des Tages.</p>
+          </div>`;
+      }
+      if (screen === "aufgabe") {
+        return `
+          <header class="app-head"><div><h2>Eingang</h2><p>Zuerst erfassen, dann zuordnen.</p></div></header>
+          <div class="body">
+            ${composer("Noch keinem Ziel zugeordnet")}
+            <p class="note">Zweiter Schritt: Ziel oder „heute ohne Ziel“. Einmaliges braucht damit extra Arbeit.</p>
+          </div>`;
+      }
+      if (screen === "verlauf") {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Testat-Karte geöffnet</h2>
+              <p>Du warst schon im Zielraum. Den Tag musst du dir dazudenken.</p>
+            </div>
+          </header>
+          <div class="body split">${course()}</div>`;
+      }
+      return `
+        <header class="app-head">
+          <div>
+            <h2>Offene Fragen je Karte</h2>
+            <p>Der Tag als Ganzes ist sekundär.</p>
+          </div>
+        </header>
+        <div class="body">
+          ${eveningPoints()}
+          <p class="note">Paket, Geschenk, Lernen und Gym kommen als getrennte Karten, nicht als ein Donnerstag.</p>
+        </div>`;
+    }
+
+    function chromeTitle() {
+      const map = { a: "Tag als Heimat", b: "Drei Orte", c: "Lage zuerst" };
+      return map[concept];
+    }
+
+    function draw() {
+      document.getElementById("concepts").innerHTML = CONCEPTS.map(c =>
+        `<button type="button" aria-pressed="${c.id === concept}" onclick="concept='${c.id}'; draw()">${c.label}</button>`
+      ).join("");
+      document.getElementById("screens").innerHTML = SCREENS.map(s =>
+        `<button type="button" class="ghost" aria-pressed="${s.id === screen}" onclick="screen='${s.id}'; draw()">${s.label}</button>`
+      ).join("");
+      const inner = concept === "a" ? renderA() : concept === "b" ? renderB() : renderC();
+      document.getElementById("window").innerHTML = `
+        <div class="titlebar">
+          <span>Momentum · Konzeptentwurf</span>
+          <small>${chromeTitle()} · ${SCREENS.find(s => s.id === screen).label} · synthetisch</small>
+        </div>
+        <div class="app">${inner}</div>`;
+    }
+
+    draw();
+  </script>
+</body>
+</html>

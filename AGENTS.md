@@ -49,6 +49,7 @@ Vorhandene gleichwertige Dateien weiterverwenden, statt widersprüchliche Doppel
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Status, Begründung, Grundlage; Vorschlag und Zustimmung getrennt
 - [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — vorgeschlagenes Nutzungskonzept (Schritt 1)
 - [docs/umfang-v1.md](docs/umfang-v1.md) — vorgeschlagener Umfang Version 1 (Schritt 2)
+- [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — Bedienkonzepte (Schritt 3)
 - [docs/context/](docs/context/) — Arbeitsnotiz, Prompt-Sammlung, ursprüngliche Momentaufnahmen
 - [.cursor/rules/](.cursor/rules/) — kurze, immer geltende Agent-Regeln
 

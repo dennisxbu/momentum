@@ -285,4 +285,4 @@ Bekanntes wird nicht erneut gefragt (persönliche Windows-App für Dennis, 50-Eu
 4. **Termine:** Woher sollen Termine und zeitgebundene Verpflichtungen vorerst kommen, und wie willst du sie pflegen?
 5. **Berufliche Entwicklung:** In welcher Form darf Netzwerk / Leute kennenlernen vorkommen — nicht nur als tägliche nächste Schritte und nicht nur als Warten auf einen Anlass?
 
-Antworten darauf gehören vor oder in Schritt 2, soweit sie den Umfang der ersten Version verändern. Schritt 2 liegt als Vorschlag vor: [umfang-v1.md](umfang-v1.md). Die fünf Fragen sind weiterhin unbeantwortet und dort als offene V1-Defaults markiert.
+Antworten darauf gehören vor oder in Schritt 2, soweit sie den Umfang der ersten Version verändern. Der V1-Vorschlag in [umfang-v1.md](umfang-v1.md) ist Arbeitsgrundlage für Schritt 3; die fünf Fragen sind weiterhin unbeantwortet. Bedienkonzepte: [bedienkonzepte.md](bedienkonzepte.md).
