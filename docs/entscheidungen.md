@@ -42,8 +42,9 @@ Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange 
 | V5 | Bausteine | Vorschlag | Ziele, Projekte/Aufgaben, Routinen, Messwerte, Notizen, Ansichten. | Assistenz |
 | V6 | Nutzungskonzept | Vorschlag | Tagesorientierung plus Prüfszenarien (Überlastung, Wiedereinstieg, Zielverlauf, Zieländerung). Die Verständnishilfe zu Arten von Dingen ist kein Datenmodell. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
 | V7 | Ausgestaltung des Tages | Vorschlag | Bestimmtes Tagesmodell; Vermeiden einer Schulnote für den ganzen Tag. Kein Verbot erfreulicher Rückmeldung. | Schritt 1; nicht mit D8–D12 verwechseln |
-| V8 | Früher Machbarkeitscheck | Vorschlag | Separat beauftragbarer kleiner Check zu Datenbedarf und Entscheidungsqualität, bevor Architektur festzementiert wird. Keine festgelegten Ergebnisse, keine KI-Entscheidung. | Korrektur 8.9.2026; [umfang-v1.md](umfang-v1.md) |
-| V9 | Umfang Version 1 | Vorschlag | Kleinste Version mit vollem nützlichen Tag plus Verlauf, begrenztem Kontextvorschlag und Qualitätskriterien. Siehe [umfang-v1.md](umfang-v1.md). | Schritt 2 |
+| V8 | Früher Machbarkeitscheck | Vorschlag | Nach Auswahl des V1-Umfangs und vor verbindlicher Architektur (Schritt 4); Schritt 3 darf parallel laufen. Eigener Auftrag, nicht ausgeführt. Klärt Datenbedarf, erreichbare Qualität, Folgen für den Umfang. Negativ: begrenzte Überarbeitung. Keine kostenpflichtigen Aufrufe. | Korrektur Schritt 2; [umfang-v1.md](umfang-v1.md) |
+| V9 | Umfang Version 1 | Vorschlag | Kleinste Version mit nützlichem Tag, ehrlichem Verlauf, Unterstützungs**qualität** (Technik offen), Messgröße mit Einheit, getrennter Export/Wiederherstellung. Siehe [umfang-v1.md](umfang-v1.md). PR-Merge entscheidet das nicht. | Schritt 2 |
+| V10 | V1-Anpassbarkeit | Vorschlag | Kleinste Tiefe: selbst benannte Messgröße, Einheit, datierte Beobachtungen; kein Formel-Editor. Prüffall z. B. Taillenumfang in cm. | Korrektur Schritt 2; [umfang-v1.md](umfang-v1.md) |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
@@ -54,7 +55,7 @@ Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange 
 | O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
 | O5 | Arten von Planungsvorschlägen | offen | Frage 1: bei welchen konkreten Änderungen nur anzeigen bis zur Zustimmung, bei welchen innerhalb eines gesetzten Rahmens eintragen? Keine Alles-oder-nichts-Entscheidung, kein Einstellungsapparat. |
-| O6 | Konfigurierbarkeit-Tiefe | offen | Vorlagen und Felder vs. eigene Formeln oder Module. |
+| O6 | Konfigurierbarkeit-Tiefe | offen | V1-Vorschlag V10 (Messgröße mit Einheit). Formeleditor und Module nicht V1. Nicht durch diesen Korrekturauftrag beschlossen. |
 | O7 | Diät und Training | offen | Frage 2: welche Hilfe und welche Informationen Dennis beitragen möchte. Nicht auf tägliche Ernährung vs. nur Training reduziert. |
 | O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
 | O9 | Herkunft und Pflege von Terminen | offen | Frage 4: woher Termine vorerst kommen und wie sie gepflegt werden. Keine bestimmte Integration ohne Bedarf. |
