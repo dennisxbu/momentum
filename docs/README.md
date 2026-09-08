@@ -6,6 +6,7 @@ Dieses Verzeichnis ist das Projektgedächtnis. Vorhandene Dateien fortführen, k
 | --- | --- |
 | [status.md](status.md) | Aktueller Schritt, vorhandene Funktionen, offene Grenzen, nächste Entscheidung, Umfang Version 1, Abnahme |
 | [entscheidungen.md](entscheidungen.md) | Entscheidungen mit Status, Begründung und Grundlage |
+| [nutzungskonzept.md](nutzungskonzept.md) | Schritt 1: Tagesablauf, Prüfszenarien, Prinzipien als Vorschlag |
 | [entwicklung.md](entwicklung.md) | Git/GitHub, Geheimnisse, was nicht ins Repo gehört |
 | [context/](context/) | Vision, Originalquellen, Schritt-Prompts |
 
