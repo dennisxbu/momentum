@@ -55,7 +55,7 @@ Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange 
 | O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
 | O5 | Arten von Planungsvorschlägen | offen | Frage 1: bei welchen konkreten Änderungen nur anzeigen bis zur Zustimmung, bei welchen innerhalb eines gesetzten Rahmens eintragen? Keine Alles-oder-nichts-Entscheidung, kein Einstellungsapparat. |
-| O6 | Konfigurierbarkeit-Tiefe | offen | Vorlagen und Felder vs. eigene Formeln oder Module. |
+| O6 | Konfigurierbarkeit-Tiefe | offen | V1-Vorschlag V10 (Messgröße mit Einheit). Formeleditor und Module nicht V1. Nicht durch diesen Korrekturauftrag beschlossen. |
 | O7 | Diät und Training | offen | Frage 2: welche Hilfe und welche Informationen Dennis beitragen möchte. Nicht auf tägliche Ernährung vs. nur Training reduziert. |
 | O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
 | O9 | Herkunft und Pflege von Terminen | offen | Frage 4: woher Termine vorerst kommen und wie sie gepflegt werden. Keine bestimmte Integration ohne Bedarf. |
