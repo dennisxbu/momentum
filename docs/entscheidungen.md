@@ -29,7 +29,7 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D13 | Ausgelassene Reflexion | Fakt | Eine ausgelassene Reflexion löscht keine vorhandenen Informationen und beweist keine unterlassene Aktivität. Unbekannt bleibt unbekannt. | Korrektur Dennis 8.9.2026 |
 | D14 | Offenheit für Motivation | Fakt | Grundsätzlich nichts gegen Motivationssprüche; Ablehnung gilt einer billigen App ohne Substanz. Keine Pflicht zu Gamification, Sprüchen oder Animationen. | Original 2; Korrektur 8.9.2026 |
 
-Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1).
+Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange Dennis V9 nicht ausgewählt hat.
 
 ## Vorschläge (nicht beschlossen)
 
@@ -42,13 +42,14 @@ Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1).
 | V5 | Bausteine | Vorschlag | Ziele, Projekte/Aufgaben, Routinen, Messwerte, Notizen, Ansichten. | Assistenz |
 | V6 | Nutzungskonzept | Vorschlag | Tagesorientierung plus Prüfszenarien (Überlastung, Wiedereinstieg, Zielverlauf, Zieländerung). Die Verständnishilfe zu Arten von Dingen ist kein Datenmodell. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
 | V7 | Ausgestaltung des Tages | Vorschlag | Bestimmtes Tagesmodell; Vermeiden einer Schulnote für den ganzen Tag. Kein Verbot erfreulicher Rückmeldung. | Schritt 1; nicht mit D8–D12 verwechseln |
-| V8 | Früher Machbarkeitscheck | Vorschlag | Separat beauftragbarer kleiner Check zu Datenbedarf und Entscheidungsqualität, bevor Architektur festzementiert wird. Keine festgelegten Ergebnisse, keine KI-Entscheidung. | Korrektur 8.9.2026; [nutzungskonzept.md](nutzungskonzept.md) |
+| V8 | Früher Machbarkeitscheck | Vorschlag | Separat beauftragbarer kleiner Check zu Datenbedarf und Entscheidungsqualität, bevor Architektur festzementiert wird. Keine festgelegten Ergebnisse, keine KI-Entscheidung. | Korrektur 8.9.2026; [umfang-v1.md](umfang-v1.md) |
+| V9 | Umfang Version 1 | Vorschlag | Kleinste Version mit vollem nützlichen Tag plus Verlauf, begrenztem Kontextvorschlag und Qualitätskriterien. Siehe [umfang-v1.md](umfang-v1.md). | Schritt 2 |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umfang Version 1 | offen | Wird in Schritt 2 vorgeschlagen und von Dennis ausgewählt. Schritt 2 ist nicht beauftragt. |
+| O1 | Umfang Version 1 | offen | Vorschlag in [umfang-v1.md](umfang-v1.md). Noch keine Auswahl durch Dennis. |
 | O2 | Bedienkonzept | offen | Schritt 3 vergleicht Konzepte. |
 | O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
