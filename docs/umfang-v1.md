@@ -4,7 +4,7 @@ Stand: 8. September 2026 · Schritt 2, Korrektur · **Vorschlag**; seit Beauftra
 
 Die kleinste erste Version, die einen vollständigen, nützlichen Tag ermöglicht **und** die wesentlichen Ansprüche der Vision erlebbar macht. Kein Attrappen-Dashboard. Keine Plattform mit allen Erweiterungen.
 
-Dennis hat am 8. September 2026 Schritt 3 beauftragt („starte mit Schritt 3 wenn das soweit passt“). Das nimmt diese Tabelle als Arbeitsgrundlage für Bedienkonzepte. Es entscheidet **nicht** über Planungsvollmacht, Diät-Tiefe, Kalenderanbindung oder andere offene Produktfragen. Die fünf Fragen aus Schritt 1 sind weiterhin unbeantwortet. Unten stehen Defaults als **Vorschläge**.
+Ein PR-Merge entscheidet **nicht** über Planungsvollmacht, Diät-Tiefe, Kalenderanbindung oder andere offene Produktfragen. Dennis hat am 8. September 2026 Schritt 3 beauftragt („starte mit Schritt 3 wenn das soweit passt“) und nimmt diese Tabelle als Arbeitsgrundlage für Bedienkonzepte. Die fünf Fragen aus Schritt 1 sind weiterhin unbeantwortet. Unten stehen Defaults als **Vorschläge**.
 
 Morgen- und Abendzeiten sind Nutzungsszenario, keine Pflichtmindestdauer. Keine erfundene Gesamtpunktzahl für den Arbeitsmarktwert.
 
@@ -159,13 +159,11 @@ Nicht festgelegt: konkretes Verfahren, KI ja/nein, Testergebnis.
 
 Nicht erneut: Windows für dich, 50-Euro-Grenze, keine iOS-Kopie, einmalige Aufgaben ohne Routinezwang, kein Arbeitsmarkt-Score, D13, keine Pflicht-Gamification.
 
-Unabhängige Punkte — kein Alles-oder-nichts. Mit einer Auswahl zum Umfang kannst du **Schritt 3** beauftragen; die übrigen Defaults bleiben Vorschläge, bis du sie änderst.
+Unabhängige Punkte — kein Alles-oder-nichts. Schritt 3 ist beauftragt; die Tabelle ist Arbeitsgrundlage. Die übrigen Defaults bleiben Vorschläge, bis du sie änderst.
 
-1. **O1 / Tabelle:** Nimmst du die Einordnung V1 / später / offen (einschließlich Messgröße mit Einheit und getrennter Export/Wiederherstellung)? Etwas verschieben nur, ohne Verlauf, Unterstützungsqualität und Anpassbarkeit zu streichen.
-2. **Anpassbarkeit:** Nimmst du die vorgeschlagene kleinste Tiefe (selbst benannte Messgröße, Einheit, datierte Beobachtungen) — oder enger/weiter, ohne Formel-Editor?
-3. **O5:** Für V1: vorschlagen und begründen, eintragen nach Zustimmung — als Arbeitsannahme in Ordnung?
-4. **O7, O8, O9, O10** (unabhängig): Training plus Diät als Ziel, weitere Messgrößen nur von dir; Rückblick auslassbar; Termine in V1 manuell; Beruf als Bereich ohne tägliche Pflicht?
+1. **Grundkonzept (jetzt):** A, B oder C — oder eine Korrektur an A. Siehe [bedienkonzepte.md](bedienkonzepte.md).
+2. **Weiter offen, unabhängig:** O5, O7, O8, O9, O10; V10 enger/weiter ohne Formel-Editor.
 
-V8 nach dieser Auswahl und vor Schritt 4 beauftragen, wenn du das Kernrisiko der Unterstützung früh prüfen willst. Schritt 3 kann parallel starten, sobald du den Umfang nimmst.
+V8 vor Schritt 4 beauftragen, wenn du das Kernrisiko der Unterstützung früh prüfen willst. Nach Wahl des Grundkonzepts kann Schritt 4 beauftragt werden.
 
 Nichts ist implementiert.

@@ -8,7 +8,7 @@ Stand: 8. September 2026
 | --- | --- |
 | Beauftragter Schritt | **Schritt 3** (Bedienkonzepte vergleichen). Schritt 4 und V8 sind nicht beauftragt. |
 | Dokumentationsarbeit | Drei Konzepte plus wegwerfbarer visueller Entwurf vorgelegt. Empfehlung: A Tag als Heimat. |
-| Nutzerfeedback | Schritt 3 beauftragt mit dem korrigierten V1-Vorschlag als Arbeitsgrundlage. O5, O7–O10 **nicht** beantwortet. |
+| Nutzerfeedback | Schritt 3 beauftragt mit dem korrigierten V1-Vorschlag als Arbeitsgrundlage. O5, O7–O10 **nicht** beantwortet. PR-Merges gelten nicht als Antworten. |
 | Produktentscheidungen | D15 Fakt (Schritt 3 beauftragt). O1 Arbeitsgrundlage ohne App-Abnahme. O2, O3–O10 offen. V11 Empfehlung. |
 
 Nächste inhaltliche Arbeit: Grundkonzept in [bedienkonzepte.md](bedienkonzepte.md) wählen oder korrigieren. V8 vor Schritt 4, eigener Auftrag.
@@ -24,8 +24,9 @@ Vorhanden: Projektdokumentation, GitHub als Codeablage, isolierter HTML-Konzepte
 - **O2** Grundkonzept noch nicht gewählt.
 - **O1** Tabelle als Arbeitsgrundlage, keine App-Abnahme; V10-Tiefe weiter wählbar.
 - **O3** Speicherort offen; dauerhaftes Speichern ist die Fähigkeit.
-- **O4** KI-Technik offen; Abnahme der Unterstützung ist Qualität.
+- **O4** KI-Technik offen; Abnahme der Unterstützung ist Qualität, nicht Technik.
 - **O5, O7–O10** Defaults weiter nur Vorschläge.
+- **O6** Formel-Editor nicht V1; V10 ist die vorgeschlagene kleine Tiefe.
 - **V8** nicht ausgeführt.
 
 GitHub ist Codeablage. Speicherort persönlicher App-Daten bleibt O3.
@@ -52,11 +53,11 @@ Bekannte Anforderungen (Windows, 50 €, keine iOS-Kopie, D13, …) nicht erneut
 | Initialprompt | Kontextdateien, Git-Remote, keine App-Dateien | Dokumentationsarbeit erfüllt |
 | Schritt 1 | Nutzungskonzept und Vision-Abgleich | dokumentiert; Merge ≠ Zustimmung |
 | Schritt 2, erste Fassung | Umfangstabelle | dokumentiert; Merge ≠ Zustimmung |
-| Schritt 2, Korrektur | Qualität der Unterstützung, Anpassbarkeit, V8-Zeitpunkt, Export≠Wiederherstellung | Arbeitsgrundlage für Schritt 3 nach Auftrag Dennis |
+| Schritt 2, Korrektur | Qualität der Unterstützung, Anpassbarkeit, V8-Zeitpunkt, Export≠Wiederherstellung, ehrliche Auswahl | auf `main` (PR #4); Arbeitsgrundlage für Schritt 3 nach Auftrag Dennis |
 | Schritt 3 | Drei Konzepte, dieselben vier Wege, visueller Entwurf, Empfehlung mit Nachteilen | Vorschlag vorgelegt; Auswahl offen |
 
 Noch keine App-Abnahme.
 
 ## GitHub
 
-Remote `origin`: `https://github.com/dennisxbu/momentum.git`. Schritt 3 sitzt auf der korrigierten Schritt-2-Grundlage.
+Remote `origin`: `https://github.com/dennisxbu/momentum.git`. Schritt-2-Korrektur ist auf `main` (`9a574a9`, PR #4). Dieser Stand setzt Schritt 3 darauf auf.
