@@ -11,7 +11,7 @@ Stand: 8. September 2026
 | Nutzerfeedback | Fünf Produktfragen aus Schritt 1 **nicht** ausdrücklich beantwortet. Dieser Korrekturauftrag und PR-Merges gelten nicht als Antworten. |
 | Produktentscheidungen | O1, O3–O10 offen. V8–V10 Vorschläge. |
 
-Nächste inhaltliche Arbeit: kompakte Auswahl in [umfang-v1.md](umfang-v1.md). Danach kann Schritt 3 beauftragt werden; V8 vor Schritt 4, parallel zu Schritt 3 möglich.
+Nächste inhaltliche Arbeit: kompakte Auswahl in [umfang-v1.md](umfang-v1.md). Danach kann Schritt 3 beauftragt werden. V8 nach dieser Auswahl und vor Schritt 4; parallel zu Schritt 3 möglich, eigener Auftrag.
 
 ## Tatsächlich vorhandene Funktionen
 
@@ -62,4 +62,4 @@ Noch keine App-Abnahme.
 
 ## GitHub
 
-Remote `origin`: `https://github.com/dennisxbu/momentum.git`. Review-Ausgangspunkt: `main` bei `b4bed0e`.
+Remote `origin`: `https://github.com/dennisxbu/momentum.git`. Review-Ausgangspunkt dieser Korrektur: `main` bei `b4bed0e`. Keine neueren Nutzerantworten zu O5, O7–O10 gefunden.

@@ -30,7 +30,7 @@ Kein fest verdrahtetes Drei-Module-Produkt. **Namen und Demodaten sind keine fac
 | Bereich | Was die vorgeschlagene V1 wirklich unterstützt | Zunächst nur benennbare Ablage | Tiefe bis zur Antwort offen |
 | --- | --- | --- | --- |
 | **Studium** | Ziel mit Frist, geplanter Lernblock mit Zweck, getrennt: geplant vs. durchgeführt; optionale Beobachtung zum Ergebnis (z. B. ohne Hilfe gelöst / unklar). Kontextvorschlag am Block, sofern die Qualitätskriterien gelten. | Ein Bereich namens „Studium“ allein | Wie weit Fach/Fokus automatisch eingetragen wird (O5); Wiederholungsalgorithmus nicht V1 |
-| **Diät / Training** | Training als geplante Aktivität plus Durchführung/unbekannt, Zielkonflikt sichtbar. | Ein Ziel namens „Diät“ ohne weitere von dir gewählte Angaben | Welche Hilfe und welche Messgrößen du beitragen willst (O7) |
+| **Diät / Training** | Training als geplante Aktivität plus Durchführung/unbekannt; Zielkonflikt sichtbar. Eine selbst benannte Messgröße (falls du V10 nimmst) kannst du einem solchen Ziel zuordnen — das ist keine Diät-Fachlogik. | Ein Ziel namens „Diät“ ohne weitere von dir gewählte Angaben | Welche Hilfe und welche Messgrößen du beitragen willst (O7) |
 | **Berufliche Entwicklung** | Einmalige Vorhaben oder Notizen können am Tag liegen, ohne Pflicht-Todos. | Ein Bereich oder Ziel, das du so nennst | Form und Zeitpunkte (O10); kein Netzwerk-CRM, kein Arbeitsmarkt-Score |
 
 ## V1-Anpassbarkeit (Vorschlag, wählbar)
@@ -55,7 +55,7 @@ Danach sollen **weiter sinnvoll funktionieren:** die Tagesübersicht (zugeordnet
 - Eine spätere Änderung der Einheit (cm → mm) darf historische Zahlen nicht still umrechnen, solange keine Migration vereinbart ist; sonst bleibt die alte Einheit an den alten Werten sichtbar.
 - Nicht jede denkbare fachliche Frage (Nährwerte, Kontakthistorie, Klausurstatistik) ist damit abgedeckt.
 
-Die Auswahl dieser Tiefe bleibt bei dir (eng verwandt mit O6, nicht mit O6 erledigt).
+Diese Messgröße ist eine **allgemeine** V1-Fähigkeit, kein Studium-, Diät- oder Berufsmodul. Die Auswahl der Tiefe bleibt bei dir (eng verwandt mit O6, durch diesen Auftrag nicht erledigt).
 
 ## Umfangstabelle
 
@@ -75,8 +75,8 @@ Einordnung: **V1** = vorgeschlagen für die erste abnahmefähige Version · **sp
 | Kontextbezogene Unterstützung | Vorschlag, der sich *jetzt* sinnvoll anfühlt | Je Fall nur nötige Ziele, Fristen, Beobachtungen, Unsicherheit | Qualitätskriterien (nächster Abschnitt), nicht die Technik | **V1** |
 | Visuelle Qualität | Benutzen macht Spaß, Tiefe auf Nachfrage | — | Zentrale Wege hochwertig; keine iOS-Kopie; keine Pflicht-Gamification | **V1** (Kriterium) |
 | Dauerhaft speichern und korrigieren | Einträge überdauern den Neustart | Speicherort gemäß O3, noch nicht gewählt | Anlegen, ändern, Neustart, wieder lesen; Vorschlag ablehnen | **V1** (Ort offen) |
-| Export | Kopie deiner Daten, getrennt von GitHub | Exportierte Testdaten | Datei enthält die Testdaten und ist ohne GitHub lesbar bzw. re-importierbar als Datei | **V1** |
-| Wiederherstellung | Nach einem angenommenen Verlust wieder denselben Stand haben | Zuvor erstellter Stand (Sicherung oder Export) | Testdaten wiederherstellen und denselben Donnerstag wiedererkennen; Export allein gilt nicht als Nachweis | **V1** |
+| Export | Kopie deiner Daten, getrennt von GitHub | Exportierte Testdaten | Nach dem synthetischen Donnerstag existiert eine ohne GitHub lesbare Datei mit denselben Testdaten. Das belegt nur den Export. | **V1** |
+| Wiederherstellung | Nach einem angenommenen Verlust denselben Stand wiederhaben | Zuvor erstellter Stand (Sicherung oder die Exportdatei) | **Vorschlag zur Prüfung:** auf einer Testkopie Arbeitsdaten entfernen oder ersetzen, aus dem zuvor erstellten Stand wiederherstellen; derselbe Donnerstag (Aufgaben, Blöcke, Beobachtungen) ist wiedererkennbar. Ein vorhandener Export ohne diesen Schritt gilt nicht als Nachweis. | **V1** |
 | Kalender-Synchronisierung | Weniger Abtippen | Externe Kalenderdaten | — | **offen** (O9), nicht V1-Pflicht |
 | KI-Modellaufrufe | Reichere Sprache oder Abwägung | Anbieter, Budget, Daten (O4) | Erfüllt nicht automatisch die Qualitätskriterien | **offen**, nicht V1-Pflicht; 50 € ausgeschlossen |
 | Automatische Umplanung des Tages | App schreibt den Kalender um | Hohe Planungsvollmacht | — | **später** |
@@ -126,7 +126,7 @@ Vereinbarte Qualitätskriterien:
 4. **Alternativen:** Es wird abgewogen, nicht nur ein einziger Satz ausgelöst. Gründe sind prüfbar.
 5. **Korrektur:** Deine Korrektur wird berücksichtigt. Sie muss **nicht** zwangsläufig eine andere Empfehlung erzeugen (die Lage kann nach der Korrektur dieselbe sinnvolle Linie behalten).
 
-Die vier bekannten Mathe-Beispiele (sicher / unbekannt / Lücke / andere Prüfung) sind **Veranschaulichung, keine vollständige Entscheidungstabelle**. Für die spätere Prüfung werden einige **zusätzliche Varianten zurückgehalten**, die nicht zur Konstruktion der Lösung verwendet werden (zum Beispiel: du korrigierst nur die Formulierung, nicht die Lage; zwei Fristen gleicher Art; sehr wenig Daten nach einer Pause). Diese Varianten werden im V8-Check bzw. in Schritt 12 konkretisiert, nicht jetzt als Geheimliste von Ergebnissen festgelegt.
+Die vier bekannten Mathe-Beispiele (sicher / unbekannt / Lücke / andere Prüfung) sind **Veranschaulichung, keine vollständige Entscheidungstabelle**. Für die spätere Prüfung sind **zusätzliche Varianten zurückzuhalten**, die die Lösung nicht mitkonstruieren (Arten, nicht erwartete Ergebnisse: nur Formulierung korrigiert; zwei gleichartige Fristen; sehr wenig Daten nach einer Pause). Konkretisierung im V8-Check bzw. in Schritt 12; jetzt keine Ergebnisliste.
 
 ## Vorgeschlagene Qualitätskriterien (gesamt)
 
