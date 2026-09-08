@@ -25,6 +25,8 @@ Legende: **beschlossen** · **Fakt** (von Dennis genannt, keine Produktarchitekt
 | V3 | KI-Aufgabenteilung | Vorschlag | Berechnungen lokal; KI für Kontext und Formulierungen. | Assistenz |
 | V4 | KI-Budgetziel | Vorschlag | Rund 5 Euro monatlich als Entwicklungsziel. | Assistenz; nicht von Dennis bestätigt |
 | V5 | Bausteine | Vorschlag | Ziele, Projekte/Aufgaben, Routinen, Messwerte, Notizen, Ansichten. | Assistenz |
+| V6 | Nutzungskonzept | Vorschlag | Zusammenhängender Tagesfluss (Morgen, Erledigungen, Lernen, Training, Abend, Folgetag); Prüfszenarien Überlastung und Wiedereinstieg; Unterscheidung Termin / einmalige Aufgabe / Routine / Ziel / Beobachtung. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
+| V7 | Grundprinzipien | Vorschlag | Ein Tag statt getrennter Tracker; einmaliges bleibt einmalig; unbekannt ≠ gescheitert; Eingabe nur mit späterem Nutzen; empfehlen heißt abwägen; kein Lebens-Score; sofort brauchbar. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
@@ -34,7 +36,11 @@ Legende: **beschlossen** · **Fakt** (von Dennis genannt, keine Produktarchitekt
 | O2 | Bedienkonzept | offen | Schritt 3 vergleicht Konzepte. |
 | O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
-| O5 | Automatik vs. Vorschlag | offen | Dennis beschrieb im Beispiel eine Fachauswahl für den Lernblock; das ist keine pauschale Erlaubnis für Kalenderänderungen. |
+| O5 | Automatik vs. Vorschlag | offen | Frage 1 in Schritt 1: Fachwahl innerhalb eines gesetzten Blocks selbst eintragen oder nur vorschlagen? Keine pauschale Erlaubnis für beliebige Kalenderänderungen. |
 | O6 | Konfigurierbarkeit-Tiefe | offen | Vorlagen und Felder vs. eigene Formeln oder Module. |
+| O7 | Diät im Tagesfluss | offen | Frage 2: Ernährung morgens/abends vs. vorerst nur geplantes Training. |
+| O8 | Verbindlichkeit Abendrückblick | offen | Frage 3: erwartete, auslassbare Routine vs. klar optional. |
+| O9 | Termine im Konzept | offen | Frage 4: selbst festhalten vs. Kalenderanbindung als Teil des Nutzungskonzepts. |
+| O10 | Berufliche Entwicklung im Tag | offen | Frage 5: eigene nächste Schritte im Tagesfluss vs. zurücktreten, bis ein Anlass da ist. |
 
 Änderungen an diesem Dokument kennzeichnen, ob Dennis zugestimmt hat oder ob nur ein Vorschlag nachgetragen wurde.

@@ -8,6 +8,7 @@ Code und Projektgedächtnis: [github.com/dennisxbu/momentum](https://github.com/
 
 - [AGENTS.md](AGENTS.md) — Arbeitsweise für Mensch und Agent
 - [docs/status.md](docs/status.md) — aktueller Schritt und Grenzen
+- [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — vorgeschlagenes Nutzungskonzept (Schritt 1)
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Vorschlag vs. Beschluss
 - [docs/entwicklung.md](docs/entwicklung.md) — Git/GitHub
 - [docs/context/](docs/context/) — Arbeitsnotiz und Schritt-Prompts
