@@ -13,7 +13,7 @@ Die Arbeitsnotiz unter `docs/context/` ist Kontext, kein Pflichtenheft und kein 
 ## Verbindliche Arbeitsweise
 
 1. Bearbeite ausschließlich den aktuell ausdrücklich beauftragten Schritt. Führe ihn einschließlich seiner notwendigen Prüfung vollständig aus. Beginne danach keinen weiteren Schritt, auch nicht als Bonus, Vorbereitung oder offensichtliche Fortsetzung.
-2. Die Arbeitsnotiz enthält Nutzeranforderungen, Vorschläge, Beispiele, Forschungsgrundlagen und offene Entscheidungen. Unterscheide diese Kategorien. Ein Vorschlag der Assistenz ist keine angenommene Produkteigenschaft. Ein Beispieltagesablauf ist keine fest zu programmierende Entscheidungsregel.
+2. Die Arbeitsnotiz enthält Nutzeranforderungen, Vorschläge, Beispiele, Forschungsgrundlagen und offene Entscheidungen. Unterscheide diese Kategorien. Ein Vorschlag der Assistenz ist keine angenommene Produkteigenschaft. Ein Beispieltagesablauf ist keine fest zu programmierende Entscheidungsregel. Eine Git-Zusammenführung ist keine Zustimmung zu jeder darin stehenden Produktannahme. „Nicht beschlossen“ ist kein dauerhaftes Produktverbot.
 3. Wähle kleine technische Details innerhalb des vereinbarten Rahmens selbst. Frage nur, wenn eine fehlende Antwort das Produkt, den Umfang, die Datennutzung, externe Kosten oder eine schwer rückgängig zu machende Entscheidung wesentlich verändert. Sammle solche Fragen; unterbrich nicht wegen jeder Kleinigkeit.
 4. Interpretiere „sieht gut aus“, „passt“ oder „weiter“ nicht als Freigabe des gesamten Projekts. Wenn der nächste konkrete Schritt bereits eindeutig benannt ist, darf dieser bearbeitet werden; andernfalls kurz klären, welcher Schritt gemeint ist.
 5. Füge keine zusätzlichen Funktionen, Abhängigkeiten, Frameworks, Cloud-Dienste, Konten, Hintergrundprozesse oder KI-Anbindungen außerhalb des aktuellen Schritts hinzu. Begründe notwendige neue Abhängigkeiten kurz. Keine grundlegenden Umbauten unter dem Titel „Aufräumen“.
@@ -22,7 +22,9 @@ Die Arbeitsnotiz unter `docs/context/` ist Kontext, kein Pflichtenheft und kein 
 
 ## Produktleitplanken
 
-- Hochwertige, intuitive, modular veränderbare Windows-App für den privaten Alltag. Das iPhone ist eine Referenz für Klarheit der Bedienung, keine Aufforderung zu einer iOS-Kopie.
+- Hochwertige, intuitive, modular veränderbare Windows-App für den privaten Alltag. Benutzung soll Freude machen; geringer Pflegeaufwand allein erfüllt die Vision nicht. Das iPhone ist eine Referenz für Klarheit der Bedienung, keine Aufforderung zu einer iOS-Kopie.
+- Schutz vor Druck ist kein Verbot erfreulicher oder motivierender Rückmeldung. Keine Pflicht zu Gamification, Motivationssprüchen oder bestimmten Animationen.
+- Windows ist die Zielplattform. Daraus folgt kein Auftrag für mobile Entwicklung und kein endgültiges Verbot einer späteren mobilen Begleitung.
 - Geringer Pflegeaufwand und tatsächlicher Nutzen gehören zum Funktionsumfang. Konfigurierbarkeit darf nicht bedeuten, dass die App erst selbst zusammengebaut werden muss.
 - „Dynamisch“ heißt kontextbezogen sinnvoll, nicht zufällig variierend. KI ist kein automatischer Beleg für Intelligenz. Korrekte Berechnungen, Validierungen und transparente Regeln bleiben sinnvoll.
 - Empfehlungen sollen relevante Daten und Unsicherheit berücksichtigen. Fehlende Daten bedeuten unbekannt. Statistische Zusammenhänge sind keine automatisch belegten Ursachen.
@@ -45,6 +47,7 @@ Vorhandene gleichwertige Dateien weiterverwenden, statt widersprüchliche Doppel
 
 - [docs/status.md](docs/status.md) — aktueller Schritt, vorhandene Funktionen, offene Grenzen, nächste Entscheidung, Umfang Version 1, Abnahmeprotokoll
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Status, Begründung, Grundlage; Vorschlag und Zustimmung getrennt
+- [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — vorgeschlagenes Nutzungskonzept (Schritt 1)
 - [docs/context/](docs/context/) — Arbeitsnotiz, Prompt-Sammlung, ursprüngliche Momentaufnahmen
 - [.cursor/rules/](.cursor/rules/) — kurze, immer geltende Agent-Regeln
 
