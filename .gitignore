@@ -1,0 +1,8 @@
+/momentum/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+Desktop.ini

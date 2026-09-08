@@ -1,0 +1,14 @@
+---
+description: Schrittweise Arbeit, Kategorien und Produktgrenzen für Momentum
+alwaysApply: true
+---
+
+# Arbeitsweise
+
+- Nur den ausdrücklich beauftragten Schritt ausführen, einschließlich Prüfung. Keinen nächsten Schritt als Bonus beginnen.
+- In der Arbeitsnotiz unterscheiden: Nutzeranforderung, Vorschlag, Beispiel, Forschungsgrundlage, Offen. Vorschläge nicht als Beschluss behandeln.
+- Direkte Korrekturen von Dennis haben Vorrang vor vorhandenem Code.
+- Keine Extra-Features, Frameworks, Cloud-Dienste oder KI außerhalb des aktuellen Schritts.
+- Synthetische Daten für Entwicklung und Demos. Fehlende Daten heißen unbekannt.
+- 50 Euro monatliche KI-Kosten sind inakzeptabel. 5 Euro und KI-Nutzung sind nicht beschlossen.
+- Abschluss: Ergebnis, Dateien, wie prüfen, Grenzen, höchstens nötige nächste Entscheidungen. Dann stoppen.

@@ -1,0 +1,42 @@
+# Entwicklung mit Git und GitHub
+
+Momentum wird als Git-Repository auf GitHub geführt. Das Remote ist die gemeinsame, dauerhafte Ablage für Code, Regeln und Kontext. Ein Chatverlauf ersetzt das nicht.
+
+Remote: `https://github.com/dennisxbu/momentum.git`  
+Standardbranch: `main`
+
+## Was ins Repository gehört
+
+- Quellcode und Projektdokumentation, sobald ein Schritt sie erzeugt
+- Regeln (`AGENTS.md`, `.cursor/rules/`)
+- Status, Entscheidungen, Umfang, Abnahme
+- Synthetische Beispieldaten, klar als Demo gekennzeichnet
+- Ursprüngliche Kontextdokumente unter `docs/context/`
+
+## Was nicht ins Repository gehört
+
+- API-Schlüssel, Tokens, `.env`-Dateien mit Geheimnissen
+- Echte persönliche Nutzdaten, Exporte aus dem späteren Alltag, Gesundheits- oder Kontodaten
+- Build-Artefakte, lokale Caches, der verschachtelte Ordner `momentum/` (Clone im Clone)
+
+GitHub als Codeablage ist kein Beschluss über den Speicherort der späteren App-Daten (siehe `docs/entscheidungen.md`, D4).
+
+## Ablauf nach einem beauftragten Schritt
+
+1. Nur die zum Schritt gehörenden Dateien ändern.
+2. `docs/status.md` und bei Bedarf `docs/entscheidungen.md` aktualisieren.
+3. `git status` und `git diff` prüfen. Keine Geheimnisse stagen.
+4. Commit mit kurzer Begründung (warum dieser Schritt, nicht eine Dateiliste).
+5. Nach `origin/main` pushen, sofern Dennis nicht ausdrücklich etwas anderes sagt.
+
+Nicht committen oder pushen, wenn Dennis das für den jeweiligen Stand ausdrücklich untersagt. Kein Force-Push auf `main`. Git-Hooks nicht mit `--no-verify` umgehen.
+
+## Commits
+
+- Ein abgeschlossener Schritt soll nachvollziehbar in der Historie liegen.
+- Keine leeren Commits. Keine Secrets. Keine nachträgliche Umfangserweiterung „weil der Commit sonst zu klein wirkt“.
+- `git config` nicht ändern.
+
+## Neuer Chat
+
+Zuerst README, AGENTS.md, Status, Entscheidungen, vereinbarten Umfang und die Arbeitsnotiz lesen. Vorhandenen Code und ungesicherte Änderungen prüfen, bevor etwas geplant wird. Dokumente beschreiben Absichten; vorhandene Funktionen nur behaupten, wenn sie im Projekt nachvollziehbar sind.
