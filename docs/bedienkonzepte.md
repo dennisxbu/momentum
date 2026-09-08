@@ -52,7 +52,7 @@ Klar als Demo, nicht aus echten Konten:
 
 **Orientierung:** Drei gleichwertige Orte: **Heute** (was zählt), **Überblick** (Ziele und Lage über Tage), **Detail** (ein Verlauf). Du wählst zuerst den Ort, dann den Inhalt.
 
-**Interaktion:** Unten oder oben eine Ort-Navigation. Erfassen hängt an Heute. Entwicklung ist der eigene Ort Detail, erreicht über Überblick. Ziele ändern passiert im Überblick.
+**Interaktion:** Unten oder oben eine Ort-Navigation. Erfassen hängt an Heute. Entwicklung geht **Überblick → Detail**. Ziele ändern passiert im Überblick.
 
 | Weg | So sieht er aus |
 | --- | --- |

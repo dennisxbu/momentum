@@ -262,6 +262,7 @@
     let concept = "a";
     let screen = "morgen";
     let captured = false;
+    let bDetail = false;
 
     function tags(kind, text) {
       return `<span class="tag ${kind}">${text}</span>`;
@@ -413,14 +414,20 @@
         <div class="body">${eveningPoints()}</div>`;
     }
 
-    function renderB() {
-      const place = screen === "verlauf" ? "Detail" : screen === "abend" ? "Heute · schließen" : "Heute";
-      const nav = `
+    function bNav() {
+      const he = screen !== "verlauf";
+      const det = screen === "verlauf" && bDetail;
+      const ue = screen === "verlauf" && !bDetail;
+      return `
         <nav class="places" aria-label="Orte">
-          <span class="${place.startsWith("Heute") ? "on" : ""}">Heute</span>
-          <span class="${screen === "verlauf" ? "" : ""}">Überblick</span>
-          <span class="${screen === "verlauf" ? "on" : ""}">Detail</span>
+          <button type="button" aria-pressed="${he}" onclick="screen='morgen'; draw()">Heute</button>
+          <button type="button" aria-pressed="${ue}" onclick="screen='verlauf'; bDetail=false; draw()">Überblick</button>
+          <button type="button" aria-pressed="${det}" onclick="screen='verlauf'; bDetail=true; draw()">Detail</button>
         </nav>`;
+    }
+
+    function renderB() {
+      const nav = bNav();
       if (screen === "morgen") {
         return `
           <header class="app-head">
@@ -444,6 +451,30 @@
           ${nav}
           <div class="body">${composer("Ort: Heute")}</div>`;
       }
+      if (screen === "verlauf" && !bDetail) {
+        return `
+          <header class="app-head">
+            <div>
+              <h2>Überblick</h2>
+              <p>Ziele und Lage über Tage. Der heutige Tag ist ein anderer Ort.</p>
+            </div>
+          </header>
+          ${nav}
+          <div class="body">
+            <article class="card" style="cursor:pointer" onclick="bDetail=true; draw()">
+              <h3>Testat Mathe</h3>
+              <p class="meta">Frist in 10 Tagen · 3 Beobachtungen · 1 Lücke. Öffnet Detail.</p>
+            </article>
+            <article class="card">
+              <h3>Diät</h3>
+              <p class="meta">Benennbare Ablage. Weitere Messgrößen nur, wenn du sie anlegst (O7 offen).</p>
+            </article>
+            <article class="card">
+              <h3>Berufliche Entwicklung</h3>
+              <p class="meta">Als Bereich anlegbar, ohne tägliche Pflicht (O10 offen).</p>
+            </article>
+          </div>`;
+      }
       if (screen === "verlauf") {
         return `
           <header class="app-head">
@@ -451,6 +482,7 @@
               <h2>Detail · Testat Mathe</h2>
               <p>Über Überblick gewählt. Der Tag ist jetzt nicht mehr da.</p>
             </div>
+            <button type="button" onclick="bDetail=false; draw()">Zurück zum Überblick</button>
           </header>
           ${nav}
           <div class="body split">${course()}</div>`;
@@ -537,7 +569,7 @@
         `<button type="button" aria-pressed="${c.id === concept}" onclick="concept='${c.id}'; draw()">${c.label}</button>`
       ).join("");
       document.getElementById("screens").innerHTML = SCREENS.map(s =>
-        `<button type="button" class="ghost" aria-pressed="${s.id === screen}" onclick="screen='${s.id}'; draw()">${s.label}</button>`
+        `<button type="button" class="ghost" aria-pressed="${s.id === screen}" onclick="screen='${s.id}'; if ('${s.id}'==='verlauf') bDetail=false; draw()">${s.label}</button>`
       ).join("");
       const inner = concept === "a" ? renderA() : concept === "b" ? renderB() : renderC();
       document.getElementById("window").innerHTML = `
