@@ -266,16 +266,14 @@ Alles in diesem Abschnitt ist **Vorschlag**, außer wo ausdrücklich als Nutzera
 - Keine Navigation (auch nicht „Heute / Überblick / Detail“), keine Wochenansicht, kein Analysemodul.
 - Keine Screens, keine visuelle Identität, keine iOS-Kopie und keine Pflicht zu bestimmten Motivationsmitteln.
 - Keinen Technik-Stack, keinen Speicherort für App-Daten, keine KI-Anbindung.
-- Keinen Umfang von Version 1 (Schritt 2).
+- Keinen Umfang von Version 1 in Schritt 1; der Vorschlag liegt in [umfang-v1.md](umfang-v1.md).
 - Keine Kalender-, Uni- oder Gym-Integration nur weil sie im Beispiel vorkommen.
 
-## Früher Prüfbedarf, sobald Schritt 2 beauftragt ist
+## Früher Prüfbedarf für Version 1
 
 Die Prompt-Reihe prüft kontextbezogene Unterstützung ausführlich erst in Schritt 12. Das ist **kein** Grund, Annahmen über Datenbedarf und Entscheidungsqualität erst nach großer UI- und Modellierungsarbeit anzusehen.
 
-**Begrenzte Ergänzung für den V1-Vorschlag (Schritt 2, noch nicht beauftragt):** Der Vorschlag muss sichtbar machen, wie die wesentlichen Ansprüche erlebbar bleiben (Tagesnutzen, visuelle und erfreuliche Nutzung, sinnvolle Auswertungen, kontextbezogene Unterstützung) und welche Unsicherheiten früh geprüft werden müssen. Ein kleiner Umfang darf nicht stillschweigend heißen, nur Aufgaben und Termine zu bauen und die Substanz zu verschieben.
-
-**Vorschlag eines separat beauftragbaren frühen Konzept-/Machbarkeitschecks:** Mit wenigen synthetischen Fällen prüfen, ob eine Unterstützung Gründe, Unsicherheit und benötigte Daten zeigen kann — bevor Architektur festzementiert wird. Ergebnisse und eine KI-Lösung werden hier nicht festgelegt. Relevante Risiken bleiben bis zur Prüfung offen und revidierbar. Das ersetzt nicht die 16 Schritte und eröffnet keine Forschungsphase ohne Auftrag.
+Der V1-Vorschlag in [umfang-v1.md](umfang-v1.md) macht die wesentlichen Ansprüche und den frühen Machbarkeitscheck (V8) sichtbar. Ein kleiner Umfang darf nicht stillschweigend heißen, nur Aufgaben und Termine zu bauen.
 
 ## Maximal fünf Fragen, die das Konzept ändern würden
 
@@ -287,4 +285,4 @@ Bekanntes wird nicht erneut gefragt (persönliche Windows-App für Dennis, 50-Eu
 4. **Termine:** Woher sollen Termine und zeitgebundene Verpflichtungen vorerst kommen, und wie willst du sie pflegen?
 5. **Berufliche Entwicklung:** In welcher Form darf Netzwerk / Leute kennenlernen vorkommen — nicht nur als tägliche nächste Schritte und nicht nur als Warten auf einen Anlass?
 
-Antworten darauf gehören vor oder in Schritt 2, soweit sie den Umfang der ersten Version verändern. Schritt 2 bleibt unbeauftragt, bis du ihn ausdrücklich startest.
+Antworten darauf gehören vor oder in Schritt 2, soweit sie den Umfang der ersten Version verändern. Schritt 2 liegt als Vorschlag vor: [umfang-v1.md](umfang-v1.md). Die fünf Fragen sind weiterhin unbeantwortet und dort als offene V1-Defaults markiert.

@@ -6,52 +6,50 @@ Stand: 8. September 2026
 
 | Ebene | Stand |
 | --- | --- |
-| Beauftragter Schritt | Schritt 1 (Nutzungskonzept). Schritt 2 ist **nicht** beauftragt. |
-| Dokumentationsarbeit | Überarbeitung von Schritt 1 ausgeführt (Abgleich mit der Vision). |
-| Nutzerfeedback | Korrekturauftrag vom 8.9.2026 eingearbeitet. Die fünf offenen Fragen sind **nicht** beantwortet. |
-| Produktentscheidungen | Siehe [entscheidungen.md](entscheidungen.md). Keine Zustimmung behaupten, die nicht belegt ist. PR-Merge von Schritt 1 ist keine Freigabe jeder Formulierung. |
+| Beauftragter Schritt | **Schritt 2** (Umfang Version 1 als Vorschlag). Schritt 3 ist nicht beauftragt. |
+| Dokumentationsarbeit | V1-Umfangstabelle und Qualitätskriterien vorgelegt. |
+| Nutzerfeedback | Fünf Fragen aus Schritt 1 weiterhin unbeantwortet; im Umfang als offene Defaults markiert, nicht stillschweigend entschieden. |
+| Produktentscheidungen | O1 offen. V9 ist Vorschlag, keine Zustimmung. |
 
-Nächste inhaltliche Arbeit: Antworten auf die fünf Fragen in [nutzungskonzept.md](nutzungskonzept.md) und/oder ausdrücklicher Auftrag für Schritt 2.
+Nächste inhaltliche Arbeit: Auswahl zum Umfang in [umfang-v1.md](umfang-v1.md). Danach kann Schritt 3 beauftragt werden.
 
 ## Tatsächlich vorhandene Funktionen
 
 Keine App. Kein Framework, keine UI, keine Datenbank, keine KI-Integration, keine Installation.
 
-Vorhanden: Projektdokumentation, GitHub als Codeablage, Nutzungskonzept als Vorschlag.
+Vorhanden: Projektdokumentation, GitHub als Codeablage.
 
 ## Offene Grenzen
 
-- Umfang von Version 1 ist nicht beschlossen.
-- Bedienkonzept und Navigation sind nicht beschlossen.
-- Technik-Stack, Speicherung, Offline und Auslieferung sind nicht beschlossen.
-- KI unterhalb der 50-Euro-Grenze ist nicht beschlossen.
-- O5 und O7–O10: Planungsvorschläge, Diät/Training, Abendroutine, Termine, berufliche Entwicklung.
-- Tiefe der Konfigurierbarkeit (O6) ist nicht beschlossen.
-
-„Nicht beschlossen“ heißt nicht verboten. Windows bleibt Zielplattform ohne mobiles Jetzt-und-Nie.
+- **O1** Umfang Version 1: Vorschlag liegt vor, nicht ausgewählt.
+- O5, O7–O10: Defaults für V1 vorgeschlagen, nicht beschlossen.
+- O2 Bedienkonzept, O3 Technik, O4 KI, O6 Konfigurierbarkeit-Tiefe.
+- V8 Machbarkeitscheck: nicht ausgeführt, separat beauftragbar.
 
 GitHub ist Codeablage. Speicherort persönlicher App-Daten bleibt offen.
 
 ## Nächste Entscheidung
 
-Die fünf Fragen am Ende von [nutzungskonzept.md](nutzungskonzept.md). Schritt 2 erst nach ausdrücklichem Auftrag.
+Auswahl in [umfang-v1.md](umfang-v1.md): Tabelle V1/später/offen und die fünf offenen Defaults (Planungsvorschläge, Diät/Training, Abendrückblick, Termine, berufliche Entwicklung).
 
 ## Umfang der ersten Version
 
-Noch nicht festgelegt. Sobald Schritt 2 beauftragt ist, muss der V1-Vorschlag zeigen, wie die wesentlichen Ansprüche erlebbar bleiben und welche Unsicherheiten früh zu prüfen sind. Ein kleiner Umfang darf nicht stillschweigend nur Aufgaben und Termine bedeuten.
+**Vorschlag** in [umfang-v1.md](umfang-v1.md): vollständiger nützlicher Tag plus ehrlicher Zielverlauf, begrenzter nachvollziehbarer Kontextvorschlag, visuelle Qualität als Kriterium, Sicherung. Nicht nur Aufgaben und Termine. KI und Kalender-Sync nicht als V1-Pflicht.
 
-Separat beauftragbar (**Vorschlag V8**): kleiner Konzept-/Machbarkeitscheck zu Datenbedarf und Entscheidungsqualität. Nicht ausgeführt.
+- enthalten: nichts beschlossen (Vorschlag V9)
+- später: u. a. automatische Umplanung, Plugin-Plattform (Vorschlag)
+- offen: KI, Kalenderquelle, Tiefen von O5/O7–O10
 
 ## Abnahmeprotokoll
 
 | Schritt | Was geprüft wurde | Ergebnis |
 | --- | --- | --- |
 | Initialprompt | Kontextdateien, Git-Remote, keine App-Dateien | Dokumentationsarbeit erfüllt |
-| Schritt 1, erste Fassung | Donnerstag-Ablauf, Prüfszenarien, Prinzipien als Vorschlag | dokumentiert; Merge ≠ Zustimmung |
-| Schritt 1, Überarbeitung | Abgleich mit Originalnachrichten und Korrekturauftrag 8.9.2026 | Dokumentationsarbeit erfüllt; fünf Fragen und V1-Umfang offen |
+| Schritt 1 | Nutzungskonzept und Vision-Abgleich | dokumentiert; Merge ≠ Zustimmung |
+| Schritt 2 | Umfangstabelle, Bereiche ohne stille Tiefe, Eingaben/Automatik, Qualitätskriterien, V8 notiert; nichts implementiert | Vorschlag vorgelegt; Auswahl durch Dennis offen |
 
 Noch keine App-Abnahme.
 
 ## GitHub
 
-Remote `origin`: `https://github.com/dennisxbu/momentum.git`. Grundlage dieser Überarbeitung: `main` bei `e015b65`.
+Remote `origin`: `https://github.com/dennisxbu/momentum.git`. `main` nach Merge von PR #2: `9703486`.
