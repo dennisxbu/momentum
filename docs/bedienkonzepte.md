@@ -1,60 +1,214 @@
-# Bedienkonzepte — Korrektur und neuer Prüfauftrag
+# K3 — Assistenzkonzepte vergleichen
 
-Stand: 9. September 2026 · Korrektur von Schritt 3 · **noch kein ausgewähltes Bedienkonzept**
+Stand: 9. September 2026 · **Konzeptvergleich ausgearbeitet, Auswahl durch Dennis offen**
 
-## Ergebnis der bisherigen Entwürfe
+## Auftrag und Grenze
 
-Die Konzepte aus dem offenen PR #5 — A „Tag als Heimat“, B „Drei Orte“ und C „Lage zuerst“ — sind als Produktgrundlage verworfen.
+K3 vergleicht drei grundsätzlich verschiedene Arten, wie Dennis und Momentum zusammenarbeiten könnten. Es geht nicht um andere Farben oder Kartenanordnungen, sondern um die Frage: **Wer eröffnet den nächsten Schritt, wo entsteht Orientierung und wie wird eine Änderung wirksam?**
 
-Dennis' Rückmeldung: Die Entwürfe wirken wie eine in kurzer Zeit zusammengesetzte App aus Karten, Statusangaben und anklickbaren Entscheidungen. Sie vermitteln Sisyphus-Arbeit statt das Gefühl eines hochgradig hilfreichen Assistenten.
+Die Konzepte sind bewusst wegwerfbar. Sie wählen weder produktive Oberfläche noch Navigation, Framework, Datenbank, KI-Modell oder Anbieter. Die früheren Entwürfe A „Tag als Heimat“, B „Drei Orte“ und C „Lage zuerst“ aus PR #5 bleiben verworfen; ihre gemeinsame Verwaltungslogik ist keine vierte Option.
 
-Das Problem liegt im gemeinsamen Grundmodell, nicht in einer einzelnen Farbe, Karte oder Navigation. Deshalb wird keines der drei Konzepte durch kosmetische Änderungen weitergeführt. Die Empfehlung für A ist zurückgezogen.
+Verbindliche Grundlage:
 
-## Falsche Grundannahme
+- [Produktvision](produktvision.md): hochgradig hilfreicher Assistent, flexible Grundlage und fokussierte Nutzung;
+- [V1-Nachweis](umfang-v1.md): vollständiger Kreislauf von Morgen bis Folgetag und eine eigene Sammlung;
+- [Machbarkeitscheck K2](machbarkeitscheck-k2.md): bestätigte Semantik für freie Daten, transparente Faktenprüfung und keine direkte Schreibbefugnis einer kontextuellen Komponente.
 
-Die Entwürfe gingen im Wesentlichen davon aus:
+## Gemeinsamer synthetischer Prüfstoff
 
-> Wenn der Tagesplan verständlich angeordnet ist und an einem Lernblock ein begründeter Vorschlag steht, ist die Assistenz erlebbar.
+Alle drei Konzepte müssen mit denselben Informationen umgehen:
 
-Das reicht nicht. Es zeigt weiterhin überwiegend Daten und verlangt von Dennis, sie zu lesen, zu pflegen und selbst in eine sinnvolle Handlung zu übersetzen.
+- Donnerstag mit fester Universität, Übergangszeit, Lernabsicht, Paket, Geschenk und Training;
+- Mathe-Testat mit unbekanntem Kenntnisstand;
+- freie Sammlung „Stuhl-Kandidaten“ im Vorhaben „Arbeitsplatz verbessern“;
+- bestätigte Rückgabeabsicht, aber zunächst unbekannter Rückgabeweg;
+- relevante Varianten: Online-Anmeldung, Rückgabe vor Ort und verlängerte Universität;
+- belanglose Variante: Stuhlfarbe Grün;
+- zurückgehaltener freier Fall „Rezeptideen“;
+- Abend mit teilweise unbekannter Durchführung;
+- Entwicklung über mehrere Beobachtungen und Wiedereinstieg nach einer Pause.
 
-Die korrigierte Grundlage steht in [produktvision.md](produktvision.md): Momentum soll Arbeit übernehmen, eine Lage vorbereiten, Alternativen abwägen, gezielt nachfragen und die Folgen von Korrekturen sowie Ergebnissen weiterverwenden. Gleichzeitig soll die Grundlage offen genug sein, neue persönliche Strukturen nicht als neue fest programmierte Module zu benötigen.
+Die Konzepte unterscheiden sich nur in der Zusammenarbeit, nicht durch bequem ausgewählte Testdaten.
 
-## Was der nächste Konzeptvergleich zeigen muss
+---
 
-Neue Entwürfe unterscheiden sich nicht nur in Navigation oder Kartenanordnung, sondern darin, **wie Dennis mit dem Assistenten zusammenarbeitet** und wie Freiheit ohne Einrichtungsarbeit entsteht.
+## Konzept 1 — Briefing
 
-Alle Konzepte müssen dieselben synthetischen Situationen zeigen:
+### Leitidee
 
-1. **Vorbereiteter Morgen:** Die App hat Termine, Fristen, Ziele, vorhandene Beobachtungen und Unsicherheit bereits zu einer Lage verdichtet. Sie zeigt nicht nur eine Liste.
-2. **Entscheidende Rückfrage:** Eine fehlende Information würde die Empfehlung verändern. Die App fragt genau diese Information ab und bewertet anschließend neu.
-3. **Änderung während des Tages:** Eine neue Information verändert Plan oder Priorität nachvollziehbar, ohne dass Dennis alles manuell neu sortiert.
-4. **Abendliche Synthese:** Die App fasst Vorhandenes zusammen, fragt nur Nützliches und macht sichtbar, was daraus für später folgt.
-5. **Entwicklung über Wochen:** Datenbasis, Lücken, Vermutung und möglicher nächster Versuch sind erkundbar; kein dekoratives Diagramm.
-6. **Nicht vorgebautes Thema:** Dennis legt ein persönliches Thema an, das in den Demo-Lebensbereichen nicht vorgesehen war. Eigene Eigenschaften oder Beziehungen werden anschließend im Alltag und in einer sinnvollen Sicht verwendet.
-7. **Wiedereinstieg:** Nach einer Pause ist die App sofort wieder hilfreich, ohne Nachtragen oder Systemreparatur.
+Momentum kommt wie ein sehr guter persönlicher Berater vorbereitet auf Dennis zu. Der primäre Gegenstand ist kein Dashboard, sondern ein **verdichtetes Briefing mit einem klaren Entscheidungsmoment**. Details, Quellen und eigene Strukturen liegen dahinter und werden nur bei Bedarf geöffnet.
 
-Aus K2 kommen weitere verbindliche Kontrastfälle:
+### Arbeitsteilung
 
-- Die Rückgabe eines frei erfassten Stuhl-Kandidaten ist zunächst in ihrem Ablauf unbekannt. Das Konzept muss genau diese entscheidende Lücke klären.
-- Eine harte heutige Rückgabe muss den Vorschlag sichtbar verändern; die belanglose Farbe des Stuhls darf ihn nicht verändern.
-- Ein zurückgehaltener Fall „Rezeptideen“ muss mit derselben semantischen Brücke funktionieren, ohne ein Rezeptmodul vorzutäuschen.
-- Belege, Annahmen, Unbekanntes und vorgeschlagene Änderungen müssen verständlich unterscheidbar sein, ohne als technisches Prüfprotokoll den Alltag zu überladen.
+- Momentum eröffnet mit einer Einordnung: Was ist fest, was konkurriert und welche eine Frage verändert den Plan am stärksten?
+- Dennis liest, antwortet oder korrigiert an genau dieser Stelle.
+- Momentum zeigt danach nicht alles neu, sondern die geänderte Schlussfolgerung und den betroffenen Planteil.
+- Tieferes Erkunden geschieht aus der Aussage heraus: „Warum?“, „Welche Alternative?“ oder „Welche Daten trägst du dafür?“
 
-## Vergleichskriterien
+### Die sieben Situationen
 
-| Frage | Woran ein Konzept gemessen wird |
+| Situation | Verhalten im Briefing |
 | --- | --- |
-| Was übernimmt die App? | Sichtbare Denk-, Ordnungs- oder Auswertungsarbeit, nicht nur Speicherung und Darstellung |
-| Was muss Dennis tun? | möglichst wenige, entscheidungsrelevante Beiträge; keine tägliche Formularpflege ohne späteren Nutzen |
-| Warum ist ein Vorschlag gut? | reale Informationen, Alternativen, Unsicherheit und Korrekturweg sind nachvollziehbar |
-| Wie entsteht Freiheit? | neue Strukturen sind möglich, ohne dass der Alltag zu einer leeren No-Code-Baufläche wird |
-| Wie bleibt es klar? | gute Ausgangsstruktur, wiedererkennbare Interaktion, Tiefe im Kontext |
-| Was geschieht über Zeit? | Beobachtungen verändern vorsichtig die Unterstützung; fehlende Daten bleiben unbekannt |
-| Warum lohnt die Nutzung? | Ergebnis ist mehr Orientierung, bessere Entscheidung oder verständliche Entwicklung — nicht mehr Verwaltung |
+| Morgen | Eine kurze Lageerzählung nennt feste Bindungen, den wichtigsten Konflikt, Empfehlung, Alternative und Unsicherheit. |
+| Entscheidende Lücke | Die Rückgabeart erscheint als eine eingebettete Frage, weil ihre Antwort zwei unterschiedliche Nachmittage erzeugt. |
+| Tagesänderung | „Uni endet 90 Minuten später“ erzeugt eine sichtbare Revision: geänderter Abschnitt, unveränderte Zusagen und neue Alternative. |
+| Abend | Momentum beginnt mit dem bekannten Verlauf und fragt nur nach der einen noch folgenreichen Lücke. |
+| Entwicklung | Ein eigenes Entwicklungsbriefing trennt Beobachtungen, Vermutung und möglichen Versuch in verständlicher Sprache. |
+| Freies Thema | Dennis beschreibt eine neue Sammlung; Momentum schlägt Struktur und Bedeutungen vor, die vor Nutzung bestätigt werden. |
+| Wiedereinstieg | Nach einer Pause erscheint ein frisches Lagebriefing ohne Nachtragsforderung: Was gilt noch, was ist veraltet, was muss einmal geklärt werden? |
 
-## Stand vor K3
+### Stärken
 
-Der V1-Nachweis ist in [umfang-v1.md](umfang-v1.md) festgelegt und der [Machbarkeitscheck K2](machbarkeitscheck-k2.md) abgeschlossen. K3 kann nun wirklich unterschiedliche Bedienrichtungen formulieren. Es muss die begrenzte Kombination aus verlässlicher Grundlage und kontextueller Beurteilung erlebbar machen, ohne einen Technik-Stack oder KI-Anbieter vorwegzunehmen.
+- Am stärksten auf das gewünschte Assistentengefühl ausgerichtet.
+- Sehr geringe tägliche Bedienlast; die App übernimmt Auswahl und Verdichtung.
+- Gründe, Unsicherheit und Korrektur können genau am Vorschlag erscheinen.
+- Eignet sich gut für Morgen, Abend und Wiedereinstieg.
+- Die ruhige Hauptfläche verhindert eine erneute Karten- und Statuswand.
 
-Die früheren HTML-Demos bleiben nur in der Git-Historie beziehungsweise im offenen, inhaltlich überholten PR als verworfener Versuch nachvollziehbar. Sie sind kein Referenzdesign.
+### Risiken
+
+- Kann zum Chatbot mit schöner Typografie verkommen, wenn strukturierte Informationen und konkrete Änderungen nicht sichtbar verbunden sind.
+- Freie Strukturen sind im Alltag weniger präsent und könnten sich wie eine versteckte Expertenfunktion anfühlen.
+- Eine schlechte Verdichtung versteckt Wichtiges stärker als ein offenes Arbeitsfeld.
+
+### Bedingung für Tragfähigkeit
+
+Das Briefing braucht neben Sprache einen klaren **Änderungsvertrag**: verwendete Fakten, offene Annahmen und die vorgeschlagene Änderung sind auf Nachfrage sichtbar; nur der bestätigte Teil wird wirksam.
+
+---
+
+## Konzept 2 — Studio
+
+### Leitidee
+
+Momentum ist ein gemeinsamer Denkraum. Ziele, Vorhaben, Beobachtungen und eigene Sammlungen erscheinen als **verbundene Gegenstände auf einer flexiblen Arbeitsfläche**. Der Assistent arbeitet daneben, entdeckt Zusammenhänge und bietet passende Sichten oder Bedeutungen an.
+
+### Arbeitsteilung
+
+- Dennis beginnt bei einem Gegenstand oder Zusammenhang, den er gerade verstehen oder verändern will.
+- Momentum zeigt, was damit zusammenhängt, und schlägt Struktur, Sicht oder nächsten Denkpfad vor.
+- Der Tag ist eine automatisch erzeugte Linse auf diesen Raum, nicht dessen Heimat.
+- Der Assistent hilft beim Bauen und Erkunden, statt täglich einen fertigen Ablauf vorzugeben.
+
+### Die sieben Situationen
+
+| Situation | Verhalten im Studio |
+| --- | --- |
+| Morgen | Eine erzeugte „Heute“-Linse hebt nur die aktuell wirksamen Beziehungen und Konflikte im persönlichen Raum hervor. |
+| Entscheidende Lücke | Am Stuhl-Kandidaten bleibt die Verbindung zur heutigen Planung unterbrochen, bis „Rückgabe vor Ort oder online?“ geklärt ist. |
+| Tagesänderung | Betroffene Beziehungen werden hervorgehoben; Dennis sieht, welche Vorhaben durch die längere Universität unter Druck geraten. |
+| Abend | Der Tagesverlauf wird in Beobachtungen überführt; unbekannte Durchführung bleibt eine sichtbare Lücke statt rotem Status. |
+| Entwicklung | Beobachtungen, Hypothese und Versuch lassen sich entlang ihrer Beziehungen und Zeitfolge erkunden. |
+| Freies Thema | Hier ist die Freiheit am unmittelbarsten: Sammlung, Eigenschaften, Bedeutungen, Beziehungen und Sicht werden gemeinsam aufgebaut. |
+| Wiedereinstieg | Eine „Seit deinem letzten Besuch“-Linse trennt neue Fristen, veraltete Annahmen und weiterhin gültige Vorhaben. |
+
+### Stärken
+
+- Übersetzt die gemeinte Notion-artige Freiheit am sichtbarsten.
+- Zusammenhänge und Herkunft persönlicher Informationen können tief erkundet werden.
+- Neue Themen fühlen sich nicht wie Sondermodule an.
+- Unterstützt Lernen, Reflexion und komplexe Projekte jenseits eines einzelnen Tages.
+
+### Risiken
+
+- Höchstes Risiko, dass Dennis doch zum Systemadministrator seiner eigenen App wird.
+- Der tägliche Nutzen ist weniger selbstverständlich; eine Arbeitsfläche eröffnet nicht automatisch den wichtigsten nächsten Schritt.
+- Kann visuell beeindruckend, aber praktisch anstrengend und langsam werden.
+- Gefahr einer neuen Form von Sisyphus-Arbeit: Beziehungen pflegen statt Checkboxen anklicken.
+
+### Bedingung für Tragfähigkeit
+
+Die Arbeitsfläche darf nie der verpflichtende Startpunkt sein. Momentum muss sinnvolle Strukturen und Sichten vorschlagen, während Dennis nur Bedeutung korrigiert. Ohne eine kuratierte Alltagsebene verfehlt das Studio die Produktvision.
+
+---
+
+## Konzept 3 — Delegat
+
+### Leitidee
+
+Momentum arbeitet im erlaubten Leseraum weitgehend im Hintergrund und bringt Dennis nur **vorbereitete Entscheidungen und Änderungsentwürfe**. Die zentrale Oberfläche ist kein Tagesplan und kein Chat, sondern eine kleine Folge wichtiger Freigaben: „Das habe ich erkannt, das würde ich ändern, das bleibt unberührt.“
+
+### Arbeitsteilung
+
+- Momentum beobachtet gespeicherte Änderungen, berechnet Konflikte und bereitet einen konkreten Änderungssatz vor.
+- Dennis prüft nicht alle Daten, sondern nur Entscheidungen mit Bedeutung.
+- Zustimmung gilt ausschließlich für den sichtbaren Änderungssatz.
+- Ohne Entscheidung bleibt der bestehende Stand erhalten; reine Hinweise dürfen trotzdem aktualisiert werden.
+
+### Die sieben Situationen
+
+| Situation | Verhalten beim Delegaten |
+| --- | --- |
+| Morgen | Dennis sieht höchstens wenige vorbereitete Entscheidungen; alles stabile wurde bereits gelesen und muss nicht erneut bestätigt werden. |
+| Entscheidende Lücke | Der Vorschlag „Nachmittag neu ordnen“ bleibt blockiert und nennt genau die Rückgabeart als fehlende Voraussetzung. |
+| Tagesänderung | Momentum legt einen neuen Änderungssatz vor: Rückgabe vorziehen, Lernblock kürzen, Geschenk verschieben; Unverändertes ist explizit benannt. |
+| Abend | Ein vorbereiteter Abschluss zeigt bekannte Ereignisse und nur die Entscheidungen, die aus offenen Ergebnissen folgen würden. |
+| Entwicklung | Momentum schlägt aus mehreren Beobachtungen einen begrenzten Versuch vor; Dennis genehmigt nicht die Hypothese als Wahrheit, sondern nur den Versuch. |
+| Freies Thema | Momentum schlägt aus Dennis' Beschreibung eine Sammlung samt Bedeutungen vor; angelegt wird sie erst nach Prüfung des Änderungssatzes. |
+| Wiedereinstieg | Statt Nachtragen erscheint ein Aufräumvorschlag: veraltete Pläne zurückstellen, harte Fristen behalten, unbekannte Woche nicht bewerten. |
+
+### Stärken
+
+- Größte sichtbare Arbeitsübernahme bei sehr wenig Interaktion.
+- Befugnisse und Korrekturweg sind besonders klar.
+- Relevante Tagesänderungen lassen sich als verständlicher Vorher-nachher-Unterschied zeigen.
+- Gute Grundlage für später vorsichtig erweiterbare Autonomie, ohne sie in V1 zu behaupten.
+
+### Risiken
+
+- Kann wie ein nüchterner Freigabe-Posteingang oder Unternehmenssoftware wirken.
+- Zu viele kleine Änderungssätze erzeugen eine neue Genehmigungsbürokratie.
+- Motivation, Reflexion und persönliche Tiefe sind schwächer als im Briefing.
+- Freiheit ist hauptsächlich beim Erstellen sichtbar und im Alltag leicht unsichtbar.
+
+### Bedingung für Tragfähigkeit
+
+Momentum muss Entscheidungen stark bündeln und in menschlicher Bedeutung erklären. Eine technische Diff-Liste oder dauernde „Genehmigen“-Schaltflächen wären nur die nächste Variante der abgelehnten Checkbox-App.
+
+---
+
+## Direkter Vergleich
+
+| Kriterium | 1 — Briefing | 2 — Studio | 3 — Delegat |
+| --- | --- | --- | --- |
+| Gefühl eines persönlichen Assistenten | sehr stark | mittel; eher gemeinsamer Denkraum | stark; eher ausführender Mitarbeiter |
+| Sichtbare Arbeitsübernahme | stark | mittel | sehr stark |
+| Geringe tägliche Pflege | stark | gefährdet | stark bei guter Bündelung |
+| Sichtbare Notion-artige Freiheit | mittel; Tiefe auf Nachfrage | sehr stark | mittel; durch Strukturvorschläge |
+| Begründung und Unsicherheit | natürlich im Gespräch | tief erkundbar | präzise am Änderungssatz |
+| Korrektur und Befugnis | gut mit Änderungsvertrag | verständlich, aber verstreut | am klarsten |
+| Entwicklung über Zeit | verständliche Synthese | stärkste Exploration | handlungsorientierte Versuche |
+| Freude und persönliche Nähe | größtes Potenzial | Potenzial durch Entdecken | Risiko von Bürokratie |
+| Hauptrisiko | schöner Chat ohne Substanz | neue Systempflege | Freigabe-Posteingang |
+
+Keines der Konzepte darf seine Schwäche durch zusätzliche Navigationspunkte oder mehr Karten kompensieren.
+
+## Empfehlung der Software-Expertise
+
+**Konzept 1 — Briefing sollte die primäre Zusammenarbeit werden.** Es trifft Dennis' gewünschtes Gefühl am direktesten: Momentum kommt vorbereitet, erklärt Bedeutung und verlangt nur dort Beteiligung, wo eine Antwort die Lage verändert.
+
+Die Empfehlung ist keine reine Variante A. Zwei klar begrenzte Elemente der anderen Konzepte gehören dazu:
+
+1. Aus Konzept 3 übernimmt das Briefing den **Änderungsvertrag**: Vor einer wirksamen Änderung ist sichtbar, was sich ändert und was nicht.
+2. Aus Konzept 2 übernimmt es das **Studio auf Nachfrage**: Eigene Sammlungen, Beziehungen und Entwicklungszusammenhänge können tief bearbeitet werden, sind aber nicht die tägliche Startfläche.
+
+Die resultierende Leitform lautet:
+
+> **Briefing als Alltag, Änderungsvertrag für Vertrauen, Studio für Freiheit und Tiefe.**
+
+Das ist keine Vermischung aller Oberflächen. Die Rollen bleiben klar:
+
+- Standard: Momentum führt durch die aktuelle Lage.
+- Bei Entscheidung: ein begrenzter Änderungssatz wird bestätigt oder korrigiert.
+- Bei Gestaltung oder Analyse: Dennis öffnet bewusst den tieferen Arbeitsraum.
+
+## Vor K4 notwendige Auswahl
+
+Dennis muss nur entscheiden, ob diese empfohlene Leitform die richtige Richtung trifft oder welcher Grundmodus stattdessen dominieren soll:
+
+- **1 empfohlen:** Briefing als primärer Alltag, mit Änderungsvertrag und optionalem Studio;
+- **2:** Studio als primärer Denk- und Arbeitsraum;
+- **3:** Delegat mit gebündelten Freigaben als primärer Alltag;
+- **Korrektur:** keines trifft das gewünschte Gefühl; konkrete Rückmeldung ersetzt eine erzwungene Auswahl.
+
+Bis zu dieser Rückmeldung ist K3 **ausgearbeitet, aber nicht abgenommen**. K4 und App-Code beginnen nicht automatisch.

@@ -55,13 +55,17 @@ Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offe
 | V11 | Flexible Grundlage, fokussierte Oberfläche | Vorschlag | Wenige verständliche Grundbausteine ermöglichen eigene Strukturen, Eigenschaften, Beziehungen und Sichten. Gute Vorlagen und eine kuratierte Alltagsoberfläche verhindern, dass Dennis zuerst ein leeres System bauen muss. | Synthese aus D9, D15 und D16; [produktvision.md](produktvision.md) |
 | V12 | Assistenzzyklus | Vorschlag | Lage zusammenführen, entscheidende Lücke erkennen, Alternativen abwägen, begründet vorschlagen, nur mit Befugnis handeln und aus Korrektur sowie Ergebnis lernen. | Synthese aus D10–D16; [produktvision.md](produktvision.md) |
 | V13 | Begrenzte Kombination für Assistenz | Vorschlag | Eine transparente Fakten- und Berechnungsschicht wird mit einer austauschbaren kontextuellen Beurteilung kombiniert. Das ist nach K2 die tragfähigste Annahme für K3, aber noch keine Wahl von KI, Modell, Anbieter oder Technik. | Vergleich in K2; [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) |
+| V14 | K3 1 — Briefing | Vorschlag | Momentum eröffnet den Alltag mit einer vorbereiteten Einordnung, Empfehlung, Alternative und genau dem Entscheidungsmoment mit größter Auswirkung. Details und freie Strukturen liegen auf Nachfrage dahinter. | K3; [bedienkonzepte.md](bedienkonzepte.md) |
+| V15 | K3 2 — Studio | Vorschlag | Ein verbundener persönlicher Denkraum ist der Grundmodus. Dennis beginnt bei Gegenständen und Zusammenhängen; Momentum schlägt Strukturen, Bedeutungen und Sichten vor. | K3; [bedienkonzepte.md](bedienkonzepte.md) |
+| V16 | K3 3 — Delegat | Vorschlag | Momentum bereitet im erlaubten Leseraum gebündelte Entscheidungen und Änderungssätze vor. Dennis prüft nur bedeutende Freigaben, nicht alle zugrunde liegenden Daten. | K3; [bedienkonzepte.md](bedienkonzepte.md) |
+| V17 | Empfohlene Leitform | Vorschlag | Briefing als primärer Alltag, begrenzter Änderungsvertrag aus C für Vertrauen und Studio aus B nur auf Nachfrage für Freiheit und Tiefe. Die drei Rollen bleiben getrennt; es entsteht keine Oberfläche mit allen Elementen gleichzeitig. | Empfehlung der Software-Expertise in K3; [bedienkonzepte.md](bedienkonzepte.md) |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
 | O1 | Umsetzung des V1-Umfangs | offen | Der Produktnachweis ist mit D18 ausgewählt und in K2 konzeptionell unter Bedingungen als machbar bewertet. Bedienform, Architektur, ausführbare Prüfung und Implementierung folgen erst in K3–K5. |
-| O2 | Bedienkonzept | offen | A/B/C sind verworfen. Neue Konzepte müssen sich in Arbeitsteilung, Assistenz und Offenheit unterscheiden, nicht nur in Kartenanordnung. |
+| O2 | Bedienkonzept | offen | Die früheren A/B/C sind verworfen. In K3 stehen nun 1 Briefing, 2 Studio und 3 Delegat zur Auswahl; V17 ist die fachliche Empfehlung. Vor K4 braucht es Dennis' Auswahl oder konkrete Korrektur. |
 | O3 | Technik-Stack und Speicherung | offen | K4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
 | O5 | Spätere Assistentenbefugnisse | offen | Für V1 gilt D19. Ob spätere Versionen in gesetzten Rahmen selbst planen oder externe Aktionen ausführen dürfen, bleibt eine getrennte Entscheidung. |

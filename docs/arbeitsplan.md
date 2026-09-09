@@ -50,23 +50,19 @@ Keine App, produktive Integration oder kostenpflichtige Modellnutzung ist entsta
 
 ## K3 — Neue Assistenzkonzepte vergleichen
 
-Voraussetzung: K1 ausgewählt und Ergebnisse aus K2 berücksichtigt.
+Status: **Konzeptvergleich ausgearbeitet, Auswahl durch Dennis offen**
 
-Ziel: zwei bis drei wirklich unterschiedliche Arten der Zusammenarbeit zeigen. Nicht erneut dieselben Karten anders sortieren.
+In [bedienkonzepte.md](bedienkonzepte.md) sind drei unterschiedliche Grundmodi mit identischen K1-/K2-Fällen ausgearbeitet:
 
-Jedes Konzept zeigt:
+- **1 — Briefing:** Momentum eröffnet vorbereitet mit Einordnung, Empfehlung und genau dem relevanten Entscheidungsmoment.
+- **2 — Studio:** Dennis arbeitet in einem verbundenen persönlichen Denkraum; Momentum schlägt Beziehungen, Bedeutungen und Sichten vor.
+- **3 — Delegat:** Momentum bereitet im Hintergrund gebündelte Änderungssätze vor, die Dennis gezielt bestätigt oder korrigiert.
 
-- vorbereiteten Morgen;
-- gezielte Rückfrage und Neubewertung;
-- relevante Tagesänderung;
-- abendliche Synthese;
-- Entwicklung über Wochen;
-- nicht vorgebautes persönliches Thema;
-- Wiedereinstieg nach einer Pause.
+Die Empfehlung der Software-Expertise lautet: **Briefing als Alltag, Änderungsvertrag aus 3 für Vertrauen, Studio aus 2 nur auf Nachfrage für Freiheit und Tiefe.**
 
-Bewertet werden Arbeitsteilung, Entscheidungsqualität, Verständlichkeit, Freiheit, Pflegeaufwand und Freude an der Nutzung. Die Darstellung darf ein wegwerfbarer Entwurf sein und wählt keinen produktiven Stack.
+Alle Konzepte zeigen Morgen, Rückfrage, Tagesänderung, Abend, Entwicklung, freies Thema und Wiedereinstieg. Zusätzlich werden die K2-Kontraste harte Rückgabe, belanglose Stuhlfarbe und zurückgehaltene Rezeptideen verwendet. Kein produktiver Stack und keine endgültige Oberfläche sind gewählt.
 
-Ergebnis: Auswahl oder konkrete Korrektur durch Dennis.
+K3 ist erst abgeschlossen, wenn Dennis die Empfehlung, 2, 3 oder eine konkrete Korrektur auswählt.
 
 ## K4 — Technische Grundlage entscheiden
 
@@ -110,4 +106,4 @@ Wie bisher getrennt prüfen:
 
 ## Aktuelle Grenze
 
-K0, K1 und K2 sind abgeschlossen. **K3 ist der nächste mögliche Auftrag.** K4 und Implementierung sind nicht automatisch freigegeben.
+K0, K1 und K2 sind abgeschlossen. K3 ist ausgearbeitet und wartet auf Dennis' Auswahl. **K4 beginnt erst nach dieser Auswahl.** Implementierung ist nicht automatisch freigegeben.

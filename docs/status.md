@@ -6,11 +6,11 @@ Stand: 9. September 2026
 
 | Ebene | Stand |
 | --- | --- |
-| Abgeschlossener Schritt | **K2 — früher Machbarkeitscheck für Assistenz und Offenheit.** Keine App-Implementierung. |
-| Auftrag | Dennis hat K2 am 9. September 2026 ausdrücklich beauftragt. |
-| Prüfumfang | Zehn getrennte synthetische Varianten zu relevanten und belanglosen Änderungen, entscheidender Lücke, freier Struktur, Überlastung, Korrektur und Unbekannt. |
-| Ergebnis | V1 ist konzeptionell mit Bedingungen machbar. Freie Daten brauchen bestätigte Semantik; Fakten, Berechnungen, Zustände und Befugnisse brauchen eine verlässliche Grenze. |
-| Produktentscheidungen | D20 und D21 ergänzen semantische Brücke und Assistenzgrenze. KI, Anbieter, Technik und Bedienkonzept bleiben offen. |
+| Aktueller Schritt | **K3 — neue Assistenzkonzepte vergleichen.** Vergleich ausgearbeitet, Auswahl offen. |
+| Auftrag | Dennis hat K3 am 9. September 2026 ausdrücklich beauftragt. |
+| Konzepte | 1 „Briefing“, 2 „Studio“ und 3 „Delegat“ unterscheiden sich in Eröffnung, Arbeitsteilung, Korrektur und sichtbarer Freiheit. |
+| Empfehlung | Briefing als Alltag, Änderungsvertrag aus 3 für Vertrauen, Studio aus 2 auf Nachfrage für Freiheit und Tiefe. |
+| Produktentscheidung | Noch kein Konzept beschlossen. Vor K4 ist Dennis' Auswahl oder konkrete Korrektur erforderlich. |
 
 Die bisherige Empfehlung „A — Tag als Heimat“ bleibt zurückgezogen. Der ausgewählte V1-Nachweis ist ein Produktumfang, noch kein Bedienkonzept und keine Architektur.
 
@@ -25,6 +25,7 @@ Vorhanden sind:
 - verworfene Konzeptentwürfe ausschließlich in der Git-/PR-Historie;
 - ausgewählter und konzeptionell geprüfter V1-Nachweis;
 - dokumentierter K2-Trockenlauf, aber noch kein ausführbarer Assistenztest;
+- ausgearbeiteter K3-Konzeptvergleich mit interaktivem, wegwerfbarem Entwurf;
 - noch keine validierte Bedienrichtung.
 
 ## Aktuelle Quellenreihenfolge
@@ -41,7 +42,7 @@ Historische Beispiele oder frühere Vorschläge dürfen eine neuere Korrektur ni
 ## Offene Grenzen
 
 - **O1:** Der V1-Nachweis ist ausgewählt und konzeptionell mit Bedingungen machbar; ausführbare Qualität und spätere Umsetzung sind noch nicht belegt.
-- **O2:** Kein Bedienkonzept ist gewählt. A/B/C aus PR #5 sind verworfen.
+- **O2:** Briefing, Studio und Delegat sind verglichen; V17 ist empfohlen, aber noch nicht von Dennis ausgewählt. Die früheren A/B/C aus PR #5 bleiben verworfen.
 - **O3:** Technik-Stack, Offline-Verhalten und Speicherort sind offen.
 - **O4:** KI, Anbieter oder lokaler Betrieb, erlaubte Daten und Budget unter 50 Euro sind offen.
 - **O5:** Für V1 sind Analyse ohne Bestätigung, Datenänderung nach konkreter Bestätigung und keine externen Aktionen gewählt. Spätere Befugnisse bleiben offen.
@@ -61,9 +62,9 @@ Als synthetischer Prüffall dient „Arbeitsplatz verbessern“ mit „Stuhl-Kan
 
 ## Nächste inhaltliche Arbeit
 
-Vor Architektur oder App-Code folgt als nächster möglicher Auftrag **K3 — neue Assistenzkonzepte vergleichen**. Die Konzepte müssen die K2-Kontrastfälle und die verlässliche Grenze zwischen Fakten, kontextueller Beurteilung und bestätigter Änderung sichtbar tragen. Sie unterscheiden sich in Zusammenarbeit und Arbeitsübernahme, nicht nur in Anordnung.
+Der K3-Vergleich ist ausgearbeitet. Vor Architektur oder App-Code muss Dennis nur den dominierenden Grundmodus auswählen oder konkret korrigieren. Die fachliche Empfehlung V17 lautet: Briefing als Alltag, Änderungsvertrag für Vertrauen und Studio auf Nachfrage.
 
-K3 beginnt nicht automatisch durch den Abschluss von K2.
+Nach der Auswahl kann K3 abgeschlossen werden. K4 beginnt nicht automatisch durch die Ausarbeitung des Vergleichs.
 
 ## Abnahmeprotokoll
 
@@ -76,6 +77,7 @@ K3 beginnt nicht automatisch durch den Abschluss von K2.
 | Aktuelle Korrektur | vollständiger Chat, Repo-Dokumente und vier Screenshots gegen die ursprüngliche Vision geprüft | falsche Annahme identifiziert; Projektgedächtnis neu ausgerichtet |
 | K1 | V1-Nachweis, freie Struktur, Assistenzfluss, Datenumfang, Befugnisse und beobachtbare Abnahme | schmaler vertikaler Kern ausgewählt; keine Technik oder UI vorweggenommen |
 | K2 | zehn synthetische Kontrastfälle, drei Lösungsrichtungen, Mindestkontext und Pflegeaufwand | konzeptionell bestanden mit Bedingungen; reale Modell- und Bedienqualität ausdrücklich noch nicht geprüft |
+| K3, Vergleich | drei Arten der Zusammenarbeit gegen dieselben K1-/K2-Fälle ausgearbeitet | fachliche Empfehlung V17 vorhanden; persönliche Auswahl und Abnahme durch Dennis offen |
 
 Noch keine App-Abnahme und kein ausgewähltes Bedienkonzept.
 
