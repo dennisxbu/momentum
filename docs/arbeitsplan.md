@@ -50,7 +50,7 @@ Keine App, produktive Integration oder kostenpflichtige Modellnutzung ist entsta
 
 ## K3 — Neue Assistenzkonzepte vergleichen
 
-Status: **Konzeptvergleich ausgearbeitet, Auswahl durch Dennis offen**
+Status: **nach Dennis' Korrektur überarbeitet, Auswahl offen**
 
 In [bedienkonzepte.md](bedienkonzepte.md) sind drei unterschiedliche Grundmodi mit identischen K1-/K2-Fällen ausgearbeitet:
 
@@ -59,6 +59,8 @@ In [bedienkonzepte.md](bedienkonzepte.md) sind drei unterschiedliche Grundmodi m
 - **3 — Delegat:** Momentum bereitet im Hintergrund gebündelte Änderungssätze vor, die Dennis gezielt bestätigt oder korrigiert.
 
 Die Empfehlung der Software-Expertise lautet: **Briefing als Alltag, Änderungsvertrag aus 3 für Vertrauen, Studio aus 2 nur auf Nachfrage für Freiheit und Tiefe.**
+
+Dennis' Korrektur ergänzt zwei verbindliche Bedingungen: Die Zusammenarbeit folgt immer der verständlichen Folge **bekannt — Bedeutung — Vorschlag — Wirkung**. Smarter Kalender, Diätanalyse und spätere Fachfähigkeiten sind optionale, anpassbare Werkzeuge auf der gemeinsamen Grundlage, keine vorgeschriebenen Lebensbereiche oder V1-Zusagen.
 
 Alle Konzepte zeigen Morgen, Rückfrage, Tagesänderung, Abend, Entwicklung, freies Thema und Wiedereinstieg. Zusätzlich werden die K2-Kontraste harte Rückgabe, belanglose Stuhlfarbe und zurückgehaltene Rezeptideen verwendet. Kein produktiver Stack und keine endgültige Oberfläche sind gewählt.
 

@@ -24,6 +24,17 @@ Dennis soll beim Öffnen nicht denken: „Welche Felder muss ich heute ausfülle
 
 Die Nutzung darf Freude machen und Tiefe besitzen. „Wenig Pflegeaufwand“ allein wäre ebenso unzureichend wie eine schöne Oberfläche ohne tragfähige Unterstützung.
 
+## Verständlichkeit ist Produktfunktion
+
+Momentum darf nicht nur richtige oder nützliche Ergebnisse liefern. Dennis muss jederzeit ohne Fachwissen nachvollziehen können:
+
+1. **Was weiß Momentum — und was nicht?** Angaben, Beobachtungen, Annahmen und Lücken bleiben unterscheidbar.
+2. **Warum ist das gerade relevant?** Ein Vorschlag zeigt den Zusammenhang mit der aktuellen Absicht oder Lage.
+3. **Was empfiehlt Momentum?** Empfehlung, sinnvolle Alternative und Unsicherheit werden in einer ruhigen Standardsicht verständlich.
+4. **Was würde sich dadurch ändern?** Vor einer wirksamen Änderung ist der betroffene Teil sichtbar; alles andere bleibt erkennbar unberührt.
+
+Details sollen auf Nachfrage erreichbar sein, nicht den Einstieg überladen. Die Oberfläche darf jedoch nie zur Blackbox werden. Aus „Ich verstehe, was hier passiert“ soll das begründete Gefühl entstehen: **„Das bringt mich weiter.“** Dafür muss jede wiederkehrende Eingabe oder Handlung einen sichtbaren späteren Nutzen haben; reine Datenpflege ohne erkennbaren Beitrag ist ein Produktfehler.
+
 ## Arbeitsteilung zwischen Dennis und App
 
 | Die App soll möglichst übernehmen | Bei Dennis bleibt |
@@ -56,6 +67,14 @@ Als mögliche Übersetzung, noch keine gewählte Architektur:
 - gute Vorlagen, die sofort funktionieren und verändert werden können.
 
 Freiheit darf nicht bedeuten, dass Dennis zuerst ein leeres System bauen und dauerhaft administrieren muss. Leitidee: **Orientierung als Standard, Freiheit auf Nachfrage.**
+
+### Werkzeuge statt fest verdrahteter Lebensbereiche
+
+Ein smarter Kalender oder ein Werkzeug zum Erfassen und Analysieren einer Diät sind gewünschte Beispiele für starke spätere Fähigkeiten — aber keine verpflichtenden Hauptbereiche, die Momentum jedem Nutzerablauf aufzwingt.
+
+Solche Werkzeuge sollen auf derselben flexiblen Grundlage aufsetzen und sich aktivieren, anpassen, verschieben, ausblenden, pausieren oder gar nicht verwenden lassen. Gute Vorlagen und fachlich sinnvolle Voreinstellungen dürfen sofort Nutzen liefern. Innerhalb eines aktivierten Werkzeugs sind überprüfbare Spezialberechnungen ausdrücklich sinnvoll. Weder das Werkzeug selbst noch seine vorgegebenen Ziele, Abläufe oder täglichen Eingaben dürfen jedoch den Rest der App bestimmen.
+
+Der Assistent verwendet Daten eines Werkzeugs nur, wenn es aktiviert ist, die Information für die aktuelle Absicht relevant ist und ihre Bedeutung bestätigt wurde. Kalender und Diätanalyse sind damit mögliche **Werkzeuge im persönlichen System**, nicht das persönliche System selbst. Diese Einordnung ist noch keine Zusage, beide bereits in Version 1 zu bauen.
 
 Der [Machbarkeitscheck K2](machbarkeitscheck-k2.md) ergänzt eine Sicherheitsgrenze: Eine frei benannte Zahl oder ein Datum wird nicht automatisch zur Priorität, Frist oder Aufgabe. Soll eine eigene Eigenschaft Empfehlungen beeinflussen, müssen ihre Bedeutung und ihr Bezug zu einer aktiven Absicht bestätigt sein. Die App darf diese Zuordnung verständlich vorschlagen.
 

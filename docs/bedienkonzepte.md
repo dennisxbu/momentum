@@ -1,6 +1,6 @@
 # K3 — Assistenzkonzepte vergleichen
 
-Stand: 9. September 2026 · **Konzeptvergleich ausgearbeitet, Auswahl durch Dennis offen**
+Stand: 9. September 2026 · **nach Dennis' Korrektur überarbeitet, Auswahl offen**
 
 ## Auftrag und Grenze
 
@@ -29,6 +29,28 @@ Alle drei Konzepte müssen mit denselben Informationen umgehen:
 - Entwicklung über mehrere Beobachtungen und Wiedereinstieg nach einer Pause.
 
 Die Konzepte unterscheiden sich nur in der Zusammenarbeit, nicht durch bequem ausgewählte Testdaten.
+
+## Verbindliche Bediengrammatik
+
+Unabhängig vom gewählten Grundmodus muss Dennis jederzeit vier Dinge verstehen können:
+
+1. **Bekannt:** Welche Angaben und Beobachtungen verwendet Momentum, was ist unsicher oder fehlt?
+2. **Bedeutung:** Welcher Zusammenhang macht das für die aktuelle Lage oder Absicht relevant?
+3. **Vorschlag:** Was empfiehlt Momentum, welche Alternative ist ernsthaft möglich und wo liegt die Grenze der Beurteilung?
+4. **Wirkung:** Was würde sich nach einer Bestätigung konkret ändern — und was ausdrücklich nicht?
+
+Die Standardsicht bleibt ruhig und verständlich; Herkunft, Begründung und Änderungsumfang sind unmittelbar vertiefbar. Momentum sortiert Pläne nicht heimlich um und macht aus einer plausiblen Erklärung keine undurchsichtige Autorität. Dieses wiederkehrende Muster soll das Gefühl tragen: **„Ich verstehe, was hier passiert — und warum es mich weiterbringt.“**
+
+## Werkzeuge im Konzept
+
+Kalender, Diätanalyse und spätere Fachfähigkeiten sind **optionale Werkzeuge auf der gemeinsamen Grundlage**, keine fest eingebauten Lebensbereiche:
+
+- Ein smarter Kalender kann Termine, Zeitkonflikte und Planungsmöglichkeiten als aktivierte Linse einbringen. Dennis kann ihn ausblenden, anders anordnen, pausieren oder nicht verwenden.
+- Ein Diätwerkzeug kann frei gewählte Größen erfassen und fachlich sauber analysieren. Dennis bestimmt Zweck, Werte, Einheiten und Rhythmus; es gibt keine Pflicht zu einer vorgegebenen Diät, täglichen Eingabe oder dauerhaften Nutzung.
+- Aktivierte Werkzeuge können im Briefing auftauchen, wenn sie gerade relevant sind. Konfiguration und tiefere Analyse liegen im Studio. Jede wirksame Änderung folgt dem Änderungsvertrag.
+- Optional bedeutet nicht oberflächlich: Ein Werkzeug darf starke Vorlagen und überprüfbare Speziallogik besitzen. Es darf nur nicht den flexiblen Kern oder andere Arbeitsweisen einschränken.
+
+Ob und wann Kalender oder Diätanalyse in den Umsetzungsumfang kommen, wird damit noch nicht entschieden.
 
 ---
 
@@ -62,6 +84,7 @@ Momentum kommt wie ein sehr guter persönlicher Berater vorbereitet auf Dennis z
 - Am stärksten auf das gewünschte Assistentengefühl ausgerichtet.
 - Sehr geringe tägliche Bedienlast; die App übernimmt Auswahl und Verdichtung.
 - Gründe, Unsicherheit und Korrektur können genau am Vorschlag erscheinen.
+- Die feste Bediengrammatik macht jederzeit verständlich, was Momentum weiß, warum es etwas empfiehlt und was sich ändern würde.
 - Eignet sich gut für Morgen, Abend und Wiedereinstieg.
 - Die ruhige Hauptfläche verhindert eine erneute Karten- und Statuswand.
 
@@ -73,7 +96,7 @@ Momentum kommt wie ein sehr guter persönlicher Berater vorbereitet auf Dennis z
 
 ### Bedingung für Tragfähigkeit
 
-Das Briefing braucht neben Sprache einen klaren **Änderungsvertrag**: verwendete Fakten, offene Annahmen und die vorgeschlagene Änderung sind auf Nachfrage sichtbar; nur der bestätigte Teil wird wirksam.
+Das Briefing braucht neben Sprache einen klaren **Änderungsvertrag**: verwendete Fakten, Bedeutung, offene Annahmen und die vorgeschlagene Änderung sind unmittelbar vertiefbar; nur der bestätigte Teil wird wirksam. Optionale Werkzeuge dürfen darin nur erscheinen, wenn ihr Beitrag für die aktuelle Lage erkennbar ist.
 
 ---
 
@@ -178,6 +201,8 @@ Momentum muss Entscheidungen stark bündeln und in menschlicher Bedeutung erklä
 | Begründung und Unsicherheit | natürlich im Gespräch | tief erkundbar | präzise am Änderungssatz |
 | Korrektur und Befugnis | gut mit Änderungsvertrag | verständlich, aber verstreut | am klarsten |
 | Entwicklung über Zeit | verständliche Synthese | stärkste Exploration | handlungsorientierte Versuche |
+| Optionale Fachwerkzeuge | relevant im Briefing, anpassbar im Studio | am tiefsten gestaltbar | als gebündelter Werkzeugvorschlag |
+| „Ich verstehe, was passiert“ | sehr stark mit Bediengrammatik | stark bei guter Führung | stark bei menschlicher Erklärung |
 | Freude und persönliche Nähe | größtes Potenzial | Potenzial durch Entdecken | Risiko von Bürokratie |
 | Hauptrisiko | schöner Chat ohne Substanz | neue Systempflege | Freigabe-Posteingang |
 
@@ -185,28 +210,30 @@ Keines der Konzepte darf seine Schwäche durch zusätzliche Navigationspunkte od
 
 ## Empfehlung der Software-Expertise
 
-**Konzept 1 — Briefing sollte die primäre Zusammenarbeit werden.** Es trifft Dennis' gewünschtes Gefühl am direktesten: Momentum kommt vorbereitet, erklärt Bedeutung und verlangt nur dort Beteiligung, wo eine Antwort die Lage verändert.
+**Konzept 1 — Briefing sollte die primäre Zusammenarbeit werden.** Es trifft Dennis' gewünschtes Gefühl am direktesten: Momentum kommt vorbereitet, erklärt Bedeutung und verlangt nur dort Beteiligung, wo eine Antwort die Lage verändert. Die verbindliche Bediengrammatik verhindert dabei, dass Verdichtung zur Blackbox wird.
 
 Die Empfehlung ist keine reine Variante A. Zwei klar begrenzte Elemente der anderen Konzepte gehören dazu:
 
 1. Aus Konzept 3 übernimmt das Briefing den **Änderungsvertrag**: Vor einer wirksamen Änderung ist sichtbar, was sich ändert und was nicht.
 2. Aus Konzept 2 übernimmt es das **Studio auf Nachfrage**: Eigene Sammlungen, Beziehungen und Entwicklungszusammenhänge können tief bearbeitet werden, sind aber nicht die tägliche Startfläche.
+3. Fachfähigkeiten wie ein smarter Kalender oder eine Diätanalyse erscheinen als **optionale, anpassbare Werkzeuge** auf derselben Grundlage — nicht als verpflichtende App-Bereiche.
 
 Die resultierende Leitform lautet:
 
-> **Briefing als Alltag, Änderungsvertrag für Vertrauen, Studio für Freiheit und Tiefe.**
+> **Verständliches Briefing als Alltag, Änderungsvertrag für Vertrauen, Studio und optionale Werkzeuge für Freiheit und Tiefe.**
 
 Das ist keine Vermischung aller Oberflächen. Die Rollen bleiben klar:
 
 - Standard: Momentum führt durch die aktuelle Lage.
 - Bei Entscheidung: ein begrenzter Änderungssatz wird bestätigt oder korrigiert.
 - Bei Gestaltung oder Analyse: Dennis öffnet bewusst den tieferen Arbeitsraum.
+- Bei Fachbedarf: Dennis aktiviert ein passendes Werkzeug, verändert oder pausiert es, ohne sein übriges System umbauen zu müssen.
 
 ## Vor K4 notwendige Auswahl
 
-Dennis muss nur entscheiden, ob diese empfohlene Leitform die richtige Richtung trifft oder welcher Grundmodus stattdessen dominieren soll:
+Dennis muss nur entscheiden, ob diese nach seiner Korrektur überarbeitete Leitform die richtige Richtung trifft oder welcher Grundmodus stattdessen dominieren soll:
 
-- **1 empfohlen:** Briefing als primärer Alltag, mit Änderungsvertrag und optionalem Studio;
+- **1 empfohlen:** verständliches Briefing als primärer Alltag, mit Änderungsvertrag, optionalem Studio und optionalen Werkzeugen;
 - **2:** Studio als primärer Denk- und Arbeitsraum;
 - **3:** Delegat mit gebündelten Freigaben als primärer Alltag;
 - **Korrektur:** keines trifft das gewünschte Gefühl; konkrete Rückmeldung ersetzt eine erzwungene Auswahl.

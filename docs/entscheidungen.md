@@ -35,6 +35,8 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D19 | Befugnisse und Datenquellen in V1 | beschlossen | Die App darf intern analysieren und Vorschläge vorbereiten. Nutzerdaten oder geltende Pläne ändert sie nur aufgrund einer konkreten Aussage oder Bestätigung. Externe Aktionen sind ausgeschlossen. Der V1-Nachweis verwendet lokal angelegte beziehungsweise synthetische Daten und keine externen Kontenanbindungen. | K1; [umfang-v1.md](umfang-v1.md) |
 | D20 | Semantische Brücke für freie Daten | beschlossen | Eine freie Eigenschaft beeinflusst Empfehlungen erst, wenn ihre Bedeutung und ihr Bezug zu einer aktiven Absicht bestätigt sind. Ein Datums- oder Zahlenfeld erzeugt allein keine Frist, Priorität oder Handlung. Die App darf eine Interpretation vorschlagen, aber nicht stillschweigend als Tatsache behandeln. | Ergebnis K2; [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) |
 | D21 | Verlässliche Assistenzgrenze | beschlossen | Faktenherkunft, Zustand, Einheiten, Zeitkonflikte und Schreibbefugnisse werden unabhängig von einer möglichen kontextuellen Komponente transparent geprüft. Eine generative oder anderweitig kontextuelle Komponente erhält keine direkte Schreibbefugnis. | Ergebnis K2; [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) |
+| D22 | Verständlichkeit erzeugt Nutzengefühl | Fakt | Dennis möchte jederzeit intuitiv verstehen, was Momentum weiß, warum etwas relevant ist, was es empfiehlt und was sich dadurch ändern würde. Aus „Ich verstehe, was hier passiert“ soll das Gefühl entstehen: „Das bringt mich weiter.“ | Direkte Präzisierung Dennis 9.9.2026 |
+| D23 | Fachfähigkeiten sind optionale Werkzeuge | Fakt | Ein smarter Kalender und ein Werkzeug zum Erfassen und Analysieren einer Diät sind gewünschte Beispiele, aber keine verpflichtenden, fest verdrahteten Lebensbereiche. Solche Werkzeuge müssen veränderbar, verschiebbar, pausierbar und vollständig weglassbar sein. | Direkte Präzisierung Dennis 9.9.2026 |
 
 Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offen. D18 wählt einen begrenzten Produktnachweis, keine vollständige Notion-Funktionsliste.
 
@@ -58,21 +60,22 @@ Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offe
 | V14 | K3 1 — Briefing | Vorschlag | Momentum eröffnet den Alltag mit einer vorbereiteten Einordnung, Empfehlung, Alternative und genau dem Entscheidungsmoment mit größter Auswirkung. Details und freie Strukturen liegen auf Nachfrage dahinter. | K3; [bedienkonzepte.md](bedienkonzepte.md) |
 | V15 | K3 2 — Studio | Vorschlag | Ein verbundener persönlicher Denkraum ist der Grundmodus. Dennis beginnt bei Gegenständen und Zusammenhängen; Momentum schlägt Strukturen, Bedeutungen und Sichten vor. | K3; [bedienkonzepte.md](bedienkonzepte.md) |
 | V16 | K3 3 — Delegat | Vorschlag | Momentum bereitet im erlaubten Leseraum gebündelte Entscheidungen und Änderungssätze vor. Dennis prüft nur bedeutende Freigaben, nicht alle zugrunde liegenden Daten. | K3; [bedienkonzepte.md](bedienkonzepte.md) |
-| V17 | Empfohlene Leitform | Vorschlag | Briefing als primärer Alltag, begrenzter Änderungsvertrag aus C für Vertrauen und Studio aus B nur auf Nachfrage für Freiheit und Tiefe. Die drei Rollen bleiben getrennt; es entsteht keine Oberfläche mit allen Elementen gleichzeitig. | Empfehlung der Software-Expertise in K3; [bedienkonzepte.md](bedienkonzepte.md) |
+| V17 | Empfohlene Leitform | Vorschlag | Verständliches Briefing als primärer Alltag, begrenzter Änderungsvertrag aus Konzept 3 für Vertrauen sowie Studio aus Konzept 2 und optionale Werkzeuge nur auf Nachfrage für Freiheit und Tiefe. Die Rollen bleiben getrennt; es entsteht keine Oberfläche mit allen Elementen gleichzeitig. | Empfehlung der Software-Expertise in K3; [bedienkonzepte.md](bedienkonzepte.md) |
+| V18 | Werkzeugmodell | Vorschlag | Fachfähigkeiten liegen als aktivierbare und anpassbare Werkzeuge beziehungsweise Vorlagen auf der gemeinsamen flexiblen Grundlage. Sie dürfen starke Voreinstellungen und überprüfbare Speziallogik haben, erzwingen aber weder Ziele noch Abläufe oder tägliche Eingaben. | Synthese aus D9, D16, D22 und D23; K3-Korrektur |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
 | O1 | Umsetzung des V1-Umfangs | offen | Der Produktnachweis ist mit D18 ausgewählt und in K2 konzeptionell unter Bedingungen als machbar bewertet. Bedienform, Architektur, ausführbare Prüfung und Implementierung folgen erst in K3–K5. |
-| O2 | Bedienkonzept | offen | Die früheren A/B/C sind verworfen. In K3 stehen nun 1 Briefing, 2 Studio und 3 Delegat zur Auswahl; V17 ist die fachliche Empfehlung. Vor K4 braucht es Dennis' Auswahl oder konkrete Korrektur. |
+| O2 | Bedienkonzept | offen | Die früheren A/B/C sind verworfen. Die K3-Leitform wurde um die verbindliche Bediengrammatik und optionale Werkzeuge korrigiert; V17 bleibt die fachliche Empfehlung. Vor K4 braucht es Dennis' Auswahl oder weitere konkrete Korrektur. |
 | O3 | Technik-Stack und Speicherung | offen | K4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
 | O5 | Spätere Assistentenbefugnisse | offen | Für V1 gilt D19. Ob spätere Versionen in gesetzten Rahmen selbst planen oder externe Aktionen ausführen dürfen, bleibt eine getrennte Entscheidung. |
 | O6 | Langfristige Konfigurierbarkeit | offen | Für V1 sind Sammlung, fünf Eigenschaftsformen, Beziehung und konkrete Sicht gewählt. Welche weiteren Bausteine oder Abläufe langfristig ohne Code veränderbar werden, bleibt offen. |
-| O7 | Diät und Training | offen | Frage 2: welche Hilfe und welche Informationen Dennis beitragen möchte. Nicht auf tägliche Ernährung vs. nur Training reduziert. |
+| O7 | Diät und Training | offen | Eine Diätanalyse ist als mögliches optionales Werkzeug gewünscht. Welche Daten, Auswertungen, fachlichen Grenzen und welcher Umsetzungszeitpunkt sinnvoll sind, ist noch nicht entschieden. |
 | O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
-| O9 | Spätere Herkunft von Terminen | offen | Im V1-Nachweis sind Termine lokal angelegt. Welche echte Quelle oder Integration später Pflegeaufwand reduziert, bleibt offen. |
+| O9 | Smarter Kalender und Terminquellen | offen | Ein smarter Kalender ist als mögliches optionales Werkzeug gewünscht. Funktionsumfang, echte Quellen oder Integrationen und Umsetzungszeitpunkt bleiben offen; im V1-Nachweis sind Termine lokal angelegt. |
 | O10 | Form beruflicher Entwicklung | offen | Frage 5: welche Formen und Zeitpunkte möglich sein sollen; nicht nur tägliche Aufgaben oder Warten auf einen Anlass. |
 | O11 | Erweiterung des Freiheits-Nachweises | offen | K2 begründet keine zusätzlichen Eigenschaftsformen für V1, verlangt aber D20. Weitergehende Formen und Beziehungen bleiben eine spätere Entscheidung. |
 

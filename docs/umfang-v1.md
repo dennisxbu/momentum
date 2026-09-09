@@ -193,6 +193,8 @@ Der abgeschlossene [Machbarkeitscheck K2](machbarkeitscheck-k2.md) begrenzt dies
 
 Diese Abgrenzung verhindert nicht, dass notwendige Grundinformationen im vertikalen Test vorkommen. Sie verhindert, dass vor dem bewiesenen Assistenzkern ein breiter Tracker-Unterbau gebaut wird.
 
+Ein smarter Kalender und eine Diätanalyse sind damit nicht verworfen. Sie sind mögliche spätere, optionale Werkzeuge auf derselben flexiblen Grundlage. Ihre Erwähnung erweitert den beschlossenen V1-Kern nicht und macht sie weder zu Pflichtbereichen noch zu versteckten Vorbedingungen der App.
+
 ## Folgen für die nächsten Schritte
 
 - K2 hat mit synthetischen Fällen den vertretbaren Datenbedarf, Stabilität und ehrliche Grenzen des Kreislaufs bestimmt.
