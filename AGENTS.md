@@ -6,9 +6,9 @@ GitHub (`https://github.com/dennisxbu/momentum`) ist die Codeablage und das Proj
 
 ## Auftrag
 
-Persönliche Windows-App für Dennis. Ziel ist eine anhand vereinbarter Kriterien geprüfte erste Version für den eigenen Windows-Alltag. Die langfristige Vision ist damit nicht abgeschlossen.
+Persönlicher, flexibel anpassbarer Windows-Assistent für Dennis. Ziel ist eine anhand vereinbarter Kriterien geprüfte erste Version für den eigenen Windows-Alltag. Die langfristige Vision ist damit nicht abgeschlossen.
 
-Die Arbeitsnotiz unter `docs/context/` ist Kontext, kein Pflichtenheft und kein Auftrag, sofort die vollständige Software zu bauen. Die Arbeitsschritte stehen in `docs/context/Cursor_Prompts_App_Entwicklung.md`. Jeweils nur der ausdrücklich beauftragte Schritt.
+Die Arbeitsnotiz und die ursprüngliche Prompt-Sammlung unter `docs/context/` sind historischer Kontext, kein Pflichtenheft und kein Auftrag, sofort die vollständige Software zu bauen. Der nach der Grundkorrektur gültige Ablauf steht in `docs/arbeitsplan.md`. Jeweils nur der ausdrücklich beauftragte Abschnitt.
 
 ## Verbindliche Arbeitsweise
 
@@ -22,6 +22,9 @@ Die Arbeitsnotiz unter `docs/context/` ist Kontext, kein Pflichtenheft und kein 
 
 ## Produktleitplanken
 
+- Die App soll sich wie ein hochgradig hilfreicher Assistent anfühlen, der Lage, Alternativen und Entwicklungen vorbereitet und Arbeit abnimmt. Eine Karten-, Status- oder Checkbox-Oberfläche mit einem Vorschlagstext erfüllt das nicht.
+- „Notion-Stil“ bezeichnet Freiheit der abbildbaren Gedanken, Eigenschaften und Zusammenhänge, abgespeckt und fokussiert. Es ist weder ein Auftrag zur Notion-Kopie noch zu einer leeren No-Code-Baufläche. Orientierung als Standard, Freiheit auf Nachfrage.
+- Studium, Diät/Training, berufliche Entwicklung und Alltag sind aktuelle Beispiele, keine fest verdrahteten Produktmodule. Ein neuer persönlicher Anwendungsfall darf nicht grundsätzlich eine neue Sonderarchitektur benötigen.
 - Hochwertige, intuitive, modular veränderbare Windows-App für den privaten Alltag. Benutzung soll Freude machen; geringer Pflegeaufwand allein erfüllt die Vision nicht. Das iPhone ist eine Referenz für Klarheit der Bedienung, keine Aufforderung zu einer iOS-Kopie.
 - Schutz vor Druck ist kein Verbot erfreulicher oder motivierender Rückmeldung. Keine Pflicht zu Gamification, Motivationssprüchen oder bestimmten Animationen.
 - Windows ist die Zielplattform. Daraus folgt kein Auftrag für mobile Entwicklung und kein endgültiges Verbot einer späteren mobilen Begleitung.
@@ -47,8 +50,11 @@ Vorhandene gleichwertige Dateien weiterverwenden, statt widersprüchliche Doppel
 
 - [docs/status.md](docs/status.md) — aktueller Schritt, vorhandene Funktionen, offene Grenzen, nächste Entscheidung, Umfang Version 1, Abnahmeprotokoll
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Status, Begründung, Grundlage; Vorschlag und Zustimmung getrennt
-- [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — vorgeschlagenes Nutzungskonzept (Schritt 1)
-- [docs/umfang-v1.md](docs/umfang-v1.md) — vorgeschlagener Umfang Version 1 (Schritt 2)
+- [docs/produktvision.md](docs/produktvision.md) — aktuelle Nordrichtung und Bedeutung von Assistenz sowie Notion-artiger Freiheit
+- [docs/arbeitsplan.md](docs/arbeitsplan.md) — aktueller Ablauf und Freigabegrenzen
+- [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — Alltagsszenarien mit der aktuellen Grundkorrektur
+- [docs/umfang-v1.md](docs/umfang-v1.md) — korrigierter Auswahlrahmen, noch kein Beschluss
+- [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — verworfener erster Versuch und Kriterien für einen neuen Vergleich
 - [docs/context/](docs/context/) — Arbeitsnotiz, Prompt-Sammlung, ursprüngliche Momentaufnahmen
 - [.cursor/rules/](.cursor/rules/) — kurze, immer geltende Agent-Regeln
 
@@ -64,4 +70,4 @@ Danach stoppen. Die App nie als fertig darstellen, solange die vereinbarte Abnah
 
 ## Aktuell nicht tun
 
-Keine App-Dateien, kein Framework, keine Installation, keine UI, keine Datenbank und keine KI-Integration, solange der beauftragte Schritt das nicht ausdrücklich enthält.
+Keine App-Dateien, kein Framework, keine Installation, keine produktive UI, keine Datenbank und keine KI-Integration, solange der beauftragte Schritt das nicht ausdrücklich enthält. Insbesondere keine Architektur auf den verworfenen Konzepten A/B/C aufbauen.

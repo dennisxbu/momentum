@@ -8,6 +8,8 @@ alwaysApply: true
 - Nur den ausdrücklich beauftragten Schritt ausführen, einschließlich Prüfung. Keinen nächsten Schritt als Bonus beginnen.
 - In der Arbeitsnotiz unterscheiden: Nutzeranforderung, Vorschlag, Beispiel, Forschungsgrundlage, Offen. Vorschläge nicht als Beschluss behandeln. Git-Merge ist keine Zustimmung zu jeder Formulierung. „Nicht beschlossen“ ist kein Verbot.
 - Direkte Korrekturen von Dennis haben Vorrang vor vorhandenem Code.
+- Aktuelle Nordrichtung: hochgradig hilfreicher Assistent statt Karten-/Checkbox-Verwaltung. Sichtbare Arbeitsübernahme, Abwägung, gezielte Rückfragen und Folgen von Korrekturen sind zentral.
+- Notion-artige Freiheit bedeutet eigene Strukturen und Zusammenhänge bei fokussierter Standardnutzung; keine Notion-Kopie und kein leerer No-Code-Baukasten. A/B/C aus PR #5 sind verworfen.
 - Hochwertige, erfreuliche Nutzung gehört zur Vision; geringer Pflegeaufwand allein reicht nicht. Schutz vor Druck verbietet keine motivierende Rückmeldung.
 - Keine Extra-Features, Frameworks, Cloud-Dienste oder KI außerhalb des aktuellen Schritts.
 - Synthetische Daten für Entwicklung und Demos. Fehlende Daten heißen unbekannt.

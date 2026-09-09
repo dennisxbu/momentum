@@ -1,8 +1,14 @@
-# Cursor-Prompts: Schrittweise zur persönlichen Windows-App
+# Cursor-Prompts: ursprüngliche Schrittfolge zur persönlichen Windows-App
 
-Version 1.0 · 7. September 2026
+Version 1.0 · 7. September 2026 · historischer Plan seit der Korrektur vom 9. September 2026
 
-Dieses Dokument ist eine Anleitung für die Zusammenarbeit mit Cursor. Es enthält einen Initialprompt und einzeln ausführbare Arbeitsschritte. Grundlage ist die Arbeitsnotiz zur App-Vision. Die hier vorgeschlagene Reihenfolge ist ein Entwicklungsplan, keine nachträgliche Erklärung, dass alle darin genannten Produktentscheidungen bereits gefallen seien.
+Dieses Dokument war die ursprüngliche Anleitung für die Zusammenarbeit mit Cursor. Es enthält einen Initialprompt und einzeln ausführbare Arbeitsschritte. Grundlage war die erste Arbeitsnotiz zur App-Vision.
+
+## Aktueller Korrekturvermerk
+
+Dennis hat am 9. September 2026 die aus dieser Folge entstandenen Bedienkonzepte A/B/C als falsche Grundrichtung zurückgewiesen: zu viel Karten-, Status- und Checkbox-Verwaltung, zu wenig hochgradige Assistenz. Außerdem hat er „Notion-Stil“ als Freiheit der abbildbaren Gedanken und Zusammenhänge präzisiert — abgespeckt, fokussiert und ohne Notion-Kopie.
+
+Deshalb darf diese Folge **nicht mechanisch ab Schritt 3 fortgesetzt werden**. Aktuell gelten [../produktvision.md](../produktvision.md), [../umfang-v1.md](../umfang-v1.md), [../bedienkonzepte.md](../bedienkonzepte.md) und vor allem der neue [../arbeitsplan.md](../arbeitsplan.md). Die ursprünglichen Prompts bleiben nachvollziehbar, weil sie weiterhin nützliche Sicherheits-, Daten- und Abnahmegedanken enthalten.
 
 ## So verwendest du die Prompts
 

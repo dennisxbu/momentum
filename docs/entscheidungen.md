@@ -4,7 +4,7 @@ Vorschlag und Zustimmung bleiben getrennt. Eine Idee aus der Arbeitsnotiz oder a
 
 Eine Zusammenführung in Git ist keine automatische Zustimmung zu jeder Produktannahme in den zusammengeführten Dateien.
 
-Legende: **beschlossen** · **Fakt** (von Dennis genannt, keine fertige Umsetzung) · **Vorschlag** · **offen**
+Legende: **beschlossen** · **Fakt** (von Dennis genannt, keine fertige Umsetzung) · **Vorschlag** · **überholt** · **offen**
 
 „Offen“ und „nicht beschlossen“ sind keine dauerhaften Verbote.
 
@@ -28,8 +28,11 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D12 | Wissenschaftlich begründete Prozesse | Fakt | Tools und Prozesse sollen einen klaren wissenschaftlichen oder psychologischen Ansatz haben, auf Dennis abgestimmt, als investierte Zeit. Die Wirkung *dieser* App ist nicht bewiesen. | Original 2 |
 | D13 | Ausgelassene Reflexion | Fakt | Eine ausgelassene Reflexion löscht keine vorhandenen Informationen und beweist keine unterlassene Aktivität. Unbekannt bleibt unbekannt. | Korrektur Dennis 8.9.2026 |
 | D14 | Offenheit für Motivation | Fakt | Grundsätzlich nichts gegen Motivationssprüche; Ablehnung gilt einer billigen App ohne Substanz. Keine Pflicht zu Gamification, Sprüchen oder Animationen. | Original 2; Korrektur 8.9.2026 |
+| D15 | Assistenz statt Verwaltungsoberfläche | Fakt | Momentum soll sich wie ein hochgradig hilfreicher persönlicher Assistent anfühlen, der Denk-, Ordnungs- und Auswertungsarbeit übernimmt. Eine App, in der Dennis hauptsächlich Karten liest, Checkboxen anklickt und Zustände pflegt, verfehlt die Richtung. | Direkte Korrektur Dennis 9.9.2026; vier Screenshots aus Schritt 3 |
+| D16 | Notion-artige Freiheit | Fakt | Dennis will weg von starren, fest programmierten Zielen und Strukturen. „Notion-Stil“ beschreibt die Freiheit, grundsätzlich sehr unterschiedliche eigene Gedanken und Zusammenhänge abbilden zu können — abgespeckt, fokussiert und nicht als Notion-Kopie. | Direkte Präzisierung Dennis 9.9.2026; ursprüngliche Aussagen zu wenig Hardcoding |
+| D17 | Bedienkonzepte A/B/C verworfen | Fakt | Die Konzepte aus PR #5 sind keine auswählbaren Produktgrundlagen mehr. Das gemeinsame Karten-/Statusmodell und die dünne Assistenz gehen in die falsche Richtung; Empfehlung A ist zurückgezogen. | Direkte Bewertung Dennis 9.9.2026 |
 
-Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange Dennis V9 nicht ausgewählt hat.
+Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen. D15 und D16 sind Leitplanken, aber keine bereits gewählte Oberfläche, Datenarchitektur oder Notion-Funktionsliste.
 
 ## Vorschläge (nicht beschlossen)
 
@@ -42,23 +45,26 @@ Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen (O1), solange 
 | V5 | Bausteine | Vorschlag | Ziele, Projekte/Aufgaben, Routinen, Messwerte, Notizen, Ansichten. | Assistenz |
 | V6 | Nutzungskonzept | Vorschlag | Tagesorientierung plus Prüfszenarien (Überlastung, Wiedereinstieg, Zielverlauf, Zieländerung). Die Verständnishilfe zu Arten von Dingen ist kein Datenmodell. | Schritt 1; [nutzungskonzept.md](nutzungskonzept.md) |
 | V7 | Ausgestaltung des Tages | Vorschlag | Bestimmtes Tagesmodell; Vermeiden einer Schulnote für den ganzen Tag. Kein Verbot erfreulicher Rückmeldung. | Schritt 1; nicht mit D8–D12 verwechseln |
-| V8 | Früher Machbarkeitscheck | Vorschlag | Nach Auswahl des V1-Umfangs und vor verbindlicher Architektur (Schritt 4); Schritt 3 darf parallel laufen. Eigener Auftrag, nicht ausgeführt. Klärt Datenbedarf, erreichbare Qualität, Folgen für den Umfang. Negativ: begrenzte Überarbeitung. Keine kostenpflichtigen Aufrufe. | Korrektur Schritt 2; [umfang-v1.md](umfang-v1.md) |
-| V9 | Umfang Version 1 | Vorschlag | Kleinste Version mit nützlichem Tag, ehrlichem Verlauf, Unterstützungs**qualität** (Technik offen), Messgröße mit Einheit, getrennter Export/Wiederherstellung. Siehe [umfang-v1.md](umfang-v1.md). PR-Merge entscheidet das nicht. | Schritt 2 |
-| V10 | V1-Anpassbarkeit | Vorschlag | Kleinste Tiefe: selbst benannte Messgröße, Einheit, datierte Beobachtungen; kein Formel-Editor. Prüffall z. B. Taillenumfang in cm. | Korrektur Schritt 2; [umfang-v1.md](umfang-v1.md) |
+| V8 | Früher Machbarkeitscheck | Vorschlag | Vor verbindlicher Architektur Assistenzqualität, nötige Daten, Pflegeaufwand und flexible Abbildung eines nicht vorgebauten Themas prüfen. Eigener Auftrag, keine kostenpflichtigen Aufrufe. | Korrektur Schritt 2 und 9.9.2026; [umfang-v1.md](umfang-v1.md) |
+| V9 | Frühere V1-Abgrenzung | überholt | Der frühere Vorschlag mit nützlichem Tag, Verlauf, einzelner Messgröße sowie Export/Wiederherstellung konnte dennoch zu einer manuellen Karten-/Tracker-App führen. Er wird nicht unverändert ausgewählt. | Schritt 2; Korrektur Dennis 9.9.2026 |
+| V10 | Frühere kleinste Anpassbarkeit | überholt | Eine frei benannte Messgröße mit Einheit bleibt möglicherweise nützlich, beweist allein aber nicht die von Dennis gemeinte Freiheit. | Korrektur Schritt 2; Präzisierung Dennis 9.9.2026 |
+| V11 | Flexible Grundlage, fokussierte Oberfläche | Vorschlag | Wenige verständliche Grundbausteine ermöglichen eigene Strukturen, Eigenschaften, Beziehungen und Sichten. Gute Vorlagen und eine kuratierte Alltagsoberfläche verhindern, dass Dennis zuerst ein leeres System bauen muss. | Synthese aus D9, D15 und D16; [produktvision.md](produktvision.md) |
+| V12 | Assistenzzyklus | Vorschlag | Lage zusammenführen, entscheidende Lücke erkennen, Alternativen abwägen, begründet vorschlagen, nur mit Befugnis handeln und aus Korrektur sowie Ergebnis lernen. | Synthese aus D10–D16; [produktvision.md](produktvision.md) |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umfang Version 1 | offen | Vorschlag in [umfang-v1.md](umfang-v1.md). Noch keine Auswahl durch Dennis. |
-| O2 | Bedienkonzept | offen | Schritt 3 vergleicht Konzepte. |
+| O1 | Umfang Version 1 | offen | Korrigierter Auswahlrahmen in [umfang-v1.md](umfang-v1.md). Assistenz- und Freiheits-Nachweis sind vorgeschlagen; genaue Tiefe nicht ausgewählt. |
+| O2 | Bedienkonzept | offen | A/B/C sind verworfen. Neue Konzepte müssen sich in Arbeitsteilung, Assistenz und Offenheit unterscheiden, nicht nur in Kartenanordnung. |
 | O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
 | O5 | Arten von Planungsvorschlägen | offen | Frage 1: bei welchen konkreten Änderungen nur anzeigen bis zur Zustimmung, bei welchen innerhalb eines gesetzten Rahmens eintragen? Keine Alles-oder-nichts-Entscheidung, kein Einstellungsapparat. |
-| O6 | Konfigurierbarkeit-Tiefe | offen | V1-Vorschlag V10 (Messgröße mit Einheit). Formeleditor und Module nicht V1. Nicht durch diesen Korrekturauftrag beschlossen. |
+| O6 | Konfigurierbarkeit-Tiefe | offen | Notion-artige Freiheit ist Leitplanke. Welche Grundbausteine, Eigenschaften, Beziehungen, Sichten oder Abläufe Dennis ohne Code verändern kann, ist noch festzulegen. |
 | O7 | Diät und Training | offen | Frage 2: welche Hilfe und welche Informationen Dennis beitragen möchte. Nicht auf tägliche Ernährung vs. nur Training reduziert. |
 | O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
 | O9 | Herkunft und Pflege von Terminen | offen | Frage 4: woher Termine vorerst kommen und wie sie gepflegt werden. Keine bestimmte Integration ohne Bedarf. |
 | O10 | Form beruflicher Entwicklung | offen | Frage 5: welche Formen und Zeitpunkte möglich sein sollen; nicht nur tägliche Aufgaben oder Warten auf einen Anlass. |
+| O11 | Freiheits-Nachweis in V1 | offen | Welche kleine, aber echte flexible Struktur muss Version 1 bereits außerhalb der vorgebauten Beispiele ermöglichen, ohne zum universellen No-Code-System zu werden? |
 
 Änderungen an diesem Dokument kennzeichnen, ob Dennis zugestimmt hat oder ob nur ein Vorschlag nachgetragen wurde.

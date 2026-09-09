@@ -1,12 +1,27 @@
 # Nutzungskonzept
 
-Stand: 8. September 2026 · Schritt 1, Überarbeitung · **Vorschlag zur Prüfung, kein Beschluss**
+Stand: 9. September 2026 · Schritt 1 mit grundlegender Korrektur · **Vorschlag zur Prüfung, kein beschlossenes Bedienkonzept**
 
-Dieses Dokument beschreibt, wie Dennis die App im Alltag nutzen würde. Grundlage ist die Arbeitsnotiz. Der ausgedachte Donnerstag ist ein wichtiges Nutzungserlebnis, nicht die gesamte App. Es ist kein Pflichtenheft, keine Navigation und keine Technikwahl.
+Dieses Dokument beschreibt, wie Dennis die App im Alltag nutzen würde. Grundlage sind die Arbeitsnotiz und die direkte Korrektur vom 9. September 2026. Der ausgedachte Donnerstag ist ein wichtiges Nutzungserlebnis, nicht die gesamte App. Er ist insbesondere **kein Bauplan für eine Karten- oder Checkbox-Oberfläche**. Das Dokument ist kein Pflichtenheft, keine Navigation und keine Technikwahl.
 
 Eine Zusammenführung in Git (etwa PR #1 auf `main`) ist keine Zustimmung zu jeder Formulierung hier.
 
 Alle Tagesbeispiele sind synthetisch. Paket, Geburtstag, Testat, Uni-Zeiten und Training wurden nicht aus echten Konten übernommen. Eine bestimmte Kalenderanbindung folgt daraus nicht.
+
+## Grundlegende Korrektur: vom Tagesplaner zum Assistenten
+
+Dennis hat die Konzeptentwürfe A/B/C aus PR #5 als falsche Richtung zurückgewiesen. Sie zeigen hauptsächlich gleichartige Karten, Zustände und anklickbare Entscheidungen. Obwohl einzelne Texte Unsicherheit und Gründe nennen, bleibt die eigentliche Denk- und Ordnungsarbeit bei Dennis. Das erzeugt das Gefühl zusätzlicher Sisyphus-Arbeit.
+
+Die korrigierte Nutzungsidee lautet:
+
+- Die App kommt vorbereitet und verdichtet vorhandene Informationen zu einer sinnvollen Lage.
+- Sie übernimmt erkennbar Such-, Sortier-, Planungs- und Auswertungsarbeit.
+- Sie zeigt nicht nur *was* gespeichert ist, sondern *was daraus gerade folgt*, warum und mit welcher Unsicherheit.
+- Sie stellt wenige entscheidende Fragen, statt einen vollständigen Tag oder Status erneut abzufragen.
+- Dennis liefert persönliche Bedeutung, Korrekturen und Entscheidungen; er ist nicht der Sachbearbeiter der App.
+- Neue Ziele und Themen sollen nicht auf fest programmierte Typen begrenzt sein. „Notion-Stil“ meint Freiheit der abbildbaren Strukturen, abgespeckt und mit einer fokussierten, sofort nutzbaren Oberfläche.
+
+Die aktuelle Synthese steht in [produktvision.md](produktvision.md). Sie präzisiert alle älteren Tagesbeispiele.
 
 ## Leseschlüssel
 
@@ -18,7 +33,7 @@ Alle Tagesbeispiele sind synthetisch. Paket, Geburtstag, Testat, Uni-Zeiten und 
 
 ## Worum es im Alltag geht
 
-Dennis studiert Wirtschaftsinformatik, steht vor einem anstrengenden Wintersemester und will gleichzeitig Diät/Training, berufliche Entwicklung (Netzwerk, Leute kennenlernen) und alltägliche Verpflichtungen nicht verlieren. Die App soll das nicht nur abhaken. Morgens soll klar sein, was heute zählt. Über Wochen soll erkennbar sein, wie sich ein Ziel entwickelt. Ziele und Bereiche sollen sich ändern lassen, ohne das System neu zu bauen. Abends soll kurzes „Futter“ entstehen, aus dem später nachvollziehbare Rückmeldungen werden.
+Dennis studiert Wirtschaftsinformatik, steht vor einem anstrengenden Wintersemester und will gleichzeitig Diät/Training, berufliche Entwicklung (Netzwerk, Leute kennenlernen) und alltägliche Verpflichtungen nicht verlieren. Die App soll das nicht nur abhaken oder nebeneinander anzeigen. Morgens soll sie aus der vorhandenen Lage verständlich vorbereiten, was heute zählt und wo eine Entscheidung nötig ist. Über Wochen soll erkennbar sein, wie sich ein Ziel entwickelt, was diese Einschätzung trägt und welcher nächste Versuch sinnvoll sein könnte. Ziele, Daten und Zusammenhänge sollen sich ändern lassen, ohne das System neu zu bauen. Abends soll mit möglichst wenig neuer Eingabe nützliches „Futter“ entstehen, aus dem später nachvollziehbare Rückmeldungen werden.
 
 Nutzung soll sich als investierte Zeit anfühlen: visuell hochwertig, angenehm zu bedienen, mit verständlicher Tiefe und dem Gefühl, dass sich an den eigenen Zielen etwas bewegt. **Geringer Pflegeaufwand allein erfüllt die Vision nicht.**
 
@@ -251,6 +266,8 @@ Alles in diesem Abschnitt ist **Vorschlag**, außer wo ausdrücklich als Nutzera
 7. **Keine erfundene Gesamtpunktzahl.** „Wert auf dem Arbeitsmarkt“ ist kein seriös direkt messbarer Einheitswert. Den ganzen Tag auf eine Schulnote zu reduzieren ist ein **Vorschlag, ihn zu vermeiden** — kein dauerhaftes Verbot jeder erfreulichen Tagesrückmeldung.
 8. **Sofort brauchbar, Tiefe auf Nachfrage.** Anpassen dürfen, nicht anpassen müssen. Gute Voreinstellungen gehören zum Produkt.
 9. **Bereiche sind die aktuelle Lage, keine fest verdrahtete Architektur.** Studium, Diät/Training, berufliche Entwicklung und Alltag sind Beispiele. Musikproduktion war eine Assistenzidee, keine Kernforderung.
+10. **Die App übernimmt Arbeit.** Eine sauber sortierte Liste ist noch keine Assistenz. Der Nutzen muss in vorbereiteter Lage, Abwägung, gezielter Rückfrage, Synthese oder überprüfbarer Anpassung sichtbar werden (**Korrektur Dennis, 9.9.2026**).
+11. **Orientierung als Standard, Freiheit auf Nachfrage.** Eigene Strukturen und Zusammenhänge sollen möglich sein, ohne dass Dennis zuerst ein leeres No-Code-System bauen muss (**Korrektur Dennis, 9.9.2026; genaue Tiefe offen**).
 
 **Prüfung nötig, nicht als Wirkung dieser App behaupten:**
 
@@ -275,14 +292,14 @@ Die Prompt-Reihe prüft kontextbezogene Unterstützung ausführlich erst in Schr
 
 Der V1-Vorschlag in [umfang-v1.md](umfang-v1.md) macht die wesentlichen Ansprüche und den frühen Machbarkeitscheck (V8) sichtbar. Ein kleiner Umfang darf nicht stillschweigend heißen, nur Aufgaben und Termine zu bauen.
 
-## Maximal fünf Fragen, die das Konzept ändern würden
+## Maximal fünf Fragen nach der Korrektur
 
 Bekanntes wird nicht erneut gefragt (persönliche Windows-App für Dennis, 50-Euro-Grenze, keine iOS-Kopie, einmalige Aufgaben ohne Routinezwang, keine erfundene Gesamtpunktzahl für den Arbeitsmarkt). Die Fragen werden hier nicht beantwortet.
 
-1. **Arten von Planungsvorschlägen:** Bei welchen konkreten Änderungen soll die App nur zeigen, bis du zustimmst — und bei welchen darf sie innerhalb eines von dir gesetzten Rahmens schon eintragen? Beispiele: Fach eines Lernblocks, Zusammenlegen von Erledigungen, Verschieben von Training. Keine globale Alles-oder-nichts-Entscheidung; daraus folgt kein Einstellungsapparat.
-2. **Diät und Training:** Welche Hilfe brauchst du dabei, und welche Informationen möchtest du sinnvoll beitragen?
-3. **Abendrückblick als Gewohnheit:** Wie verbindlich soll der Abendrückblick als tägliche Praxis sein? (Getrennt davon gilt bereits: Auslassen löscht nichts und beweist keine unterlassene Aktivität.)
-4. **Termine:** Woher sollen Termine und zeitgebundene Verpflichtungen vorerst kommen, und wie willst du sie pflegen?
-5. **Berufliche Entwicklung:** In welcher Form darf Netzwerk / Leute kennenlernen vorkommen — nicht nur als tägliche nächste Schritte und nicht nur als Warten auf einen Anlass?
+1. **Freiheits-Nachweis in Version 1:** Welche eigene Struktur, Eigenschaft oder Beziehung musst du bereits ohne Code anlegen können, damit die App sich nicht wie fest programmierte Zieltypen anfühlt?
+2. **Befugnisse des Assistenten:** Welche Planänderungen soll er nur vorbereiten, welche nach deiner Bestätigung eintragen und welche innerhalb eines von dir gesetzten Rahmens selbst durchführen dürfen?
+3. **Vorhandener Kontext:** Welche Informationen darf und soll die App anfangs kennen oder aus Quellen übernehmen, damit sie wirklich vorbereitet sein kann, ohne unverhältnismäßige Pflege zu verlangen?
+4. **Fachliche Tiefe:** Welche konkrete Hilfe und welche Informationen sind für Diät/Training sowie berufliche Entwicklung nützlich, ohne diese Bereiche auf Tracker oder tägliche Pflichtaufgaben zu reduzieren?
+5. **Rückmeldung und Reflexion:** Welche Beiträge willst du bewusst abends leisten, und welche Zusammenfassung oder Auswertung soll die App bereits aus vorhandenen Tagesdaten vorbereiten?
 
-Antworten darauf gehören vor oder in Schritt 2, soweit sie den Umfang der ersten Version verändern. Schritt 2 liegt als Vorschlag vor: [umfang-v1.md](umfang-v1.md). Die fünf Fragen sind weiterhin unbeantwortet und dort als offene V1-Defaults markiert.
+Antworten darauf verändern den V1-Nachweis und die nächsten Bedienkonzepte. Der korrigierte Auswahlrahmen liegt in [umfang-v1.md](umfang-v1.md). Die Fragen werden durch diese Dokumentationskorrektur nicht stillschweigend beantwortet.
