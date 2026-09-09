@@ -1,0 +1,27 @@
+[package]
+name = "momentum"
+version = "0.1.0"
+description = "Ein lokaler persönlicher Assistent"
+authors = ["Dennis"]
+edition = "2024"
+
+[lib]
+name = "momentum_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+getrandom = "0.3"
+rfd = "0.17"
+rusqlite = { version = "0.40", features = ["bundled-sqlcipher-vendored-openssl"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "2", features = [] }
+thiserror = "2"
+uuid = { version = "1", features = ["v4", "serde"] }
+
+[dev-dependencies]
+tempfile = "3"

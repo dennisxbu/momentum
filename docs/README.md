@@ -13,9 +13,10 @@ Dieses Verzeichnis ist das Projektgedächtnis. Vorhandene Dateien fortführen, k
 | [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) | Synthetische Risikoprüfung, Mindestkontext und erreichbare Qualitätsgrenze für V1 |
 | [bedienkonzepte.md](bedienkonzepte.md) | Abgeschlossener K3-Vergleich und ausgewählte Briefing-Leitform |
 | [architektur-k4.md](architektur-k4.md) | Ausgewählte technische Grundlage, Datenkern, Schutz, Assistenz- und Erweiterungsgrenzen |
+| [k5-implementierung.md](k5-implementierung.md) | Ausführbarer vertikaler Kern, Startanleitung, Prüfungen und bewusste Grenzen |
 | [entwicklung.md](entwicklung.md) | Git/GitHub, Geheimnisse, was nicht ins Repo gehört |
 | [context/](context/) | Vision, Originalquellen, Schritt-Prompts |
 
-App-Code, Framework und produktive Daten gehören nicht hierher, solange der beauftragte Schritt das nicht vorsieht.
+App-Code und Framework liegen seit K5 in `src/` und `src-tauri/`; persönliche oder produktive Daten gehören weiterhin nicht ins Repository.
 
 Bei Widersprüchen gelten aktuelle Aussagen von Dennis, `produktvision.md` und `entscheidungen.md` vor historischen Kontextquellen.

@@ -44,8 +44,9 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D28 | Flexibles Daten- und Historienmodell | beschlossen | Ein kleiner relationaler Kern speichert Sammlungs- und Eigenschaftsdefinitionen, typisierte Werte, Beziehungen, Aussagen mit Herkunft, Absichtsbezüge, Vorschläge und Werkzeugstatus. Aktueller Stand plus append-only Änderungsereignisse werden verwendet; kein vollständiges Event Sourcing und keine Sondertabelle pro Lebensbereich. | K4; [architektur-k4.md](architektur-k4.md) |
 | D29 | Werkzeugarchitektur | beschlossen | Optionale Werkzeuge sind zunächst interne, typisierte Module hinter öffentlichen Kern-Schnittstellen. Sie können Vorlagen, Berechnungen, Sichten und Kontextbeiträge liefern, aber weder einen parallelen Datenbestand noch beliebigen Laufzeitcode einführen. Ein Drittanbieter-Plugin-System ist nicht Teil von Version 1. | D23; K4; [architektur-k4.md](architektur-k4.md) |
 | D30 | Offline, Export und Verteilung | beschlossen | Die Kern-App funktioniert ohne Konto und Internet. Vollständiger, versionierter JSON-Export und validierte Wiederherstellung sichern Datenhoheit. Die erste Verteilung ist ein NSIS-Installer pro Benutzer ohne Auto-Update; externe Dienste und WebView2-Bündelung werden nicht still vorausgesetzt. | K1 und K4; [architektur-k4.md](architektur-k4.md) |
+| D31 | K5-Ausführungsstand | Fakt | Der vertikale K5-Kern ist als Tauri-/React-/Rust-App umgesetzt. Er enthält verschlüsselten lokalen Speicher, freie V1-Strukturen, den synthetischen vollständigen Assistenzkreislauf und Export/Wiederherstellung. Automatisierte Prüfungen, Desktopstart und Installer-Build sind bestanden; persönliche Benutzbarkeit und Nutzen sind noch nicht abgenommen. | K5; [k5-implementierung.md](k5-implementierung.md) |
 
-Die konkrete Oberfläche und technische Umsetzung bleiben offen. D25–D30 wählen die Daten- und Laufzeitarchitektur; D18 wählt weiterhin nur einen begrenzten Produktnachweis, keine vollständige Notion-Funktionsliste.
+Die konkrete K5-Oberfläche und technische Umsetzung sind mit D31 erstmals ausführbar. Sie bleiben bis zur persönlichen K6-Abnahme ein prüfbarer Entwicklungsstand; D18 wählt weiterhin nur einen begrenzten Produktnachweis, keine vollständige Notion-Funktionsliste.
 
 ## Vorschläge (nicht beschlossen)
 
@@ -74,7 +75,7 @@ Die konkrete Oberfläche und technische Umsetzung bleiben offen. D25–D30 wähl
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umsetzung des V1-Umfangs | offen | Produktnachweis, Bedienform und technische Grundlage sind mit D18, D24 und D25–D30 ausgewählt. Ausführbare Prüfung und Implementierung folgen erst in K5. |
+| O1 | Abnahme des V1-Nachweises | offen | Der K5-Kern ist ausführbar und technisch geprüft. Ob Assistenzqualität, Bediengefühl und tatsächliche Entlastung die Kriterien für Dennis erfüllen, wird erst in K6 persönlich abgenommen. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | K4 schafft nur eine deaktivierte, austauschbare Beurteilungsschnittstelle. Ob und welcher lokale oder externe Anbieter genutzt wird, welche Daten ihn erreichen dürfen und welches Budget unter 50 Euro gilt, braucht vor der ersten produktiven Anbindung eine ausdrückliche Entscheidung. |
 | O5 | Spätere Assistentenbefugnisse | offen | Für V1 gilt D19. Ob spätere Versionen in gesetzten Rahmen selbst planen oder externe Aktionen ausführen dürfen, bleibt eine getrennte Entscheidung. |
 | O6 | Langfristige Konfigurierbarkeit | offen | Für V1 sind Sammlung, fünf Eigenschaftsformen, Beziehung und konkrete Sicht gewählt. Welche weiteren Bausteine oder Abläufe langfristig ohne Code veränderbar werden, bleibt offen. |

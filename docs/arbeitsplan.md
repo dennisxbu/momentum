@@ -83,6 +83,8 @@ Entschieden sind Tauri 2 mit React/TypeScript und Rust-Kern, lokal verschlüssel
 
 ## K5 — Vertikalen Kern statt Tracker-Unterbau bauen
 
+Status: **abgeschlossen**
+
 Die Implementierungsreihenfolge wird nach K4 konkretisiert. Sie muss möglichst früh einen kleinen vollständigen Nutzenfluss liefern:
 
 1. startbares Gerüst;
@@ -92,6 +94,18 @@ Die Implementierungsreihenfolge wird nach K4 konkretisiert. Sie muss möglichst 
 5. erst dann breitere Fachfunktionen, Auswertungen und visuelle Verfeinerung innerhalb des gewählten V1-Umfangs.
 
 Eine große Aufgaben-/Routinenverwaltung darf nicht vorgezogen werden, nur weil sie technisch leichter ist.
+
+Ergebnis:
+
+- startbare Tauri-Windows-App mit React-Oberfläche und Rust-Anwendungskern;
+- verschlüsselter lokaler SQLCipher-Speicher mit einem durch Windows DPAPI geschützten Zufallsschlüssel;
+- freies Studio mit den fünf V1-Eigenschaftsformen, Beziehungen, typisierter Prüfung und versionierter Umbenennung;
+- vollständiger synthetischer Ablauf von Morgen über Bestätigung und relevante Tagesänderung bis Abend und Folgetag;
+- sichtbare Folge „bekannt — Bedeutung — Vorschlag — Wirkung“ und begrenzter Änderungsvertrag vor Planänderungen;
+- vollständiger lesbarer JSON-Export mit validierter Wiederherstellung;
+- bestandene automatisierte Kernprüfungen, echter App-Start und erzeugter NSIS-Installer.
+
+Details und reproduzierbare Prüfungen stehen in [k5-implementierung.md](k5-implementierung.md). Die persönliche Bedien- und Nutzenabnahme ist nicht vorweggenommen.
 
 ## K6 — Alltag, Auslieferung und Abnahme
 
@@ -108,4 +122,4 @@ Wie bisher getrennt prüfen:
 
 ## Aktuelle Grenze
 
-K0 bis K4 sind abgeschlossen. Der nächste mögliche Abschnitt ist K5. **K5 beginnt erst nach einem ausdrücklichen Auftrag.** Implementierung ist nicht automatisch freigegeben.
+K0 bis K5 sind abgeschlossen. Der nächste mögliche Abschnitt ist K6. **K6 beginnt erst nach einem ausdrücklichen Auftrag.** Insbesondere sind Installationstest, persönliche Bedienabnahme und Alltagstest nicht automatisch freigegeben.

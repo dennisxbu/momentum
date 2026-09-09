@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "Nur das Hauptfenster und Tauri-Grundfunktionen; kein Datei-, SQL- oder Shell-Zugriff für React.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

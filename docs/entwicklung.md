@@ -7,6 +7,8 @@ Standardbranch: `main`
 
 Die verbindliche technische Grundlage für die spätere Implementierung steht in [architektur-k4.md](architektur-k4.md). Dieses Dokument regelt Git und Projektgedächtnis, nicht die Laufzeitarchitektur.
 
+Der ausführbare Stand und seine lokale Startanleitung stehen in [k5-implementierung.md](k5-implementierung.md). Für den Build der gebündelten SQLCipher-Kryptografie ist auf Windows zusätzlich Strawberry Perl erforderlich; die fertige App benötigt es nicht.
+
 ## Was ins Repository gehört
 
 - Quellcode und Projektdokumentation, sobald ein Schritt sie erzeugt
