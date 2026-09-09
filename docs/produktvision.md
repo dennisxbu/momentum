@@ -58,7 +58,7 @@ Der normale Gebrauch ist klar, ruhig und vorbereitet. Der Tag kann ein wichtiger
 
 „Notion-Stil“ meint hier **Freiheit der abbildbaren Gedanken und Zusammenhänge**, nicht eine Kopie von Notions Oberfläche oder vollständigem Funktionsumfang.
 
-Als mögliche Übersetzung, noch keine gewählte Architektur:
+Als fachliche Übersetzung, die K4 mit einem flexiblen lokalen Datenkern technisch verankert:
 
 - wenige verständliche Grundbausteine wie Text, Zahl mit Einheit, Datum/Zeit, Status, Wiederholung und Beziehung;
 - daraus zusammensetzbare Ziele, Vorhaben, Lerngegenstände, Kontakte, Routinen, Beobachtungen, Messgrößen oder neue eigene Arten von Dingen;
@@ -145,9 +145,9 @@ Die in PR #5 gezeigten Konzepte A, B und C wurden von Dennis als falsche Richtun
 
 Solche Elemente können später Teil einer Oberfläche sein. Sie dürfen aber nicht erneut mit dem Kernnutzen oder einem vollständigen Bedienkonzept verwechselt werden.
 
-## Abnahmekriterien für die nächste Konzeptphase
+## Bleibende Abnahmekriterien für die Umsetzung
 
-Ein künftiger Entwurf muss vor einer Technikwahl mindestens zeigen:
+K3 hat diese Kriterien konzeptionell getragen; die ausführbare Umsetzung muss sie weiterhin mindestens zeigen:
 
 1. **Arbeitsübernahme:** Was hat die App vorbereitet, erkannt oder zusammengeführt, das Dennis nicht selbst sortieren musste?
 2. **Beurteilungsqualität:** Warum ist der Vorschlag in dieser Lage sinnvoll, welche Alternative wurde abgewogen und was bleibt unbekannt?
@@ -164,7 +164,7 @@ Ein Wireframe, das nur Karten anders sortiert, beantwortet diese Fragen nicht.
 - genaue Bedienmetapher und Navigation;
 - Notion-artige Freiheiten über den ausgewählten V1-Nachweis hinaus;
 - weitere Grundbausteine, Beziehungen, Sichten oder Vorlagen nach Version 1;
-- Technik-Stack und Speicherort;
+- genaue Umsetzung innerhalb des gewählten Tauri-/Rust-/SQLite-Rahmens;
 - KI ja/nein, Anbieter, lokale Möglichkeit, Datennutzung und akzeptiertes Budget unterhalb von 50 Euro;
 - Datenquellen und Integrationen;
 - Befugnisse über die vorsichtige V1-Grenze hinaus;

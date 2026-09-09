@@ -198,8 +198,8 @@ Ein smarter Kalender und eine Diätanalyse sind damit nicht verworfen. Sie sind 
 ## Folgen für die nächsten Schritte
 
 - K2 hat mit synthetischen Fällen den vertretbaren Datenbedarf, Stabilität und ehrliche Grenzen des Kreislaufs bestimmt.
-- K3 entwickelt erst danach unterschiedliche Bedienformen für genau diesen Arbeitsumfang.
-- K4 wählt eine technische Grundlage, die die fünf Eigenschaftsformen, Beziehungen, Historie, Assistenzbefugnisse und Datenhoheit tragen kann.
-- Implementierung beginnt nicht durch diesen Beschluss.
+- K3 hat die Briefing-Leitform mit Änderungsvertrag, Studio und optionalen Werkzeugen ausgewählt.
+- K4 hat eine technische Grundlage gewählt, die die fünf Eigenschaftsformen, Beziehungen, Historie, Assistenzbefugnisse und Datenhoheit tragen kann.
+- Die Implementierung beginnt erst mit einem ausdrücklichen Auftrag für K5.
 
 Langfristige Tiefe, weitere eigene Strukturen, echte Datenquellen, KI-Einsatz und weitergehende Befugnisse bleiben offen. Für den V1-Nachweis sind Umfang, Prüfgegenstand und anfängliche Befugnisse jetzt ausreichend bestimmt.

@@ -6,13 +6,14 @@ Stand: 9. September 2026
 
 | Ebene | Stand |
 | --- | --- |
-| Aktueller Schritt | **K3 — neue Assistenzkonzepte vergleichen: abgeschlossen.** |
-| Auftrag | Dennis hat K3 am 9. September 2026 ausdrücklich beauftragt. |
+| Aktueller Schritt | **K4 — technische Grundlage entscheiden: abgeschlossen.** |
+| Auftrag | Dennis hat K4 am 9. September 2026 ausdrücklich beauftragt. |
 | Konzepte | 1 „Briefing“, 2 „Studio“ und 3 „Delegat“ unterscheiden sich in Eröffnung, Arbeitsteilung, Korrektur und sichtbarer Freiheit. |
 | Empfehlung | Verständliches Briefing als Alltag, Änderungsvertrag aus 3 für Vertrauen, Studio aus 2 und optionale Werkzeuge auf Nachfrage für Freiheit und Tiefe. |
 | Produktentscheidung | D24: Konzept 1 „Briefing“ mit verständlicher Bediengrammatik, Änderungsvertrag sowie Studio und optionalen Werkzeugen auf Nachfrage ist ausgewählt. |
+| Technikentscheidung | D25–D30: Tauri/React/TypeScript mit Rust-Kern, lokales verschlüsseltes SQLite, schmale Commands, providerneutrale Assistenz und interne optionale Werkzeuge. |
 
-Die bisherige Empfehlung „A — Tag als Heimat“ bleibt zurückgezogen. Der ausgewählte V1-Nachweis ist ein Produktumfang, noch kein Bedienkonzept und keine Architektur.
+Die bisherige Empfehlung „A — Tag als Heimat“ bleibt zurückgezogen. V1-Nachweis, Bedienkonzept und Architektur wurden in D18, D24 und D25–D30 jeweils getrennt entschieden.
 
 ## Tatsächlich vorhandene Funktionen
 
@@ -27,7 +28,8 @@ Vorhanden sind:
 - dokumentierter K2-Trockenlauf, aber noch kein ausführbarer Assistenztest;
 - ausgearbeiteter K3-Konzeptvergleich mit interaktivem, wegwerfbarem Entwurf;
 - verbindliche Bediengrammatik „bekannt — Bedeutung — Vorschlag — Wirkung“ und Werkzeugmodell als K3-Korrektur;
-- ausgewählte konzeptionelle Bedienrichtung, aber noch kein realer Benutzbarkeitstest.
+- ausgewählte konzeptionelle Bedienrichtung, aber noch kein realer Benutzbarkeitstest;
+- abgeschlossene [K4-Architekturentscheidung](architektur-k4.md), aber noch kein erzeugtes Projektgerüst.
 
 ## Aktuelle Quellenreihenfolge
 
@@ -42,15 +44,15 @@ Historische Beispiele oder frühere Vorschläge dürfen eine neuere Korrektur ni
 
 ## Offene Grenzen
 
-- **O1:** Der V1-Nachweis ist ausgewählt und konzeptionell mit Bedingungen machbar; ausführbare Qualität und spätere Umsetzung sind noch nicht belegt.
+- **O1:** Produktnachweis, Bedienform und technische Grundlage sind ausgewählt; ausführbare Qualität und Umsetzung sind noch nicht belegt.
 - **Bedienkonzept geklärt:** D24 wählt das verständliche Briefing als primären Alltag. Die früheren A/B/C aus PR #5 bleiben verworfen; reale Benutzbarkeit wird erst an einer ausführbaren Umsetzung geprüft.
-- **O3:** Technik-Stack, Offline-Verhalten und Speicherort sind offen.
-- **O4:** KI, Anbieter oder lokaler Betrieb, erlaubte Daten und Budget unter 50 Euro sind offen.
+- **Technik geklärt:** D25–D30 wählen Stack, lokalen verschlüsselten Speicher, Offline-Grundsatz, Schichtgrenzen, Export und erste Windows-Verteilung.
+- **O4:** KI-Einsatz, Anbieter oder lokaler Betrieb, erlaubte Daten und Budget unter 50 Euro bleiben vor einer produktiven Anbindung offen. Die Architektur bindet sich an keinen Anbieter.
 - **O5:** Für V1 sind Analyse ohne Bestätigung, Datenänderung nach konkreter Bestätigung und keine externen Aktionen gewählt. Spätere Befugnisse bleiben offen.
 - **O6/O11:** Die V1-Tiefe der Freiheit ist gewählt. K2 verlangt bestätigte Semantik, aber keine weitere Eigenschaftsform; langfristige Tiefe bleibt offen.
 - **O7–O10:** Diätanalyse und smarter Kalender sind als optionale Werkzeugideen festgehalten; genaue Tiefe, Daten, Integrationen und Zeitpunkt sowie Abendrhythmus und berufliche Entwicklung bleiben fachlich offen.
 
-GitHub ist Codeablage. Speicherort persönlicher App-Daten bleibt offen.
+GitHub ist Codeablage. D26 legt den lokalen Anwendungsdatenordner des aktuellen Windows-Benutzers als Speicherort fest; echte persönliche Daten gehören weiterhin niemals ins Repository.
 
 ## Umfang der ersten Version
 
@@ -63,7 +65,7 @@ Als synthetischer Prüffall dient „Arbeitsplatz verbessern“ mit „Stuhl-Kan
 
 ## Nächste inhaltliche Arbeit
 
-K3 ist durch D24 abgeschlossen. Der nächste mögliche Abschnitt ist K4: die technische Grundlage für den ausgewählten V1-Nachweis und die gewählte Bedienform entscheiden. K4 beginnt erst nach einem ausdrücklichen Auftrag.
+K4 ist mit [architektur-k4.md](architektur-k4.md) und D25–D30 abgeschlossen. Der nächste mögliche Abschnitt ist K5: den kleinsten vollständigen vertikalen Kern auf dieser Grundlage bauen. K5 beginnt erst nach einem ausdrücklichen Auftrag.
 
 ## Abnahmeprotokoll
 
@@ -79,8 +81,9 @@ K3 ist durch D24 abgeschlossen. Der nächste mögliche Abschnitt ist K4: die tec
 | K3, Vergleich | drei Arten der Zusammenarbeit gegen dieselben K1-/K2-Fälle ausgearbeitet | fachliche Empfehlung V17 vorhanden |
 | K3, Korrektur | intuitive Nachvollziehbarkeit und Kalender/Diätanalyse als optionale, anpassbare Werkzeuge eingeordnet | Empfehlung geschärft; keine Fachfunktion in V1 aufgenommen |
 | K3, Auswahl | überarbeitete Leitform von Dennis bestätigt | D24 beschlossen; K3 abgeschlossen |
+| K4 | Desktop-Stack, Datenkern, Vertrauensgrenzen, Offline, Schutz, Erweiterung, Export und Verteilung gegen K1–K3 geprüft | D25–D30 beschlossen; auf dem Entwicklungsrechner sind Tauri-Voraussetzungen vorhanden; keine App erzeugt |
 
-Noch keine App-Abnahme. Das Bedienkonzept ist konzeptionell ausgewählt, aber noch nicht ausführbar auf Benutzbarkeit geprüft.
+Noch keine App-Abnahme. Bedienkonzept und Architektur sind ausgewählt, aber noch nicht ausführbar auf Funktion, Assistenzqualität oder Benutzbarkeit geprüft.
 
 ## GitHub
 

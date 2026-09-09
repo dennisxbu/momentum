@@ -68,9 +68,9 @@ Dennis hat die überarbeitete Empfehlung am 9. September 2026 ausgewählt. D24 l
 
 ## K4 — Technische Grundlage entscheiden
 
-Voraussetzung: K1–K3 abgeschlossen und ein Konzept ausgewählt.
+Status: **abgeschlossen**
 
-Die Architektur muss den ausgewählten Freiheits-Nachweis tragen, ohne ein unbegrenztes No-Code-System zu bauen. Sie trennt mindestens:
+Die ausgewählte [K4-Architektur](architektur-k4.md) trägt den Freiheits-Nachweis, ohne ein unbegrenztes No-Code-System zu bauen. Sie trennt:
 
 - flexible, versionierbare persönliche Strukturen und Daten;
 - verlässliche Berechnungen und Auswertungen;
@@ -79,7 +79,7 @@ Die Architektur muss den ausgewählten Freiheits-Nachweis tragen, ohne ein unbeg
 - Speicherung, Export und Wiederherstellung;
 - optionale externe Modell- oder Datenanbindungen.
 
-Zu entscheiden: Windows-Technik, Speicherort, Offline-Anforderungen, Schutz persönlicher Daten, Erweiterungsgrenzen und Wechselkosten. Noch keine Installation und kein App-Code.
+Entschieden sind Tauri 2 mit React/TypeScript und Rust-Kern, lokal verschlüsseltes SQLite mit DPAPI-Schlüssel, vollständiger Offline-Kern, schmale Tauri-Commands, providerneutrale Beurteilung, interne optionale Werkzeuge, versionierter Export und NSIS-Verteilung pro Benutzer. Ein KI-Anbieter sowie echte externe Konten bleiben getrennte spätere Entscheidungen. In K4 entstanden keine Installation und kein App-Code.
 
 ## K5 — Vertikalen Kern statt Tracker-Unterbau bauen
 
@@ -108,4 +108,4 @@ Wie bisher getrennt prüfen:
 
 ## Aktuelle Grenze
 
-K0 bis K3 sind abgeschlossen. Der nächste mögliche Abschnitt ist K4. **K4 beginnt erst nach einem ausdrücklichen Auftrag.** Implementierung ist nicht automatisch freigegeben.
+K0 bis K4 sind abgeschlossen. Der nächste mögliche Abschnitt ist K5. **K5 beginnt erst nach einem ausdrücklichen Auftrag.** Implementierung ist nicht automatisch freigegeben.

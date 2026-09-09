@@ -14,6 +14,7 @@ Code und Projektgedächtnis: [github.com/dennisxbu/momentum](https://github.com/
 - [docs/umfang-v1.md](docs/umfang-v1.md) — ausgewählter vertikaler Nachweis für Version 1
 - [docs/machbarkeitscheck-k2.md](docs/machbarkeitscheck-k2.md) — geprüfte Machbarkeitsgrenze und Mindestkontext
 - [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — abgeschlossener K3-Vergleich und ausgewählte Briefing-Leitform
+- [docs/architektur-k4.md](docs/architektur-k4.md) — ausgewählte technische Grundlage, Daten- und Assistenzgrenzen
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Vorschlag vs. Beschluss
 - [docs/entwicklung.md](docs/entwicklung.md) — Git/GitHub
 - [docs/context/](docs/context/) — Arbeitsnotiz und Schritt-Prompts

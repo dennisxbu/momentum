@@ -28,6 +28,7 @@ Die Arbeitsnotiz und die ursprüngliche Prompt-Sammlung unter `docs/context/` si
 - Studium, smarter Kalender, Diät/Training, berufliche Entwicklung und Alltag sind aktuelle Beispiele, keine fest verdrahteten Produktmodule. Fachfähigkeiten sind optionale Werkzeuge: anpassbar, verschiebbar, pausierbar und nicht verpflichtend. Sie dürfen starke Vorlagen und überprüfbare Speziallogik besitzen, aber keine Ziele, Abläufe oder tägliche Erfassung erzwingen. Ein neuer persönlicher Anwendungsfall darf nicht grundsätzlich eine neue Sonderarchitektur benötigen.
 - Eine freie Eigenschaft wird nicht allein durch Name oder Datentyp zur Frist, Priorität oder Aufgabe. Assistenzrelevante Bedeutung und Bezug zu einer aktiven Absicht müssen bestätigt sein; die App darf eine Interpretation nur vorschlagen.
 - Herkunft, Zustand, Einheiten, Zeitkonflikte und Schreibbefugnisse bleiben transparent prüfbar. Eine mögliche kontextuelle oder generative Komponente darf nicht unmittelbar persönliche Daten oder geltende Pläne verändern.
+- D25–D30 wählen Tauri 2 mit React/TypeScript und Rust-Kern, lokal verschlüsseltes SQLite, schmale fachliche Commands und einen standardmäßig offline arbeitenden Kern. Die Oberfläche erhält keinen direkten Datei-, SQL- oder Shell-Zugriff; optionale Werkzeuge und Beurteilungsadapter umgehen diese Grenze nicht.
 - Hochwertige, intuitive, modular veränderbare Windows-App für den privaten Alltag. Benutzung soll Freude machen; geringer Pflegeaufwand allein erfüllt die Vision nicht. Das iPhone ist eine Referenz für Klarheit der Bedienung, keine Aufforderung zu einer iOS-Kopie.
 - Schutz vor Druck ist kein Verbot erfreulicher oder motivierender Rückmeldung. Keine Pflicht zu Gamification, Motivationssprüchen oder bestimmten Animationen.
 - Windows ist die Zielplattform. Daraus folgt kein Auftrag für mobile Entwicklung und kein endgültiges Verbot einer späteren mobilen Begleitung.
@@ -59,6 +60,7 @@ Vorhandene gleichwertige Dateien weiterverwenden, statt widersprüchliche Doppel
 - [docs/umfang-v1.md](docs/umfang-v1.md) — ausgewählter vertikaler Produktnachweis für Version 1
 - [docs/machbarkeitscheck-k2.md](docs/machbarkeitscheck-k2.md) — K2-Ergebnisse zu Semantik, Datenbedarf, Stabilität und Assistenzgrenzen
 - [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — abgeschlossener K3-Vergleich; ausgewählte Leitform steht in D24
+- [docs/architektur-k4.md](docs/architektur-k4.md) — abgeschlossene K4-Technikentscheidung und verbindliche Schichtgrenzen
 - [docs/context/](docs/context/) — Arbeitsnotiz, Prompt-Sammlung, ursprüngliche Momentaufnahmen
 - [.cursor/rules/](.cursor/rules/) — kurze, immer geltende Agent-Regeln
 

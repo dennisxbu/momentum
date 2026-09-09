@@ -5,6 +5,8 @@ Momentum wird als Git-Repository auf GitHub geführt. Das Remote ist die gemeins
 Remote: `https://github.com/dennisxbu/momentum.git`  
 Standardbranch: `main`
 
+Die verbindliche technische Grundlage für die spätere Implementierung steht in [architektur-k4.md](architektur-k4.md). Dieses Dokument regelt Git und Projektgedächtnis, nicht die Laufzeitarchitektur.
+
 ## Was ins Repository gehört
 
 - Quellcode und Projektdokumentation, sobald ein Schritt sie erzeugt
@@ -19,7 +21,7 @@ Standardbranch: `main`
 - Echte persönliche Nutzdaten, Exporte aus dem späteren Alltag, Gesundheits- oder Kontodaten
 - Build-Artefakte, lokale Caches, der verschachtelte Ordner `momentum/` (Clone im Clone)
 
-GitHub als Codeablage ist kein Beschluss über den Speicherort der späteren App-Daten (siehe `docs/entscheidungen.md`, D4).
+GitHub als Codeablage war selbst kein Beschluss über den Speicherort der App-Daten (D4). D26 wählt inzwischen den lokalen Anwendungsdatenordner des aktuellen Windows-Benutzers; persönliche App-Daten bleiben weiterhin außerhalb des Repositorys.
 
 ## Ablauf nach einem beauftragten Schritt
 
