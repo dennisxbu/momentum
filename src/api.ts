@@ -31,7 +31,7 @@ export function renameProperty(propertyId: string, newName: string): Promise<Wor
 }
 
 export function setStudioCollection(collectionId: string): Promise<WorkspaceView> {
-  return invoke("select_collection", { collectionId });
+  return invoke("select_studio_collection", { collectionId });
 }
 
 export function exportData(): Promise<string | null> {

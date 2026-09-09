@@ -109,6 +109,8 @@ Details und reproduzierbare Prüfungen stehen in [k5-implementierung.md](k5-impl
 
 ## K6 — Alltag, Auslieferung und Abnahme
 
+Status: **technischer Teil am 9. September 2026 durchgeführt; persönliche Abnahme offen.** Details stehen in [k6-abnahme.md](k6-abnahme.md).
+
 Wie bisher getrennt prüfen:
 
 - technische Funktion;
@@ -122,4 +124,4 @@ Wie bisher getrennt prüfen:
 
 ## Aktuelle Grenze
 
-K0 bis K5 sind abgeschlossen. Der nächste mögliche Abschnitt ist K6. **K6 beginnt erst nach einem ausdrücklichen Auftrag.** Insbesondere sind Installationstest, persönliche Bedienabnahme und Alltagstest nicht automatisch freigegeben.
+K0 bis K5 sind abgeschlossen. K6 ist ausdrücklich beauftragt und technisch durchgeführt, aber erst nach Dennis' persönlichem Nutzungstest abgeschlossen. Bis zu seinem Urteil beginnt kein weiterer Abschnitt und es gilt weiterhin keine fertige Version 1 als abgenommen.

@@ -16,6 +16,7 @@ Code und Projektgedächtnis: [github.com/dennisxbu/momentum](https://github.com/
 - [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — abgeschlossener K3-Vergleich und ausgewählte Briefing-Leitform
 - [docs/architektur-k4.md](docs/architektur-k4.md) — ausgewählte technische Grundlage, Daten- und Assistenzgrenzen
 - [docs/k5-implementierung.md](docs/k5-implementierung.md) — ausführbarer Kern, Prüfungen und Startanleitung
+- [docs/k6-abnahme.md](docs/k6-abnahme.md) — technische Installation, Qualitätsprüfung und offene persönliche Abnahme
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Vorschlag vs. Beschluss
 - [docs/entwicklung.md](docs/entwicklung.md) — Git/GitHub
 - [docs/context/](docs/context/) — Arbeitsnotiz und Schritt-Prompts

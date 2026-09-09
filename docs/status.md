@@ -6,13 +6,13 @@ Stand: 9. September 2026
 
 | Ebene | Stand |
 | --- | --- |
-| Aktueller Schritt | **K5 — vertikalen Kern bauen: abgeschlossen.** |
-| Auftrag | Dennis hat K5 am 9. September 2026 ausdrücklich beauftragt. |
+| Aktueller Schritt | **K6 — technischer Abnahmeteil durchgeführt; persönliche Abnahme offen.** |
+| Auftrag | Dennis hat K6 am 9. September 2026 ausdrücklich beauftragt. |
 | Konzepte | 1 „Briefing“, 2 „Studio“ und 3 „Delegat“ unterscheiden sich in Eröffnung, Arbeitsteilung, Korrektur und sichtbarer Freiheit. |
 | Empfehlung | Verständliches Briefing als Alltag, Änderungsvertrag aus 3 für Vertrauen, Studio aus 2 und optionale Werkzeuge auf Nachfrage für Freiheit und Tiefe. |
 | Produktentscheidung | D24: Konzept 1 „Briefing“ mit verständlicher Bediengrammatik, Änderungsvertrag sowie Studio und optionalen Werkzeugen auf Nachfrage ist ausgewählt. |
 | Technikentscheidung | D25–D30: Tauri/React/TypeScript mit Rust-Kern, lokales verschlüsseltes SQLite, schmale Commands, providerneutrale Assistenz und interne optionale Werkzeuge. |
-| Ausführbarer Stand | Tauri-App, freies Studio, vollständiger synthetischer Assistenzkreislauf, Export/Wiederherstellung und NSIS-Installer sind gebaut. |
+| Ausführbarer Stand | Korrigierter NSIS-Installer ist gebaut, pro Benutzer installiert und als reagierende Windows-App gestartet. |
 
 Die bisherige Empfehlung „A — Tag als Heimat“ bleibt zurückgezogen. V1-Nachweis, Bedienkonzept und Architektur wurden in D18, D24 und D25–D30 jeweils getrennt entschieden.
 
@@ -33,10 +33,11 @@ Vorhanden sind:
 - freies Studio mit Sammlungen, Einträgen, Text, Zahl mit Einheit, Datum, Auswahl, Beziehung und versionierter Umbenennung;
 - lokaler verschlüsselter SQLCipher-Speicher mit DPAPI-geschütztem Schlüssel;
 - vollständiger lesbarer JSON-Export mit validierter Wiederherstellung;
-- startbare Windows-App und erzeugter NSIS-Installer;
+- installierte Windows-App und erzeugter NSIS-Installer ohne zusätzliches Konsolenfenster;
+- dokumentierte technische K6-Abnahme mit 16 automatisierten Prüfungen, visueller Kernablaufprüfung und offengelegter WebView2-Netzwerkgrenze;
 - abgeschlossene [K4-Architekturentscheidung](architektur-k4.md) und dokumentierte [K5-Implementierung](k5-implementierung.md).
 
-Nicht vorhanden sind echte persönliche Daten, externe Konten, ein KI-Anbieter, Kalender-/Diätwerkzeuge oder eine persönliche Bedienabnahme.
+Nicht vorhanden sind echte persönliche Daten, externe Konten, ein KI-Anbieter, Kalender-/Diätwerkzeuge, allgemeines semantisches Verständnis freier Themen oder eine persönliche Bedienabnahme.
 
 ## Aktuelle Quellenreihenfolge
 
@@ -51,13 +52,14 @@ Historische Beispiele oder frühere Vorschläge dürfen eine neuere Korrektur ni
 
 ## Offene Grenzen
 
-- **O1:** Der vertikale Produktnachweis ist ausführbar und technisch geprüft; persönliche Assistenzqualität, Bediengefühl und Nutzen sind noch nicht durch Dennis abgenommen.
-- **Bedienkonzept umgesetzt:** D24 ist im K5-Kern als verständliches Briefing, Änderungsvertrag und Studio auf Nachfrage umgesetzt. Die früheren A/B/C aus PR #5 bleiben verworfen; reale Benutzbarkeit wird in K6 geprüft.
+- **O1:** Der vertikale Produktnachweis ist installiert und technisch geprüft; persönliche Assistenzqualität, Bediengefühl und Nutzen sind noch nicht durch Dennis abgenommen.
+- **Bedienkonzept umgesetzt:** D24 ist als verständliches Briefing, Änderungsvertrag und Studio auf Nachfrage umgesetzt. Die visuelle K6-Prüfung bestand; die persönliche Benutzbarkeit bleibt offen.
 - **Technik geklärt:** D25–D30 wählen Stack, lokalen verschlüsselten Speicher, Offline-Grundsatz, Schichtgrenzen, Export und erste Windows-Verteilung.
 - **O4:** KI-Einsatz, Anbieter oder lokaler Betrieb, erlaubte Daten und Budget unter 50 Euro bleiben vor einer produktiven Anbindung offen. Die Architektur bindet sich an keinen Anbieter.
 - **O5:** Für V1 sind Analyse ohne Bestätigung, Datenänderung nach konkreter Bestätigung und keine externen Aktionen gewählt. Spätere Befugnisse bleiben offen.
 - **O6/O11:** Die V1-Tiefe der Freiheit ist gewählt. K2 verlangt bestätigte Semantik, aber keine weitere Eigenschaftsform; langfristige Tiefe bleibt offen.
 - **O7–O10:** Diätanalyse und smarter Kalender sind als optionale Werkzeugideen festgehalten; genaue Tiefe, Daten, Integrationen und Zeitpunkt sowie Abendrhythmus und berufliche Entwicklung bleiben fachlich offen.
+- **O12:** Momentum selbst verwendet keinen Onlinedienst. Die Windows-WebView2-Laufzeit öffnete im K6-Test dennoch technische Herstellerverbindungen; vollständige Netzwerkstille ist nicht belegt.
 
 GitHub ist Codeablage. D26 legt den lokalen Anwendungsdatenordner des aktuellen Windows-Benutzers als Speicherort fest; echte persönliche Daten gehören weiterhin niemals ins Repository.
 
@@ -72,7 +74,7 @@ Als synthetischer Prüffall dient „Arbeitsplatz verbessern“ mit „Stuhl-Kan
 
 ## Nächste inhaltliche Arbeit
 
-K5 ist mit dem ausführbaren Kern und [k5-implementierung.md](k5-implementierung.md) abgeschlossen. Der nächste mögliche Abschnitt ist K6: Installation, Offline-Verhalten, Assistenzqualität, Bediengefühl, Datenhoheit und persönlichen Nutzen getrennt prüfen. K6 beginnt erst nach einem ausdrücklichen Auftrag.
+Der technische K6-Teil ist in [k6-abnahme.md](k6-abnahme.md) festgehalten. Als Nächstes ist ausschließlich Dennis' kurzer Durchlauf der installierten App mit dem Urteil **angenommen**, **angenommen mit Änderungen** oder **nicht angenommen** nötig. Vor diesem Urteil beginnt kein weiterer Abschnitt.
 
 ## Abnahmeprotokoll
 
@@ -92,8 +94,13 @@ K5 ist mit dem ausführbaren Kern und [k5-implementierung.md](k5-implementierung
 | K5, Oberfläche und Kern | vollständiger synthetischer Assistenzablauf und freies Studio auf der K4-Architektur | ausführbar; TypeScript-/Vite-Build und zwölf Rust-Prüfungen bestanden |
 | K5, Schutz und Haltbarkeit | SQLCipher-Dateikopf, DPAPI-Schlüssel, Neustart, Rollback, Definitionshistorie und Export/Wiederherstellung | technisch bestanden mit synthetischen Daten |
 | K5, Windows-Paket | Desktopstart und optimierter NSIS-Build | `momentum.exe` reagierte; Installer erzeugt, aber noch nicht installiert oder persönlich abgenommen |
+| K6, Installation und Start | korrigierten NSIS-Installer pro Benutzer installiert; Hauptfenster, GUI-Subsystem und Deinstallation geprüft | technisch bestanden |
+| K6, Oberfläche | Briefing, Antwort, Änderungsvertrag, Bestätigung, Studio, Sammlungseditor und Datenhoheit visuell durchlaufen | bestanden in lokaler WebView-Vorschau; native Bilderfassung war auf diesem System technisch nicht möglich |
+| K6, Assistenzvarianten | relevante und belanglose Änderungen, unbestätigtes Datum, Zustandsfortführung und unbekannte Durchführung | sechs Kontrastfälle bestanden; „Rezeptideen“ und Freitext-Deduplizierung noch nicht bestanden |
+| K6, Daten | Neustart, echter Datei-Export, Rücksetzung, validierte Wiederherstellung und ungültige Sicherung | technisch bestanden |
+| K6, Netzwerk und Kosten | Quellcode, Paket und laufende Prozessgruppe geprüft | keine Momentum-Dienste oder Kosten; WebView2-Herstellerverbindungen beobachtet und offengelegt |
 
-Noch keine App-Abnahme. Der K5-Stand ist ausführbar und technisch geprüft; ob er sich für Dennis wirklich intuitiv, entlastend und hochwertig genug anfühlt, wird erst in K6 beurteilt.
+Noch keine persönliche App-Abnahme. Der K6-Stand ist installiert und technisch geprüft; ob er sich für Dennis wirklich intuitiv, entlastend und hochwertig genug anfühlt, bleibt sein ausstehender Nutzungstest.
 
 ## GitHub
 

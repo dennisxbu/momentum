@@ -14,6 +14,7 @@ Dieses Verzeichnis ist das Projektgedächtnis. Vorhandene Dateien fortführen, k
 | [bedienkonzepte.md](bedienkonzepte.md) | Abgeschlossener K3-Vergleich und ausgewählte Briefing-Leitform |
 | [architektur-k4.md](architektur-k4.md) | Ausgewählte technische Grundlage, Datenkern, Schutz, Assistenz- und Erweiterungsgrenzen |
 | [k5-implementierung.md](k5-implementierung.md) | Ausführbarer vertikaler Kern, Startanleitung, Prüfungen und bewusste Grenzen |
+| [k6-abnahme.md](k6-abnahme.md) | Technische Installations- und Qualitätsabnahme sowie offene persönliche Abnahme |
 | [entwicklung.md](entwicklung.md) | Git/GitHub, Geheimnisse, was nicht ins Repo gehört |
 | [context/](context/) | Vision, Originalquellen, Schritt-Prompts |
 

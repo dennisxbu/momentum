@@ -178,4 +178,34 @@ mod tests {
         let service = AppService::open(directory.path()).unwrap();
         assert!(service.repository.scenario().unwrap().plan_confirmed);
     }
+
+    #[test]
+    fn file_export_and_restore_preserve_the_confirmed_state() {
+        let directory = tempfile::tempdir().unwrap();
+        let export_path = directory.path().join("momentum-k6-export.json");
+        let mut service = AppService::open(directory.path()).unwrap();
+        service.respond("home_by_13").unwrap();
+        service.respond("confirm_plan").unwrap();
+
+        service.export_to(&export_path).unwrap();
+        service.reset_demo().unwrap();
+        assert!(!service.repository.scenario().unwrap().plan_confirmed);
+
+        service.restore_from(&export_path).unwrap();
+        assert!(service.repository.scenario().unwrap().plan_confirmed);
+        assert!(export_path.is_file());
+    }
+
+    #[test]
+    fn invalid_restore_file_does_not_replace_local_data() {
+        let directory = tempfile::tempdir().unwrap();
+        let invalid_path = directory.path().join("invalid.json");
+        let mut service = AppService::open(directory.path()).unwrap();
+        service.respond("home_by_13").unwrap();
+        service.respond("confirm_plan").unwrap();
+        fs::write(&invalid_path, "{not valid momentum data}").unwrap();
+
+        assert!(service.restore_from(&invalid_path).is_err());
+        assert!(service.repository.scenario().unwrap().plan_confirmed);
+    }
 }

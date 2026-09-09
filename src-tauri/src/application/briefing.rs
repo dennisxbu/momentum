@@ -13,13 +13,9 @@ pub struct LocalReasoner;
 
 impl Reasoner for LocalReasoner {
     fn prepare(&self, state: &ScenarioState, deadline: Option<&RelevantDeadline>) -> BriefingView {
-        let deadline = deadline.cloned().unwrap_or(RelevantDeadline {
-            collection: "Eigene Sammlung".into(),
-            item: "Offener Eintrag".into(),
-            date: "unbekannt".into(),
-            meaning: "Bedeutung noch nicht bestätigt".into(),
-            related_intention: "ohne bestätigten Bezug".into(),
-        });
+        let Some(deadline) = deadline.cloned() else {
+            return prepare_without_relevant_deadline(state);
+        };
         let deadline_label = pretty_date(&deadline.date);
         let mut known = vec![
             fact(
@@ -169,6 +165,174 @@ impl Reasoner for LocalReasoner {
     }
 }
 
+fn prepare_without_relevant_deadline(state: &ScenarioState) -> BriefingView {
+    let mut known = vec![
+        fact(
+            "Feste Bindung",
+            if state.uni_extended {
+                "Uni · 09:00–13:30"
+            } else {
+                "Uni · 09:00–12:00"
+            },
+            "bestätigt",
+            "lokaler Termin",
+        ),
+        fact(
+            "Vorhaben",
+            "Mathe-Testat in 10 Tagen · Kenntnisstand offen",
+            "angegeben",
+            "synthetischer Prüffall",
+        ),
+    ];
+    if let Some(home) = state.home_after_uni {
+        known.push(fact(
+            "Rückkehr nach der Uni",
+            if home {
+                "Gegen 13:00 zuhause"
+            } else {
+                "Danach nicht direkt zuhause"
+            },
+            "angegeben",
+            "deine Antwort",
+        ));
+    }
+    if let Some(result) = &state.learning_result {
+        known.push(fact(
+            "Lernblock",
+            if result == "confirmed_done" {
+                "durchgeführt"
+            } else {
+                "Durchführung unbekannt"
+            },
+            if result == "confirmed_done" {
+                "bestätigt"
+            } else {
+                "unbekannt"
+            },
+            if result == "confirmed_done" {
+                "deine Beobachtung"
+            } else {
+                "keine Angabe"
+            },
+        ));
+    }
+
+    let (phase, day_label, question, actions, progress) = match state.phase.as_str() {
+        "morning_unknown" => (
+            "morning",
+            "Donnerstag · Morgen",
+            Some("Bist du nach der Uni gegen 13 Uhr zuhause?".into()),
+            vec![
+                action("home_by_13", "Ja, gegen 13 Uhr", "primary", None),
+                action("away_after_uni", "Nein, erst später", "secondary", None),
+            ],
+            18,
+        ),
+        "morning_answered" => (
+            "morning",
+            "Donnerstag · Morgen",
+            Some("Soll der Lernblock so geschützt werden?".into()),
+            vec![action(
+                "confirm_plan",
+                "Lernblock übernehmen",
+                "primary",
+                Some(vec!["90 Minuten Mathe als geschützter Block"]),
+            )],
+            32,
+        ),
+        "plan_confirmed" => (
+            "changed",
+            "Donnerstag · im Verlauf",
+            Some(
+                "Gab es eine relevante Änderung – oder ist der Tag bereit für den Rückblick?"
+                    .into(),
+            ),
+            vec![
+                action(
+                    "uni_extended",
+                    "Uni dauert 90 Minuten länger",
+                    "secondary",
+                    None,
+                ),
+                action("to_evening", "Zum Abendrückblick", "primary", None),
+            ],
+            53,
+        ),
+        "day_changed" => (
+            "changed",
+            "Donnerstag · Änderung",
+            Some("Soll nur der verkürzte Lernblock gelten?".into()),
+            vec![action(
+                "confirm_replan",
+                "Anpassung übernehmen",
+                "primary",
+                Some(vec!["Matheblock heute 45 statt 90 Minuten"]),
+            )],
+            62,
+        ),
+        "replan_confirmed" => (
+            "changed",
+            "Donnerstag · später",
+            Some("Bereit für einen kurzen Abendabschluss?".into()),
+            vec![action(
+                "to_evening",
+                "Abendbriefing öffnen",
+                "primary",
+                None,
+            )],
+            76,
+        ),
+        "evening" => (
+            "evening",
+            "Donnerstag · Abend",
+            Some("Hat der geplante Matheblock stattgefunden?".into()),
+            vec![
+                action("learning_done", "Ja, durchgeführt", "primary", None),
+                action("learning_unknown", "Offenlassen", "secondary", None),
+            ],
+            88,
+        ),
+        _ => (
+            "next_day",
+            "Freitag · Morgen",
+            Some("Den synthetischen Ablauf noch einmal ansehen?".into()),
+            vec![action(
+                "restart_walkthrough",
+                "Prüffall neu beginnen",
+                "secondary",
+                Some(vec!["Nur synthetische Prüfdaten zurücksetzen"]),
+            )],
+            100,
+        ),
+    };
+
+    BriefingView {
+        phase: phase.into(),
+        day_label: day_label.into(),
+        overline: "Bestätigte Grundlage".into(),
+        title: "Freie Datumsangaben bleiben ohne bestätigte Bedeutung aus dem Plan.".into(),
+        lead: "Momentum nutzt nur die bestätigten Termin- und Lerninformationen. Es erfindet aus einem freien Datumsfeld keine Frist oder Aufgabe.".into(),
+        known,
+        meaning: "Aus dem Studio liegt keine Datumsangabe mit bestätigter Bedeutung und bestätigtem Vorhabensbezug vor. Sie beeinflusst den Vorschlag deshalb nicht.".into(),
+        recommendation: if state.uni_extended {
+            "Nach der verlängerten Uni einen realistischen 45-Minuten-Lernstart schützen."
+        } else {
+            "Nach der Uni einen zusammenhängenden Matheblock schützen."
+        }
+        .into(),
+        reason: "Der Lernkontext ist belegt; eine weitere Dringlichkeit ist es nicht.".into(),
+        alternative: "Das freie Datum zunächst nur als Information behalten".into(),
+        alternative_cost: "Es wirkt erst dann auf Vorschläge, wenn seine Bedeutung bewusst bestätigt wurde.".into(),
+        unknowns: vec!["Konkreter Mathe-Kenntnisstand".into()],
+        changed: vec![],
+        unchanged: vec!["Unbestätigte freie Datumsangaben bleiben ohne Planwirkung".into()],
+        question,
+        actions,
+        progress,
+        status_note: "Keine unbegründete Frist abgeleitet".into(),
+    }
+}
+
 fn fact(label: &str, value: &str, state: &str, source: &str) -> KnownFact {
     KnownFact {
         label: label.into(),
@@ -235,5 +399,31 @@ mod tests {
         let after = LocalReasoner.prepare(&after_state, Some(&deadline()));
         assert_eq!(before.recommendation, after.recommendation);
         assert_eq!(before.reason, after.reason);
+    }
+
+    #[test]
+    fn missing_confirmed_deadline_is_not_invented() {
+        let view = LocalReasoner.prepare(&state("morning_unknown"), None);
+        assert!(view.meaning.contains("keine Datumsangabe"));
+        assert!(
+            view.known
+                .iter()
+                .all(|fact| !fact.value.contains("Rückgabe"))
+        );
+        assert!(view.lead.contains("keine Frist oder Aufgabe"));
+    }
+
+    #[test]
+    fn return_time_changes_the_recommendation() {
+        let mut home = state("morning_answered");
+        home.home_after_uni = Some(true);
+        let mut away = state("morning_answered");
+        away.home_after_uni = Some(false);
+
+        let home_view = LocalReasoner.prepare(&home, Some(&deadline()));
+        let away_view = LocalReasoner.prepare(&away, Some(&deadline()));
+
+        assert_ne!(home_view.recommendation, away_view.recommendation);
+        assert_ne!(home_view.reason, away_view.reason);
     }
 }
