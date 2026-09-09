@@ -9,7 +9,7 @@ Dieses Verzeichnis ist das Projektgedächtnis. Vorhandene Dateien fortführen, k
 | [produktvision.md](produktvision.md) | Aktuelle Nordrichtung: Assistent, flexible Grundlage, fokussierte Oberfläche |
 | [arbeitsplan.md](arbeitsplan.md) | Aktuelle Reihenfolge nach der Grundkorrektur; ursprüngliche Schrittfolge nicht mechanisch fortsetzen |
 | [nutzungskonzept.md](nutzungskonzept.md) | Alltagsszenarien und Grundprinzipien, korrigiert nach dem verworfenen ersten Entwurf |
-| [umfang-v1.md](umfang-v1.md) | Korrigierter Auswahlrahmen mit Assistenz- und Freiheits-Nachweis |
+| [umfang-v1.md](umfang-v1.md) | Ausgewählter V1-Nachweis mit Assistenzkreislauf, flexibler Sammlung und Abnahmekriterien |
 | [bedienkonzepte.md](bedienkonzepte.md) | Warum A/B/C verworfen sind und was neue Konzepte zeigen müssen |
 | [entwicklung.md](entwicklung.md) | Git/GitHub, Geheimnisse, was nicht ins Repo gehört |
 | [context/](context/) | Vision, Originalquellen, Schritt-Prompts |

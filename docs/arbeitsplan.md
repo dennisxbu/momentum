@@ -21,17 +21,17 @@ Nicht entstanden: App, Architektur, neue Screens oder KI-Entscheidung.
 
 ## K1 — Den kleinsten ehrlichen V1-Nachweis auswählen
 
-Ziel: festlegen, was Version 1 sichtbar beweisen muss, ohne die langfristige Vision auf eine vollständige Notion-Kopie aufzublähen.
+Status: **abgeschlossen**
 
-Zu klären:
+Ausgewählt ist ein schmaler, vollständiger Assistenzkreislauf auf einer begrenzt flexiblen Grundlage:
 
-- Welche neue, nicht vorprogrammierte Struktur kann Dennis selbst anlegen?
-- Welche eigenen Eigenschaften, Beziehungen oder Sichten müssen bereits funktionieren?
-- Welche Denk-, Ordnungs- und Auswertungsarbeit übernimmt der Assistent im vollständigen Tagesfluss?
-- Welche Befugnisse bleiben zunächst bei „vorschlagen“, „nach Bestätigung eintragen“ oder „im Rahmen selbst handeln“?
-- Welche Informationen sind für diesen Nachweis verfügbar, und welche bleiben unbekannt?
+- Dennis kann eine nicht vorgebaute Sammlung mit eigenen Eigenschaften und einer Beziehung anlegen.
+- Der verbindliche synthetische Prüffall „Stuhl-Kandidaten“ bringt eine eigene Frist und ein Budget in den bekannten Donnerstag ein.
+- Der Assistent verdichtet die Lage, fragt nach einer entscheidenden Lücke, begründet Empfehlung und Alternative, reagiert stabil auf Änderungen und verwendet den Verlauf am Abend sowie Folgetag weiter.
+- Eigene Datenänderungen brauchen eine konkrete Bestätigung. Analyse und Vorschläge darf die App selbst vorbereiten; externe Aktionen sind ausgeschlossen.
+- Der Nachweis enthält dauerhafte Speicherung sowie echten Export mit Wiederherstellung.
 
-Ergebnis: eine kleine Auswahl mit beobachtbaren Abnahmekriterien. Keine Technik und keine UI.
+Die vollständige Auswahl und ihre beobachtbaren Abnahmekriterien stehen in [umfang-v1.md](umfang-v1.md). Keine Technik und keine UI wurden gewählt.
 
 ## K2 — Früher Machbarkeitscheck für Assistenz und Offenheit
 
@@ -112,4 +112,4 @@ Wie bisher getrennt prüfen:
 
 ## Aktuelle Grenze
 
-K0 ist abgeschlossen. K1 ist der nächste mögliche Auftrag. K2, K3, K4 und Implementierung sind nicht automatisch freigegeben.
+K0 und K1 sind abgeschlossen. **K2 ist der nächste mögliche Auftrag.** K3, K4 und Implementierung sind nicht automatisch freigegeben.

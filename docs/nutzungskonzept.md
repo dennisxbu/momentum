@@ -290,16 +290,16 @@ Alles in diesem Abschnitt ist **Vorschlag**, außer wo ausdrücklich als Nutzera
 
 Die Prompt-Reihe prüft kontextbezogene Unterstützung ausführlich erst in Schritt 12. Das ist **kein** Grund, Annahmen über Datenbedarf und Entscheidungsqualität erst nach großer UI- und Modellierungsarbeit anzusehen.
 
-Der V1-Vorschlag in [umfang-v1.md](umfang-v1.md) macht die wesentlichen Ansprüche und den frühen Machbarkeitscheck (V8) sichtbar. Ein kleiner Umfang darf nicht stillschweigend heißen, nur Aufgaben und Termine zu bauen.
+Der ausgewählte V1-Nachweis in [umfang-v1.md](umfang-v1.md) macht die wesentlichen Ansprüche und den frühen Machbarkeitscheck (V8) sichtbar. Ein kleiner Umfang darf nicht stillschweigend heißen, nur Aufgaben und Termine zu bauen.
 
-## Maximal fünf Fragen nach der Korrektur
+## Nach K1 verbleibende Produktfragen
 
-Bekanntes wird nicht erneut gefragt (persönliche Windows-App für Dennis, 50-Euro-Grenze, keine iOS-Kopie, einmalige Aufgaben ohne Routinezwang, keine erfundene Gesamtpunktzahl für den Arbeitsmarkt). Die Fragen werden hier nicht beantwortet.
+Bekanntes wird nicht erneut gefragt. K1 hat den Freiheits-Nachweis, den anfänglichen Kontext und die Befugnisse für Version 1 in [umfang-v1.md](umfang-v1.md) ausgewählt. Diese Punkte werden nicht wieder als offene Grundsatzfragen geführt.
 
-1. **Freiheits-Nachweis in Version 1:** Welche eigene Struktur, Eigenschaft oder Beziehung musst du bereits ohne Code anlegen können, damit die App sich nicht wie fest programmierte Zieltypen anfühlt?
-2. **Befugnisse des Assistenten:** Welche Planänderungen soll er nur vorbereiten, welche nach deiner Bestätigung eintragen und welche innerhalb eines von dir gesetzten Rahmens selbst durchführen dürfen?
-3. **Vorhandener Kontext:** Welche Informationen darf und soll die App anfangs kennen oder aus Quellen übernehmen, damit sie wirklich vorbereitet sein kann, ohne unverhältnismäßige Pflege zu verlangen?
-4. **Fachliche Tiefe:** Welche konkrete Hilfe und welche Informationen sind für Diät/Training sowie berufliche Entwicklung nützlich, ohne diese Bereiche auf Tracker oder tägliche Pflichtaufgaben zu reduzieren?
-5. **Rückmeldung und Reflexion:** Welche Beiträge willst du bewusst abends leisten, und welche Zusammenfassung oder Auswertung soll die App bereits aus vorhandenen Tagesdaten vorbereiten?
+Vor oder während späterer Schritte können noch wichtig werden:
 
-Antworten darauf verändern den V1-Nachweis und die nächsten Bedienkonzepte. Der korrigierte Auswahlrahmen liegt in [umfang-v1.md](umfang-v1.md). Die Fragen werden durch diese Dokumentationskorrektur nicht stillschweigend beantwortet.
+1. **Fachliche Tiefe:** Welche konkrete Hilfe und welche Informationen sind für Diät/Training sowie berufliche Entwicklung nützlich, ohne diese Bereiche auf Tracker oder tägliche Pflichtaufgaben zu reduzieren?
+2. **Rückmeldung und Reflexion:** Welche Beiträge will Dennis bewusst abends leisten, und welche Zusammenfassung oder Auswertung soll die App bereits aus vorhandenen Tagesdaten vorbereiten?
+3. **Echte Datenquellen:** Welche späteren Anbindungen reduzieren Pflegeaufwand ausreichend, um Kosten, Datenschutz und Abhängigkeit zu rechtfertigen?
+
+Keine dieser Fragen blockiert K2. Der Machbarkeitscheck verwendet synthetische Varianten und macht sichtbar, wo vor K3 tatsächlich eine Antwort von Dennis nötig wird.

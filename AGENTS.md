@@ -53,7 +53,7 @@ Vorhandene gleichwertige Dateien weiterverwenden, statt widersprüchliche Doppel
 - [docs/produktvision.md](docs/produktvision.md) — aktuelle Nordrichtung und Bedeutung von Assistenz sowie Notion-artiger Freiheit
 - [docs/arbeitsplan.md](docs/arbeitsplan.md) — aktueller Ablauf und Freigabegrenzen
 - [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — Alltagsszenarien mit der aktuellen Grundkorrektur
-- [docs/umfang-v1.md](docs/umfang-v1.md) — korrigierter Auswahlrahmen, noch kein Beschluss
+- [docs/umfang-v1.md](docs/umfang-v1.md) — ausgewählter vertikaler Produktnachweis für Version 1
 - [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — verworfener erster Versuch und Kriterien für einen neuen Vergleich
 - [docs/context/](docs/context/) — Arbeitsnotiz, Prompt-Sammlung, ursprüngliche Momentaufnahmen
 - [.cursor/rules/](.cursor/rules/) — kurze, immer geltende Agent-Regeln

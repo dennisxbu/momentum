@@ -1,132 +1,198 @@
-# Version 1 — korrigierter Auswahlrahmen
+# Version 1 — ausgewählter Produktnachweis
 
-Stand: 9. September 2026 · **Vorschlag, kein Beschluss**
+Stand: 9. September 2026 · **Arbeitsbeschluss für Version 1**
 
-Die frühere Umfangstabelle aus Schritt 2 wird nicht unverändert weiterverwendet. Sie beschrieb viele notwendige Datenfunktionen, konnte aber dennoch zu genau der von Dennis abgelehnten App führen: Tageskarten, Statuspflege, einzelne Messwerte und ein dünner Vorschlagstext.
+Dennis hat die Entscheidung über den nächsten sinnvollen Arbeitsschritt ausdrücklich an die Software-Expertise delegiert. Für Version 1 wird deshalb der kleinste zusammenhängende Nachweis gewählt, der die beiden tragenden Versprechen von Momentum gleichzeitig prüft:
 
-Version 1 muss nicht Notion nachbauen und nicht alle Lebensbereiche fachlich vollständig lösen. Sie muss aber bereits beweisen, dass Momentum in die richtige Richtung trägt:
+1. Die App übernimmt in einem echten Tagesverlauf sichtbar Denk-, Ordnungs- und Auswertungsarbeit.
+2. Dieselbe Unterstützung kann Informationen aus einer von Dennis selbst angelegten, nicht vorprogrammierten Struktur verwenden.
 
-1. **echte Assistenz statt zusätzlicher Verwaltung**;
-2. **echte Anpassbarkeit statt nur umbenennbarer Ziele und einer einzelnen Messgröße**;
-3. **ein vollständiger, dauerhaft gespeicherter Nutzungsfluss statt einer Demo-Fassade**.
+Version 1 wird damit **kein breiter Life-Tracker und keine kleine Notion-Kopie**. Sie wird ein schmaler, dauerhaft gespeicherter Assistenzkreislauf auf einer begrenzt flexiblen persönlichen Grundlage.
 
-## Zwei unverzichtbare Nachweise
+## Der ausgewählte vertikale Kern
 
-### A. Assistenz-Nachweis
+Der Nachweis folgt einem vollständigen Kreislauf:
 
-An einem vollständigen synthetischen Alltag übernimmt die App sichtbar Arbeit:
+1. **Verstehen:** vorhandene Termine, Fristen, Vorhaben, Beobachtungen und eigene Strukturen zu einer aktuellen Lage verdichten.
+2. **Abwägen:** einen relevanten Konflikt oder eine Möglichkeit erkennen, entscheidende Unklarheiten benennen und Alternativen vergleichen.
+3. **Vorschlagen:** einen nächsten Schritt oder Tagesplan mit Gründen, Unsicherheit und mindestens einer sinnvollen Alternative vorbereiten.
+4. **Bestätigen oder korrigieren:** Dennis entscheidet; eine kurze Korrektur verändert die weitere Beurteilung nachvollziehbar.
+5. **Anpassen:** bei einer relevanten Tagesänderung nur den betroffenen Teil neu beurteilen.
+6. **Zusammenführen:** abends Bekanntes wiederverwenden, wenige nützliche Lücken klären und eine vorläufige Erkenntnis bilden.
+7. **Weitertragen:** am Folgetag zeigen, welche bestätigte Information oder offene Frage weiterhin Bedeutung hat.
 
-- Sie führt relevante Termine, Fristen, Ziele, frühere Beobachtungen und aktuelle Änderungen zu einer Lage zusammen.
-- Sie erkennt mindestens einen echten Ziel- oder Zeitkonflikt.
-- Sie entwickelt einen begründeten Vorschlag mit relevanter Alternative und sichtbarer Unsicherheit.
-- Fehlt eine entscheidende Information, fragt sie gezielt danach statt einen sicheren Plan zu erfinden.
-- Eine Korrektur verändert die weitere Beurteilung nachvollziehbar.
-- Am Abend verwendet sie Bekanntes wieder, statt Dennis den Tag erneut eingeben zu lassen.
-- Am Folgetag ist sichtbar, welche Information übernommen wurde und wofür sie nützt.
+Wenn dieser Kreislauf nur aus Karten, Häkchen und einem freundlich formulierten Text besteht, ist der Nachweis nicht bestanden.
 
-Das wird am Verhalten geprüft, nicht am Etikett „KI“. Eine regelbasierte, hybride oder modellgestützte Lösung ist technisch noch offen.
+## Freiheits-Nachweis: eine eigene Sammlung im Assistenzkontext
 
-### B. Freiheits-Nachweis
+Dennis kann in Version 1 mindestens **eine eigene Art von Dingen als Sammlung** anlegen. „Sammlung“ ist hier eine Produktfähigkeit, keine Festlegung auf ein technisches Datenmodell oder eine bestimmte Oberfläche.
 
-Dennis kann ein persönliches Thema abbilden, das nicht als Studium-, Training-, Diät- oder Karriere-Sonderfall programmiert wurde.
+Für diese Sammlung kann er:
 
-Der Nachweis muss zeigen:
+- einen Namen und eine kurze Beschreibung ihrer Bedeutung festlegen;
+- eigene Eigenschaften aus den Formen **Text**, **Zahl mit Einheit**, **Datum**, **Auswahl** und **Beziehung** anlegen;
+- Einträge erstellen und später verändern;
+- mindestens eine Beziehung zu einem vorhandenen Vorhaben oder einem anderen Eintrag herstellen;
+- alle Einträge vollständig betrachten sowie eine für eine konkrete Frage gefilterte oder sortierte Sicht bilden;
+- relevante Einträge in den Assistenzkontext des Tages einbeziehen;
+- Eigenschaftsnamen oder Auswahlmöglichkeiten später ändern, ohne ältere Werte still in eine andere Bedeutung umzudeuten.
 
-- eine neue Art von Inhalt oder eine neue Struktur lässt sich ohne Code anlegen;
-- dazu passende eigene Eigenschaften und mindestens ein sinnvoller Zusammenhang können festgelegt werden;
-- diese Information kann in einer passenden Alltagssicht auftauchen;
-- vorhandene Daten können in einer nachvollziehbaren Sicht oder Auswertung verwendet werden;
-- spätere Änderungen zerstören historische Bedeutung nicht stillschweigend.
+Nicht enthalten sind freie Formeln, Skripte, verschachtelte Datenbanken, ein Plugin-System oder ein universeller No-Code-Editor. Weitere Eigenschaftsformen werden nur ergänzt, wenn der Nachweis ohne sie nicht ehrlich möglich ist.
 
-Welche konkreten Grundbausteine und wie viele Freiheiten dafür nötig sind, bleibt auszuwählen. Eine neue Bezeichnung oder nur eine Zahl mit Einheit reicht als alleiniger Nachweis nicht.
+### Verbindlicher synthetischer Prüffall
 
-## Vorgeschlagener vollständiger V1-Fluss
+Als absichtlich nicht vorgebautes Thema dient eine persönliche Kaufentscheidung **„Arbeitsplatz verbessern“**. Dennis legt dafür die Sammlung **„Stuhl-Kandidaten“** an, nicht ein spezielles Einkaufs- oder Möbelmodul.
 
-| Moment | Erlebbarer Nutzen | Was nicht genügt |
+Der Prüfdatensatz enthält beispielsweise:
+
+| Eigenschaft | Form | Bedeutung im Prüffall |
 | --- | --- | --- |
-| Einstieg | brauchbare Ausgangskonfiguration; kein leerer Baukasten | zuerst das eigene System entwerfen müssen |
-| Morgen | vorbereitete Lage, Empfehlung, Gründe, Alternative, eine wirklich entscheidende Frage | Termine und Aufgaben als gleichartige Karten |
-| Tagesänderung | neue Information wird eingeordnet; betroffene Planung wird zur Korrektur angeboten | alles manuell neu sortieren |
-| Schnelles Erfassen | einmalige Dinge oder Beobachtungen ohne Strukturzwang hinzufügen | für jedes Paket eine Routine oder ein Ziel anlegen |
-| Abend | vorhandenen Tag zusammenfassen; nur nützliche Lücken klären | Checkbox-Runde und zweiter Tagesbericht |
-| Folgetag | Folgen der Rückmeldung und offene Punkte verständlich zeigen | generischer Motivationssatz |
-| Entwicklung | Datenbasis, Lücken, Vermutung und möglicher Versuch erkunden | dekorative Balken oder Trend aus einem Tag |
-| Anpassung | ein nicht vorgebautes Thema sinnvoll integrieren | nur Zielname, Farbe oder Messgröße ändern |
-| Neustart | Einträge, Korrekturen und Struktur bleiben erhalten | ausschließlich statische Demo-Daten |
-| Datenhoheit | Export und Wiederherstellung getrennt nachweisen | vorhandene Exportdatei als Backup-Test ausgeben |
+| Modell | Text | frei gewählter Name des Kandidaten |
+| Preis | Zahl mit Einheit Euro | Vergleich mit dem selbst gesetzten Budget |
+| Rückgabefrist | Datum | letzter möglicher Tag einer Rückgabe |
+| Eindruck | Auswahl | noch offen, passend oder ungeeignet |
+| Gehört zu | Beziehung | Verbindung zum Vorhaben „Arbeitsplatz verbessern“ |
 
-## Fähigkeiten im korrigierten Rahmen
+Mindestens ein Kandidat besitzt eine nahe Rückgabefrist. Dadurch muss die freie Struktur nicht nur gespeichert werden: Sie kann die heutige Lage und einen Vorschlag tatsächlich verändern. Die Farbe eines Stuhls kann als belanglose Zusatzinformation dienen und darf ohne entsprechende Priorität nicht zufällig den Tagesplan kippen.
 
-| Fähigkeit | V1-Rolle | Noch offen |
+Der Prüfgegenstand ist synthetisch. Er legt weder Dennis' wirkliche Kaufabsicht noch ein späteres Produktmodul fest. Ein anderer nicht vorgebauter Fall muss mit denselben Fähigkeiten grundsätzlich abbildbar sein.
+
+## Assistenz-Nachweis: ein vorbereiteter Tag
+
+Der bekannte synthetische Donnerstag bleibt Ausgangskontext, aber nicht als Screen-Bauplan. Für den Test werden nur Informationen verwendet, die im Datensatz ausdrücklich vorhanden sind:
+
+- ein zeitlich gebundener Uni-Block;
+- ein Mathe-Testat mit Frist und unbekanntem Kenntnisstand;
+- ein geplanter Lernblock;
+- zwei einmalige Erledigungen;
+- ein geplanter Trainingsblock;
+- das Vorhaben „Arbeitsplatz verbessern“ mit der frei angelegten Sammlung;
+- frühere bestätigte Korrekturen oder Beobachtungen.
+
+Die App muss daraus mehr leisten als eine sortierte Liste:
+
+### Morgen
+
+- Sie fasst feste Bindungen, relevante Fristen und konkurrierende Absichten zu einer verständlichen Lage zusammen.
+- Sie benennt den wichtigsten erkannten Konflikt, statt alle Punkte gleichzeitig als machbar darzustellen.
+- Sie empfiehlt einen konkreten Fokus oder Ablauf und erklärt, welche Informationen dafür ausschlaggebend waren.
+- Sie bietet mindestens eine echte Alternative mit erkennbarem Nachteil an.
+- Fehlt eine Information, die zwischen beiden Möglichkeiten entscheidet, stellt sie eine gezielte Frage. Sie erfindet weder Kenntnisstand noch Wegezeit oder Öffnungszeiten.
+
+### Korrektur und Tagesänderung
+
+- Eine kurze Antwort von Dennis wird als Angabe oder Korrektur erkennbar übernommen.
+- Eine relevante Änderung, etwa 90 Minuten längere Uni oder eine vorgezogene Rückgabefrist, löst eine begrenzte Neubewertung aus.
+- Die App erklärt, was sich deshalb geändert hat und was bewusst unverändert bleibt.
+- Eine belanglose Änderung erzeugt keine neue Strategie und keinen künstlich abwechslungsreichen Text.
+
+### Abend und Folgetag
+
+- Die App beginnt mit dem bestätigten Plan und den bereits bekannten Änderungen.
+- Sie fragt höchstens nach Lücken, deren Antwort für ein Vorhaben, eine spätere Empfehlung oder eine ehrliche Auswertung nützlich ist.
+- Planung, tatsächliche Durchführung, Beobachtung und Vermutung bleiben unterscheidbar.
+- Eine ausgelassene Antwort wird als unbekannt behandelt, nicht als Misserfolg.
+- Am Folgetag wird mindestens eine bestätigte Erkenntnis sinnvoll verwendet; eine unsichere Vermutung bleibt als solche kenntlich.
+
+## Befugnisse in Version 1
+
+Die erste Version verwendet ein vorsichtiges, verständliches Befugnismodell.
+
+### Ohne einzelne Bestätigung erlaubt
+
+Die App darf innerhalb ihrer eigenen Oberfläche:
+
+- gespeicherte Informationen lesen, zusammenfassen, vergleichen und filtern;
+- Konflikte, Lücken, Möglichkeiten und Alternativen vorbereiten;
+- Situationsbilder und Vorschläge aktualisieren;
+- aus bestätigten Daten abgeleitete Ansichten neu berechnen;
+- offene Punkte als offen anzeigen.
+
+Diese Vorgänge verändern keine von Dennis gesetzten Ziele, Zusagen oder Tatsachen.
+
+### Durch Dennis' konkrete Antwort oder Bestätigung erlaubt
+
+Die App darf danach:
+
+- einen vorgeschlagenen Plan oder eine Änderung als bestätigt eintragen;
+- eine von Dennis mitgeteilte Korrektur oder Beobachtung speichern;
+- eine Beziehung oder Eigenschaft ändern, wenn die beabsichtigte Änderung klar erkennbar ist;
+- eine bisherige Annahme als korrigiert oder überholt markieren, ohne die Historie zu löschen.
+
+Eine direkte Aussage wie „Uni dauert heute 90 Minuten länger“ gilt als Bestätigung genau dieser Information, nicht als pauschale Vollmacht für weitere Änderungen.
+
+### Nicht erlaubt
+
+Version 1 darf nicht selbstständig:
+
+- persönliche Ziele oder Prioritäten ändern;
+- Aktivitäten als tatsächlich erledigt markieren;
+- Nutzerdaten löschen oder historische Aussagen umdeuten;
+- Kalender, Nachrichten, Bestellungen oder andere externe Systeme verändern;
+- kostenpflichtige Aktionen oder Modellaufrufe auslösen;
+- aus fehlenden Daten Tatsachen ableiten.
+
+## Verfügbarer und unbekannter Kontext
+
+Für den Nachweis stammen die Informationen zunächst aus lokal angelegten beziehungsweise synthetisch vorbereiteten Einträgen. Externe Kalender-, E-Mail-, Uni- oder Fitnessanbindungen sind nicht Teil dieses V1-Nachweises.
+
+Die App darf anfänglich kennen:
+
+- aktuelles Datum und lokale Uhrzeit;
+- bestätigte Termine, Zeitfenster und Fristen;
+- aktive Vorhaben, ihre Bedeutung und von Dennis gesetzte Prioritäten;
+- geplante Aktivitäten und ausdrücklich beobachtete Ergebnisse;
+- Inhalte, Bedeutungen und Beziehungen der eigenen Sammlung;
+- frühere bestätigte Korrekturen;
+- von der App gebildete, klar gekennzeichnete Vermutungen.
+
+Unbekannt bleiben insbesondere nicht erfasste Wegezeiten, Öffnungszeiten, Energie, tatsächliche Durchführung, Kenntnisstand und persönliche Bedeutung. Die App fragt nur nach, wenn die Information die aktuelle Beurteilung voraussichtlich wesentlich verändert.
+
+Die konkrete Eingabeform wird erst im Bedienkonzept entschieden. K1 legt weder ein Chatfenster noch Formulare als Lösung fest.
+
+## Beobachtbare Abnahmekriterien
+
+Der V1-Nachweis ist nur bestanden, wenn alle folgenden Prüfungen mit synthetischen Daten nachvollziehbar gelingen:
+
+| ID | Prüfung | Bestanden, wenn |
 | --- | --- | --- |
-| Aktuelles Situationsbild | Kern des Assistenz-Nachweises | benötigte Datenquellen und Darstellungsform |
-| Begründete Empfehlung | Kern; Alternativen, Unsicherheit und Korrektur | technische Lösung und Befugnisse |
-| Termine, Fristen und einmalige Dinge | notwendiger Kontext, leicht erfassbar | zunächst manuell oder angebunden |
-| Geplante Aktivität und tatsächlicher Verlauf | für Alltag und ehrliche Auswertung getrennt | genaue Zustände und Eingabeform |
-| Abendliche Synthese | bestehende Informationen nutzen; wenige gezielte Fragen | gewünschter Rhythmus |
-| Persönliches Wissen | Angabe, Beobachtung, Vermutung und Erprobung unterscheiden | Lebensdauer und Korrektur der Annahmen |
-| Flexible Strukturen | Kern des Freiheits-Nachweises | konkrete Bausteine, Beziehungen und Sichten |
-| Gute Vorlagen | sofortiger Nutzen trotz Freiheit | welche Startvorlagen Dennis möchte |
-| Aussagekräftige Entwicklung | Zeiträume, Datenbasis und Lücken; keine falsche Ursache | konkrete Fachauswertungen |
-| Hochwertige Oberfläche | Assistenz und Tiefe verständlich sowie erfreulich machen | visuelle Identität und Navigation |
-| Dauerhafte Speicherung | echte Korrektur und Lernen über Neustarts | Speicherort und Technik |
-| Export und Wiederherstellung | Datenhoheit | Format und Auslieferungszeitpunkt |
+| F1 | Nicht vorgebautes Thema | „Stuhl-Kandidaten“ lässt sich ohne Code mit den fünf festgelegten Eigenschaftsformen anlegen. |
+| F2 | Beziehung und Sicht | Ein Kandidat ist mit „Arbeitsplatz verbessern“ verbunden und eine konkrete Fristen- oder Budgetfrage lässt sich als gefilterte beziehungsweise sortierte Sicht beantworten. |
+| F3 | Assistenz verwendet Freiheit | Eine Eigenschaft aus dieser Sammlung beeinflusst den Tagesvorschlag nachvollziehbar; sie ist nicht nur Dekoration. |
+| F4 | Historische Bedeutung | Eine spätere Umbenennung oder Änderung lässt ältere gespeicherte Werte verständlich und nachvollziehbar bestehen. |
+| A1 | Vorbereitete Lage | Der Morgen benennt Bindungen, wichtigsten Konflikt, Empfehlung, Grund, Alternative und relevante Unsicherheit, ohne dass Dennis alles neu sortiert. |
+| A2 | Entscheidende Lücke | Bei fehlender Schlüsselinformation wird gezielt gefragt; ohne Antwort bleibt die Empfehlung entsprechend vorsichtig. |
+| A3 | Relevante Korrektur | Eine inhaltlich wichtige Antwort verändert Vorschlag oder Begründung sichtbar. |
+| A4 | Stabilität | Eine belanglose Zusatzinformation verändert den Kernvorschlag nicht. |
+| A5 | Tagesänderung | Eine relevante Änderung führt zu einer begrenzten, erklärten Neuplanung statt vollständigem Neustart. |
+| A6 | Befugnis | Erst eine konkrete Bestätigung verändert den geltenden Plan; Ablehnung und Korrektur bleiben möglich. |
+| A7 | Abendliche Entlastung | Der Abend verwendet Bekanntes wieder und fragt nicht den ganzen Tag erneut ab. |
+| A8 | Ehrliche Weiterführung | Am Folgetag werden bestätigte Erkenntnisse genutzt, Unbekanntes und Vermutetes aber nicht als Tatsache behandelt. |
+| D1 | Dauerhaftigkeit | Struktur, Einträge, Korrekturen, Plan und Historie überstehen einen App-Neustart. |
+| D2 | Datenhoheit | Der vollständige V1-Datensatz kann exportiert und in einem leeren Zustand tatsächlich wiederhergestellt werden. |
+| E1 | Erlebte Entlastung | Dennis beurteilt nach dem vollständigen Durchlauf, ob die App relevante Arbeit übernommen hat und nicht wie ein weiterer Tracker wirkt. |
 
-## Was nicht als V1-Nachweis zählt
+Die Formulierung „KI“ ersetzt keine dieser Prüfungen. Für A1 bis A5 werden im Machbarkeitscheck getrennte Varianten und mindestens ein zurückgehaltener Fall verwendet, damit die Antworten nicht nur auf ein einziges Drehbuch zugeschnitten sind.
 
-- eine Aufgabenliste mit Status-Chips;
-- mehrere Kartenlayouts derselben Daten;
-- ein Chatfeld ohne Zugriff auf relevante, strukturierte Informationen;
-- ein überzeugend formulierter Vorschlag ohne geprüfte Entscheidungsqualität;
-- fest programmierte Fachmodule mit umbenennbaren Überschriften;
-- eine einzelne frei benannte Messgröße als vollständiger Modularitätsnachweis;
-- Diagramme ohne konkrete Frage, Datenbasis und Unsicherheit;
-- eine leere Notion-artige Baufläche ohne sinnvolle Voreinstellung;
-- automatische Änderungen ohne erkennbare Befugnis und Korrekturweg.
+## Nicht Teil dieses V1-Kerns
 
-## Bewusst nicht automatisch enthalten
+- vollständige Notion-Kompatibilität oder beliebig viele Bausteine;
+- spezielle Fachmodule für Studium, Training, Ernährung, Karriere oder Einkäufe;
+- allgemeine Aufgaben-, Gewohnheits- und Wissensverwaltung in voller Breite;
+- automatische externe Datenquellen oder Aktionen;
+- mobile App, Mehrbenutzerbetrieb oder Cloud-Synchronisierung;
+- Plugin-Marktplatz, Skripte oder universelle Formeln;
+- autonome Lebenssteuerung;
+- behauptete psychologische, medizinische oder kausale Wirkung;
+- produktive KI-Anbindung, bevor Qualität, Datenverwendung und Kosten getrennt entschieden wurden.
 
-- vollständige Notion-Kompatibilität oder ein allgemeiner No-Code-Editor;
-- Plugin-Marktplatz, frei programmierbare Skripte oder universeller Formel-Editor;
-- vollständige Fachsoftware für Ernährung, Training, Lernen oder Kontaktmanagement;
-- automatische Kalenderänderungen oder externe Aktionen ohne gewählte Befugnis;
-- mobile App;
-- öffentliches oder kommerzielles Produkt;
-- bewiesene psychologische oder medizinische Wirkung;
-- produktive KI-Anbindung, bevor Daten, Anbieter, Budget und Prüfplan entschieden sind.
+Diese Abgrenzung verhindert nicht, dass notwendige Grundinformationen im vertikalen Test vorkommen. Sie verhindert, dass vor dem bewiesenen Assistenzkern ein breiter Tracker-Unterbau gebaut wird.
 
-## Qualitätskriterien
+## Folgen für die nächsten Schritte
 
-1. **Entlastung:** Die App spart nachweisbar Such-, Sortier- oder Auswertungsarbeit.
-2. **Relevanz:** Eine wichtige Kontextänderung beeinflusst die Unterstützung angemessen.
-3. **Stabilität:** Belanglose Änderungen erzeugen keinen zufälligen Richtungswechsel.
-4. **Ehrlichkeit:** Fehlendes bleibt unbekannt; Datenbasis und Unsicherheit sind sichtbar.
-5. **Korrigierbarkeit:** Dennis kann Daten, Struktur, Annahme und Vorschlag berichtigen.
-6. **Offenheit:** Ein neuer persönlicher Anwendungsfall benötigt keinen neuen fest verdrahteten Fachbereich.
-7. **Fokus:** Die Freiheit erzeugt im Alltag keine permanente Systempflege.
-8. **Tiefe:** Eine Auswertung beantwortet eine echte Frage und führt bei Bedarf zu einem prüfbaren nächsten Versuch.
-9. **Erlebnis:** Die Benutzung wirkt hochwertig, verständlich und lohnend — nicht wie eine Pflichtformular-App.
-10. **Datenbeständigkeit:** Historie, Bedeutungen und Einheiten werden bei Änderungen nicht still umgeschrieben.
+- K2 prüft mit synthetischen Fällen, ob der ausgewählte Kreislauf mit vertretbarem Datenbedarf stabil und ehrlich beurteilt werden kann.
+- K3 entwickelt erst danach unterschiedliche Bedienformen für genau diesen Arbeitsumfang.
+- K4 wählt eine technische Grundlage, die die fünf Eigenschaftsformen, Beziehungen, Historie, Assistenzbefugnisse und Datenhoheit tragen kann.
+- Implementierung beginnt nicht durch diesen Beschluss.
 
-## Früher Machbarkeitscheck
-
-Vor einer verbindlichen Architektur muss mit getrennten synthetischen Fällen geprüft werden:
-
-- welche Daten der Assistent für den oben beschriebenen Nutzen tatsächlich benötigt;
-- welche Unterstützung ohne aufwendige tägliche Eingaben erreichbar ist;
-- wie ein neues, nicht vorgebautes Thema in den Assistenzkontext gelangt;
-- welche Teile verlässlich berechnet werden und wo kontextuelle Beurteilung nötig ist;
-- wie Qualität und gegebenenfalls Modellkosten begrenzt und geprüft werden.
-
-Keine kostenpflichtigen Aufrufe ohne eigenen Auftrag. Ein negatives Ergebnis muss zu einer begrenzten Umfangskorrektur führen können.
-
-## Auswahl, die bei Dennis bleibt
-
-Vor neuen Bedienentwürfen ist nur die Richtung des Freiheits-Nachweises zu konkretisieren:
-
-- Welche eigenen Strukturen, Eigenschaften oder Beziehungen müssen in Version 1 bereits erlebbar sein?
-- Welche davon dürfen zunächst gute Vorlagen sein, solange sie nicht fest im Code eingeschlossen werden?
-
-Unabhängig davon bleiben Befugnisse, Datenquellen, KI, Speicherort sowie die fachliche Tiefe der Lebensbereiche offen.
-
-Nichts ist implementiert.
+Langfristige Tiefe, weitere eigene Strukturen, echte Datenquellen, KI-Einsatz und weitergehende Befugnisse bleiben offen. Für den V1-Nachweis sind Umfang, Prüfgegenstand und anfängliche Befugnisse jetzt ausreichend bestimmt.

@@ -31,8 +31,10 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D15 | Assistenz statt Verwaltungsoberfläche | Fakt | Momentum soll sich wie ein hochgradig hilfreicher persönlicher Assistent anfühlen, der Denk-, Ordnungs- und Auswertungsarbeit übernimmt. Eine App, in der Dennis hauptsächlich Karten liest, Checkboxen anklickt und Zustände pflegt, verfehlt die Richtung. | Direkte Korrektur Dennis 9.9.2026; vier Screenshots aus Schritt 3 |
 | D16 | Notion-artige Freiheit | Fakt | Dennis will weg von starren, fest programmierten Zielen und Strukturen. „Notion-Stil“ beschreibt die Freiheit, grundsätzlich sehr unterschiedliche eigene Gedanken und Zusammenhänge abbilden zu können — abgespeckt, fokussiert und nicht als Notion-Kopie. | Direkte Präzisierung Dennis 9.9.2026; ursprüngliche Aussagen zu wenig Hardcoding |
 | D17 | Bedienkonzepte A/B/C verworfen | Fakt | Die Konzepte aus PR #5 sind keine auswählbaren Produktgrundlagen mehr. Das gemeinsame Karten-/Statusmodell und die dünne Assistenz gehen in die falsche Richtung; Empfehlung A ist zurückgezogen. | Direkte Bewertung Dennis 9.9.2026 |
+| D18 | V1-Nachweis ausgewählt | beschlossen | V1 beweist einen vollständigen Assistenzkreislauf zusammen mit einer frei angelegten Sammlung. Der synthetische Fall „Stuhl-Kandidaten“ verwendet eigene Eigenschaften, eine Beziehung und eine passende Sicht tatsächlich im Tageskontext. Dauerhafte Speicherung und echte Wiederherstellung gehören zum Nachweis. | Dennis delegiert nächste fachliche Entscheidung 9.9.2026; K1; [umfang-v1.md](umfang-v1.md) |
+| D19 | Befugnisse und Datenquellen in V1 | beschlossen | Die App darf intern analysieren und Vorschläge vorbereiten. Nutzerdaten oder geltende Pläne ändert sie nur aufgrund einer konkreten Aussage oder Bestätigung. Externe Aktionen sind ausgeschlossen. Der V1-Nachweis verwendet lokal angelegte beziehungsweise synthetische Daten und keine externen Kontenanbindungen. | K1; [umfang-v1.md](umfang-v1.md) |
 
-Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen. D15 und D16 sind Leitplanken, aber keine bereits gewählte Oberfläche, Datenarchitektur oder Notion-Funktionsliste.
+Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offen. D18 wählt einen begrenzten Produktnachweis, keine vollständige Notion-Funktionsliste.
 
 ## Vorschläge (nicht beschlossen)
 
@@ -55,16 +57,16 @@ Die konkrete Umsetzung und der Umfang von Version 1 bleiben offen. D15 und D16 s
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umfang Version 1 | offen | Korrigierter Auswahlrahmen in [umfang-v1.md](umfang-v1.md). Assistenz- und Freiheits-Nachweis sind vorgeschlagen; genaue Tiefe nicht ausgewählt. |
+| O1 | Umsetzung des V1-Umfangs | offen | Der Produktnachweis ist mit D18 ausgewählt. Machbarkeit, Bedienform, Architektur und Implementierung werden erst in K2–K5 geklärt. |
 | O2 | Bedienkonzept | offen | A/B/C sind verworfen. Neue Konzepte müssen sich in Arbeitsteilung, Assistenz und Offenheit unterscheiden, nicht nur in Kartenanordnung. |
-| O3 | Technik-Stack und Speicherung | offen | Schritt 4. Offline, lokale vs. externe Speicherung unklar. |
+| O3 | Technik-Stack und Speicherung | offen | K4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
-| O5 | Arten von Planungsvorschlägen | offen | Frage 1: bei welchen konkreten Änderungen nur anzeigen bis zur Zustimmung, bei welchen innerhalb eines gesetzten Rahmens eintragen? Keine Alles-oder-nichts-Entscheidung, kein Einstellungsapparat. |
-| O6 | Konfigurierbarkeit-Tiefe | offen | Notion-artige Freiheit ist Leitplanke. Welche Grundbausteine, Eigenschaften, Beziehungen, Sichten oder Abläufe Dennis ohne Code verändern kann, ist noch festzulegen. |
+| O5 | Spätere Assistentenbefugnisse | offen | Für V1 gilt D19. Ob spätere Versionen in gesetzten Rahmen selbst planen oder externe Aktionen ausführen dürfen, bleibt eine getrennte Entscheidung. |
+| O6 | Langfristige Konfigurierbarkeit | offen | Für V1 sind Sammlung, fünf Eigenschaftsformen, Beziehung und konkrete Sicht gewählt. Welche weiteren Bausteine oder Abläufe langfristig ohne Code veränderbar werden, bleibt offen. |
 | O7 | Diät und Training | offen | Frage 2: welche Hilfe und welche Informationen Dennis beitragen möchte. Nicht auf tägliche Ernährung vs. nur Training reduziert. |
 | O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
-| O9 | Herkunft und Pflege von Terminen | offen | Frage 4: woher Termine vorerst kommen und wie sie gepflegt werden. Keine bestimmte Integration ohne Bedarf. |
+| O9 | Spätere Herkunft von Terminen | offen | Im V1-Nachweis sind Termine lokal angelegt. Welche echte Quelle oder Integration später Pflegeaufwand reduziert, bleibt offen. |
 | O10 | Form beruflicher Entwicklung | offen | Frage 5: welche Formen und Zeitpunkte möglich sein sollen; nicht nur tägliche Aufgaben oder Warten auf einen Anlass. |
-| O11 | Freiheits-Nachweis in V1 | offen | Welche kleine, aber echte flexible Struktur muss Version 1 bereits außerhalb der vorgebauten Beispiele ermöglichen, ohne zum universellen No-Code-System zu werden? |
+| O11 | Erweiterung des Freiheits-Nachweises | offen | Der Mindestnachweis ist mit D18 gewählt. Ob Erkenntnisse aus K2 zusätzliche Eigenschaftsformen oder Beziehungen zwingend erfordern, wird dort begrenzt geprüft. |
 
 Änderungen an diesem Dokument kennzeichnen, ob Dennis zugestimmt hat oder ob nur ein Vorschlag nachgetragen wurde.

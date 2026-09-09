@@ -139,12 +139,12 @@ Ein Wireframe, das nur Karten anders sortiert, beantwortet diese Fragen nicht.
 ## Bewusst offen
 
 - genaue Bedienmetapher und Navigation;
-- welche Notion-artigen Freiheiten bereits in Version 1 sichtbar werden;
-- konkrete Grundbausteine, Beziehungen, Sichten oder Vorlagen;
+- Notion-artige Freiheiten über den ausgewählten V1-Nachweis hinaus;
+- weitere Grundbausteine, Beziehungen, Sichten oder Vorlagen nach Version 1;
 - Technik-Stack und Speicherort;
 - KI ja/nein, Anbieter, lokale Möglichkeit, Datennutzung und akzeptiertes Budget unterhalb von 50 Euro;
 - Datenquellen und Integrationen;
-- Befugnisse für automatische Änderungen;
+- Befugnisse über die vorsichtige V1-Grenze hinaus;
 - konkrete Tiefe von Studium, Diät/Training und beruflicher Entwicklung.
 
-Diese Offenheit ist kein Auftrag, ein universelles No-Code-System oder eine vollständige Notion-Kopie zu bauen.
+Der für Version 1 gewählte Mindestumfang steht in [umfang-v1.md](umfang-v1.md). Die verbleibende Offenheit ist kein Auftrag, ein universelles No-Code-System oder eine vollständige Notion-Kopie zu bauen.

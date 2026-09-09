@@ -11,7 +11,7 @@ Code und Projektgedächtnis: [github.com/dennisxbu/momentum](https://github.com/
 - [docs/produktvision.md](docs/produktvision.md) — aktuelle Nordrichtung: Assistenz, Freiheit und fokussierte Nutzung
 - [docs/arbeitsplan.md](docs/arbeitsplan.md) — korrigierte Reihenfolge; Assistenzrisiko vor Architektur und Tracker-Ausbau prüfen
 - [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — Alltagsszenarien, korrigiert nach dem verworfenen Entwurf
-- [docs/umfang-v1.md](docs/umfang-v1.md) — korrigierter Auswahlrahmen für Version 1
+- [docs/umfang-v1.md](docs/umfang-v1.md) — ausgewählter vertikaler Nachweis für Version 1
 - [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — warum A/B/C verworfen sind und was neue Konzepte zeigen müssen
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Vorschlag vs. Beschluss
 - [docs/entwicklung.md](docs/entwicklung.md) — Git/GitHub

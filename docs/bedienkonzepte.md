@@ -48,6 +48,6 @@ Alle Konzepte müssen dieselben synthetischen Situationen zeigen:
 
 ## Grenze dieses Korrekturschritts
 
-Es werden jetzt keine neuen Screens, kein Ersatz-Wireframe, keine Architektur und keine KI-Lösung ausgewählt. Zuerst müssen der korrigierte V1-Nachweis und anschließend wirklich unterschiedliche Assistenzkonzepte formuliert werden.
+Es werden in K1 keine neuen Screens, kein Ersatz-Wireframe, keine Architektur und keine KI-Lösung ausgewählt. Der V1-Nachweis ist inzwischen in [umfang-v1.md](umfang-v1.md) festgelegt. Vor neuen Assistenzkonzepten folgt der Machbarkeitscheck K2; erst K3 formuliert wirklich unterschiedliche Bedienrichtungen.
 
 Die früheren HTML-Demos bleiben nur in der Git-Historie beziehungsweise im geschlossenen PR als verworfener Versuch nachvollziehbar. Sie sind kein Referenzdesign.
