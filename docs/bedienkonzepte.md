@@ -34,6 +34,13 @@ Alle Konzepte müssen dieselben synthetischen Situationen zeigen:
 6. **Nicht vorgebautes Thema:** Dennis legt ein persönliches Thema an, das in den Demo-Lebensbereichen nicht vorgesehen war. Eigene Eigenschaften oder Beziehungen werden anschließend im Alltag und in einer sinnvollen Sicht verwendet.
 7. **Wiedereinstieg:** Nach einer Pause ist die App sofort wieder hilfreich, ohne Nachtragen oder Systemreparatur.
 
+Aus K2 kommen weitere verbindliche Kontrastfälle:
+
+- Die Rückgabe eines frei erfassten Stuhl-Kandidaten ist zunächst in ihrem Ablauf unbekannt. Das Konzept muss genau diese entscheidende Lücke klären.
+- Eine harte heutige Rückgabe muss den Vorschlag sichtbar verändern; die belanglose Farbe des Stuhls darf ihn nicht verändern.
+- Ein zurückgehaltener Fall „Rezeptideen“ muss mit derselben semantischen Brücke funktionieren, ohne ein Rezeptmodul vorzutäuschen.
+- Belege, Annahmen, Unbekanntes und vorgeschlagene Änderungen müssen verständlich unterscheidbar sein, ohne als technisches Prüfprotokoll den Alltag zu überladen.
+
 ## Vergleichskriterien
 
 | Frage | Woran ein Konzept gemessen wird |
@@ -46,8 +53,8 @@ Alle Konzepte müssen dieselben synthetischen Situationen zeigen:
 | Was geschieht über Zeit? | Beobachtungen verändern vorsichtig die Unterstützung; fehlende Daten bleiben unbekannt |
 | Warum lohnt die Nutzung? | Ergebnis ist mehr Orientierung, bessere Entscheidung oder verständliche Entwicklung — nicht mehr Verwaltung |
 
-## Grenze dieses Korrekturschritts
+## Stand vor K3
 
-Es werden in K1 keine neuen Screens, kein Ersatz-Wireframe, keine Architektur und keine KI-Lösung ausgewählt. Der V1-Nachweis ist inzwischen in [umfang-v1.md](umfang-v1.md) festgelegt. Vor neuen Assistenzkonzepten folgt der Machbarkeitscheck K2; erst K3 formuliert wirklich unterschiedliche Bedienrichtungen.
+Der V1-Nachweis ist in [umfang-v1.md](umfang-v1.md) festgelegt und der [Machbarkeitscheck K2](machbarkeitscheck-k2.md) abgeschlossen. K3 kann nun wirklich unterschiedliche Bedienrichtungen formulieren. Es muss die begrenzte Kombination aus verlässlicher Grundlage und kontextueller Beurteilung erlebbar machen, ohne einen Technik-Stack oder KI-Anbieter vorwegzunehmen.
 
-Die früheren HTML-Demos bleiben nur in der Git-Historie beziehungsweise im geschlossenen PR als verworfener Versuch nachvollziehbar. Sie sind kein Referenzdesign.
+Die früheren HTML-Demos bleiben nur in der Git-Historie beziehungsweise im offenen, inhaltlich überholten PR als verworfener Versuch nachvollziehbar. Sie sind kein Referenzdesign.

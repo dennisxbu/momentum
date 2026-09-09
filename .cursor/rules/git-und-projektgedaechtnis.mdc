@@ -10,4 +10,4 @@ alwaysApply: true
 - Nicht committen: `.env`, Schlüssel, Tokens, echte Nutzdaten. Synthetische Beispieldaten sind erlaubt und als solche zu kennzeichnen.
 - Kein Force-Push auf `main`, keine `--no-verify`-Hooks.
 - Den Unterordner `momentum/` ignorieren (versehentlich verschachtelter Clone).
-- Vor Änderungen `git status`, `docs/produktvision.md`, `docs/status.md`, `docs/entscheidungen.md` und `docs/arbeitsplan.md` lesen. Widersprüche benennen, nicht stillschweigend eine neue Richtung wählen. Die ursprüngliche Prompt-Sammlung unter `docs/context/` ist nach der Korrektur vom 9.9.2026 historischer Kontext.
+- Vor Änderungen `git status`, `docs/produktvision.md`, `docs/status.md`, `docs/entscheidungen.md` und `docs/arbeitsplan.md` lesen. Für Assistenz- oder Datenfragen außerdem `docs/umfang-v1.md` und `docs/machbarkeitscheck-k2.md` beachten. Widersprüche benennen, nicht stillschweigend eine neue Richtung wählen. Die ursprüngliche Prompt-Sammlung unter `docs/context/` ist nach der Korrektur vom 9.9.2026 historischer Kontext.

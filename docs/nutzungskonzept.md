@@ -302,4 +302,4 @@ Vor oder während späterer Schritte können noch wichtig werden:
 2. **Rückmeldung und Reflexion:** Welche Beiträge will Dennis bewusst abends leisten, und welche Zusammenfassung oder Auswertung soll die App bereits aus vorhandenen Tagesdaten vorbereiten?
 3. **Echte Datenquellen:** Welche späteren Anbindungen reduzieren Pflegeaufwand ausreichend, um Kosten, Datenschutz und Abhängigkeit zu rechtfertigen?
 
-Keine dieser Fragen blockiert K2. Der Machbarkeitscheck verwendet synthetische Varianten und macht sichtbar, wo vor K3 tatsächlich eine Antwort von Dennis nötig wird.
+Keine dieser Fragen blockiert K3. Der abgeschlossene Machbarkeitscheck verwendet synthetische Varianten und zeigt, dass die Konzeptarbeit mit vorsichtigem Anfangskontext fortgesetzt werden kann. Wo eine persönliche Antwort von Dennis wirklich nötig ist, muss K3 konkret sichtbar machen statt vorsorglich alle Grundsatzfragen zu stellen.

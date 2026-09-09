@@ -12,6 +12,7 @@ Code und Projektgedächtnis: [github.com/dennisxbu/momentum](https://github.com/
 - [docs/arbeitsplan.md](docs/arbeitsplan.md) — korrigierte Reihenfolge; Assistenzrisiko vor Architektur und Tracker-Ausbau prüfen
 - [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — Alltagsszenarien, korrigiert nach dem verworfenen Entwurf
 - [docs/umfang-v1.md](docs/umfang-v1.md) — ausgewählter vertikaler Nachweis für Version 1
+- [docs/machbarkeitscheck-k2.md](docs/machbarkeitscheck-k2.md) — geprüfte Machbarkeitsgrenze und Mindestkontext
 - [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — warum A/B/C verworfen sind und was neue Konzepte zeigen müssen
 - [docs/entscheidungen.md](docs/entscheidungen.md) — Vorschlag vs. Beschluss
 - [docs/entwicklung.md](docs/entwicklung.md) — Git/GitHub

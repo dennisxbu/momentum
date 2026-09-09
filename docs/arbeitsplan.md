@@ -35,20 +35,18 @@ Die vollständige Auswahl und ihre beobachtbaren Abnahmekriterien stehen in [umf
 
 ## K2 — Früher Machbarkeitscheck für Assistenz und Offenheit
 
-Ziel: das größte Risiko prüfen, bevor Architektur und viele Oberflächen entstehen.
+Status: **abgeschlossen**
 
-Mit getrennten synthetischen Fällen untersuchen:
+Ergebnis des [Machbarkeitschecks](machbarkeitscheck-k2.md):
 
-- Verändert relevanter Kontext die Empfehlung angemessen?
-- Bleibt sie bei belanglosen Änderungen stabil?
-- Erkennt das System eine entscheidende Informationslücke und fragt gezielt nach?
-- Lässt sich ein nicht vorgebautes Thema in denselben Beurteilungsprozess einbeziehen?
-- Welche Daten sind wirklich nötig, und welcher Pflegeaufwand entsteht?
-- Welche Teile sind sichere Berechnung, welche brauchen kontextuelle Beurteilung?
+- Zehn getrennte synthetische Varianten prüfen relevante und belanglose Änderungen, eine entscheidende Lücke, freie Strukturen, Überlastung, Korrektur und unbekannte Durchführung.
+- Der V1-Kern ist unter klaren Bedingungen konzeptionell machbar.
+- Eine freie Eigenschaft wird erst planungsrelevant, wenn Bedeutung, Beziehung und persönliche Absicht bestätigt sind. Ein beliebiges Datum erzeugt keine Verpflichtung.
+- Zeitfenster, Einheiten, Zustände, Herkunft und Befugnisse brauchen eine transparente Prüfung. Kontextuelle Beurteilung darf darauf aufsetzen, aber nicht direkt schreiben.
+- Die fünf in K1 gewählten Eigenschaftsformen reichen für den Nachweis; zusätzliche Formen sind durch K2 nicht begründet.
+- Eine rein transparente Lösung bleibt für das gewünschte Assistenzgefühl zu flach, eine rein generative Lösung ist als Wahrheits- und Schreibinstanz zu unsicher. Für K3 ist eine begrenzte Kombination die tragfähigste Annahme, ohne damit Anbieter oder KI festzulegen.
 
-Eine transparente einfache Lösung darf mit einer möglichen KI-Lösung verglichen werden. Keine produktive Integration und keine kostenpflichtigen Aufrufe ohne eigenen Auftrag.
-
-Ergebnis: erreichbare Qualitätsgrenze, notwendige Daten und begrenzte Folgen für V1.
+Keine App, produktive Integration oder kostenpflichtige Modellnutzung ist entstanden.
 
 ## K3 — Neue Assistenzkonzepte vergleichen
 
@@ -112,4 +110,4 @@ Wie bisher getrennt prüfen:
 
 ## Aktuelle Grenze
 
-K0 und K1 sind abgeschlossen. **K2 ist der nächste mögliche Auftrag.** K3, K4 und Implementierung sind nicht automatisch freigegeben.
+K0, K1 und K2 sind abgeschlossen. **K3 ist der nächste mögliche Auftrag.** K4 und Implementierung sind nicht automatisch freigegeben.

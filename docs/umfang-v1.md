@@ -31,6 +31,7 @@ Für diese Sammlung kann er:
 
 - einen Namen und eine kurze Beschreibung ihrer Bedeutung festlegen;
 - eigene Eigenschaften aus den Formen **Text**, **Zahl mit Einheit**, **Datum**, **Auswahl** und **Beziehung** anlegen;
+- für assistenzrelevante Eigenschaften eine kurze Bedeutung bestätigen; Name und Datentyp allein erzeugen keine Frist, Priorität oder Handlung;
 - Einträge erstellen und später verändern;
 - mindestens eine Beziehung zu einem vorhandenen Vorhaben oder einem anderen Eintrag herstellen;
 - alle Einträge vollständig betrachten sowie eine für eine konkrete Frage gefilterte oder sortierte Sicht bilden;
@@ -54,6 +55,8 @@ Der Prüfdatensatz enthält beispielsweise:
 | Gehört zu | Beziehung | Verbindung zum Vorhaben „Arbeitsplatz verbessern“ |
 
 Mindestens ein Kandidat besitzt eine nahe Rückgabefrist. Dadurch muss die freie Struktur nicht nur gespeichert werden: Sie kann die heutige Lage und einen Vorschlag tatsächlich verändern. Die Farbe eines Stuhls kann als belanglose Zusatzinformation dienen und darf ohne entsprechende Priorität nicht zufällig den Tagesplan kippen.
+
+Die Rückgabefrist allein erzeugt noch keine Aufgabe. Erst eine bestätigte Rückgabeabsicht und die bestätigte Bedeutung des Datums machen sie planungsrelevant. Diese in K2 erkannte semantische Brücke verhindert, dass beliebige freie Felder zu erfundenen Verpflichtungen werden.
 
 Der Prüfgegenstand ist synthetisch. Er legt weder Dennis' wirkliche Kaufabsicht noch ein späteres Produktmodul fest. Ein anderer nicht vorgebauter Fall muss mit denselben Fähigkeiten grundsätzlich abbildbar sein.
 
@@ -158,7 +161,7 @@ Der V1-Nachweis ist nur bestanden, wenn alle folgenden Prüfungen mit synthetisc
 | --- | --- | --- |
 | F1 | Nicht vorgebautes Thema | „Stuhl-Kandidaten“ lässt sich ohne Code mit den fünf festgelegten Eigenschaftsformen anlegen. |
 | F2 | Beziehung und Sicht | Ein Kandidat ist mit „Arbeitsplatz verbessern“ verbunden und eine konkrete Fristen- oder Budgetfrage lässt sich als gefilterte beziehungsweise sortierte Sicht beantworten. |
-| F3 | Assistenz verwendet Freiheit | Eine Eigenschaft aus dieser Sammlung beeinflusst den Tagesvorschlag nachvollziehbar; sie ist nicht nur Dekoration. |
+| F3 | Assistenz verwendet Freiheit | Eine in Bedeutung und Zusammenhang bestätigte Eigenschaft aus dieser Sammlung beeinflusst den Tagesvorschlag nachvollziehbar; ein unbestätigtes Datum erzeugt dagegen keine erfundene Verpflichtung. |
 | F4 | Historische Bedeutung | Eine spätere Umbenennung oder Änderung lässt ältere gespeicherte Werte verständlich und nachvollziehbar bestehen. |
 | A1 | Vorbereitete Lage | Der Morgen benennt Bindungen, wichtigsten Konflikt, Empfehlung, Grund, Alternative und relevante Unsicherheit, ohne dass Dennis alles neu sortiert. |
 | A2 | Entscheidende Lücke | Bei fehlender Schlüsselinformation wird gezielt gefragt; ohne Antwort bleibt die Empfehlung entsprechend vorsichtig. |
@@ -173,6 +176,8 @@ Der V1-Nachweis ist nur bestanden, wenn alle folgenden Prüfungen mit synthetisc
 | E1 | Erlebte Entlastung | Dennis beurteilt nach dem vollständigen Durchlauf, ob die App relevante Arbeit übernommen hat und nicht wie ein weiterer Tracker wirkt. |
 
 Die Formulierung „KI“ ersetzt keine dieser Prüfungen. Für A1 bis A5 werden im Machbarkeitscheck getrennte Varianten und mindestens ein zurückgehaltener Fall verwendet, damit die Antworten nicht nur auf ein einziges Drehbuch zugeschnitten sind.
+
+Der abgeschlossene [Machbarkeitscheck K2](machbarkeitscheck-k2.md) begrenzt diesen Nachweis weiter: Fakten, Einheiten, Zeitkonflikte, Zustände und Befugnisse müssen transparent geprüft werden. Kontextuelle Beurteilung darf darauf aufsetzen, erhält aber keine direkte Schreibbefugnis.
 
 ## Nicht Teil dieses V1-Kerns
 
@@ -190,7 +195,7 @@ Diese Abgrenzung verhindert nicht, dass notwendige Grundinformationen im vertika
 
 ## Folgen für die nächsten Schritte
 
-- K2 prüft mit synthetischen Fällen, ob der ausgewählte Kreislauf mit vertretbarem Datenbedarf stabil und ehrlich beurteilt werden kann.
+- K2 hat mit synthetischen Fällen den vertretbaren Datenbedarf, Stabilität und ehrliche Grenzen des Kreislaufs bestimmt.
 - K3 entwickelt erst danach unterschiedliche Bedienformen für genau diesen Arbeitsumfang.
 - K4 wählt eine technische Grundlage, die die fünf Eigenschaftsformen, Beziehungen, Historie, Assistenzbefugnisse und Datenhoheit tragen kann.
 - Implementierung beginnt nicht durch diesen Beschluss.

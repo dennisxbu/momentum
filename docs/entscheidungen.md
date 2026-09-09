@@ -33,6 +33,8 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D17 | Bedienkonzepte A/B/C verworfen | Fakt | Die Konzepte aus PR #5 sind keine auswählbaren Produktgrundlagen mehr. Das gemeinsame Karten-/Statusmodell und die dünne Assistenz gehen in die falsche Richtung; Empfehlung A ist zurückgezogen. | Direkte Bewertung Dennis 9.9.2026 |
 | D18 | V1-Nachweis ausgewählt | beschlossen | V1 beweist einen vollständigen Assistenzkreislauf zusammen mit einer frei angelegten Sammlung. Der synthetische Fall „Stuhl-Kandidaten“ verwendet eigene Eigenschaften, eine Beziehung und eine passende Sicht tatsächlich im Tageskontext. Dauerhafte Speicherung und echte Wiederherstellung gehören zum Nachweis. | Dennis delegiert nächste fachliche Entscheidung 9.9.2026; K1; [umfang-v1.md](umfang-v1.md) |
 | D19 | Befugnisse und Datenquellen in V1 | beschlossen | Die App darf intern analysieren und Vorschläge vorbereiten. Nutzerdaten oder geltende Pläne ändert sie nur aufgrund einer konkreten Aussage oder Bestätigung. Externe Aktionen sind ausgeschlossen. Der V1-Nachweis verwendet lokal angelegte beziehungsweise synthetische Daten und keine externen Kontenanbindungen. | K1; [umfang-v1.md](umfang-v1.md) |
+| D20 | Semantische Brücke für freie Daten | beschlossen | Eine freie Eigenschaft beeinflusst Empfehlungen erst, wenn ihre Bedeutung und ihr Bezug zu einer aktiven Absicht bestätigt sind. Ein Datums- oder Zahlenfeld erzeugt allein keine Frist, Priorität oder Handlung. Die App darf eine Interpretation vorschlagen, aber nicht stillschweigend als Tatsache behandeln. | Ergebnis K2; [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) |
+| D21 | Verlässliche Assistenzgrenze | beschlossen | Faktenherkunft, Zustand, Einheiten, Zeitkonflikte und Schreibbefugnisse werden unabhängig von einer möglichen kontextuellen Komponente transparent geprüft. Eine generative oder anderweitig kontextuelle Komponente erhält keine direkte Schreibbefugnis. | Ergebnis K2; [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) |
 
 Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offen. D18 wählt einen begrenzten Produktnachweis, keine vollständige Notion-Funktionsliste.
 
@@ -52,12 +54,13 @@ Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offe
 | V10 | Frühere kleinste Anpassbarkeit | überholt | Eine frei benannte Messgröße mit Einheit bleibt möglicherweise nützlich, beweist allein aber nicht die von Dennis gemeinte Freiheit. | Korrektur Schritt 2; Präzisierung Dennis 9.9.2026 |
 | V11 | Flexible Grundlage, fokussierte Oberfläche | Vorschlag | Wenige verständliche Grundbausteine ermöglichen eigene Strukturen, Eigenschaften, Beziehungen und Sichten. Gute Vorlagen und eine kuratierte Alltagsoberfläche verhindern, dass Dennis zuerst ein leeres System bauen muss. | Synthese aus D9, D15 und D16; [produktvision.md](produktvision.md) |
 | V12 | Assistenzzyklus | Vorschlag | Lage zusammenführen, entscheidende Lücke erkennen, Alternativen abwägen, begründet vorschlagen, nur mit Befugnis handeln und aus Korrektur sowie Ergebnis lernen. | Synthese aus D10–D16; [produktvision.md](produktvision.md) |
+| V13 | Begrenzte Kombination für Assistenz | Vorschlag | Eine transparente Fakten- und Berechnungsschicht wird mit einer austauschbaren kontextuellen Beurteilung kombiniert. Das ist nach K2 die tragfähigste Annahme für K3, aber noch keine Wahl von KI, Modell, Anbieter oder Technik. | Vergleich in K2; [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) |
 
 ## Offen (verändern Produkt, Umfang, Kosten oder Datennutzung)
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umsetzung des V1-Umfangs | offen | Der Produktnachweis ist mit D18 ausgewählt. Machbarkeit, Bedienform, Architektur und Implementierung werden erst in K2–K5 geklärt. |
+| O1 | Umsetzung des V1-Umfangs | offen | Der Produktnachweis ist mit D18 ausgewählt und in K2 konzeptionell unter Bedingungen als machbar bewertet. Bedienform, Architektur, ausführbare Prüfung und Implementierung folgen erst in K3–K5. |
 | O2 | Bedienkonzept | offen | A/B/C sind verworfen. Neue Konzepte müssen sich in Arbeitsteilung, Assistenz und Offenheit unterscheiden, nicht nur in Kartenanordnung. |
 | O3 | Technik-Stack und Speicherung | offen | K4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
@@ -67,6 +70,6 @@ Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offe
 | O8 | Abendrückblick als Gewohnheit | offen | Frage 3: wie verbindlich die tägliche Praxis sein soll. Getrennt von D13 (Auslassen löscht nichts). |
 | O9 | Spätere Herkunft von Terminen | offen | Im V1-Nachweis sind Termine lokal angelegt. Welche echte Quelle oder Integration später Pflegeaufwand reduziert, bleibt offen. |
 | O10 | Form beruflicher Entwicklung | offen | Frage 5: welche Formen und Zeitpunkte möglich sein sollen; nicht nur tägliche Aufgaben oder Warten auf einen Anlass. |
-| O11 | Erweiterung des Freiheits-Nachweises | offen | Der Mindestnachweis ist mit D18 gewählt. Ob Erkenntnisse aus K2 zusätzliche Eigenschaftsformen oder Beziehungen zwingend erfordern, wird dort begrenzt geprüft. |
+| O11 | Erweiterung des Freiheits-Nachweises | offen | K2 begründet keine zusätzlichen Eigenschaftsformen für V1, verlangt aber D20. Weitergehende Formen und Beziehungen bleiben eine spätere Entscheidung. |
 
 Änderungen an diesem Dokument kennzeichnen, ob Dennis zugestimmt hat oder ob nur ein Vorschlag nachgetragen wurde.

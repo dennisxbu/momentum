@@ -25,6 +25,8 @@ Die Arbeitsnotiz und die ursprüngliche Prompt-Sammlung unter `docs/context/` si
 - Die App soll sich wie ein hochgradig hilfreicher Assistent anfühlen, der Lage, Alternativen und Entwicklungen vorbereitet und Arbeit abnimmt. Eine Karten-, Status- oder Checkbox-Oberfläche mit einem Vorschlagstext erfüllt das nicht.
 - „Notion-Stil“ bezeichnet Freiheit der abbildbaren Gedanken, Eigenschaften und Zusammenhänge, abgespeckt und fokussiert. Es ist weder ein Auftrag zur Notion-Kopie noch zu einer leeren No-Code-Baufläche. Orientierung als Standard, Freiheit auf Nachfrage.
 - Studium, Diät/Training, berufliche Entwicklung und Alltag sind aktuelle Beispiele, keine fest verdrahteten Produktmodule. Ein neuer persönlicher Anwendungsfall darf nicht grundsätzlich eine neue Sonderarchitektur benötigen.
+- Eine freie Eigenschaft wird nicht allein durch Name oder Datentyp zur Frist, Priorität oder Aufgabe. Assistenzrelevante Bedeutung und Bezug zu einer aktiven Absicht müssen bestätigt sein; die App darf eine Interpretation nur vorschlagen.
+- Herkunft, Zustand, Einheiten, Zeitkonflikte und Schreibbefugnisse bleiben transparent prüfbar. Eine mögliche kontextuelle oder generative Komponente darf nicht unmittelbar persönliche Daten oder geltende Pläne verändern.
 - Hochwertige, intuitive, modular veränderbare Windows-App für den privaten Alltag. Benutzung soll Freude machen; geringer Pflegeaufwand allein erfüllt die Vision nicht. Das iPhone ist eine Referenz für Klarheit der Bedienung, keine Aufforderung zu einer iOS-Kopie.
 - Schutz vor Druck ist kein Verbot erfreulicher oder motivierender Rückmeldung. Keine Pflicht zu Gamification, Motivationssprüchen oder bestimmten Animationen.
 - Windows ist die Zielplattform. Daraus folgt kein Auftrag für mobile Entwicklung und kein endgültiges Verbot einer späteren mobilen Begleitung.
@@ -54,6 +56,7 @@ Vorhandene gleichwertige Dateien weiterverwenden, statt widersprüchliche Doppel
 - [docs/arbeitsplan.md](docs/arbeitsplan.md) — aktueller Ablauf und Freigabegrenzen
 - [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — Alltagsszenarien mit der aktuellen Grundkorrektur
 - [docs/umfang-v1.md](docs/umfang-v1.md) — ausgewählter vertikaler Produktnachweis für Version 1
+- [docs/machbarkeitscheck-k2.md](docs/machbarkeitscheck-k2.md) — K2-Ergebnisse zu Semantik, Datenbedarf, Stabilität und Assistenzgrenzen
 - [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — verworfener erster Versuch und Kriterien für einen neuen Vergleich
 - [docs/context/](docs/context/) — Arbeitsnotiz, Prompt-Sammlung, ursprüngliche Momentaufnahmen
 - [.cursor/rules/](.cursor/rules/) — kurze, immer geltende Agent-Regeln

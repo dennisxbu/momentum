@@ -39,4 +39,4 @@ Nicht committen oder pushen, wenn Dennis das für den jeweiligen Stand ausdrück
 
 ## Neuer Chat
 
-Zuerst README, AGENTS.md, `docs/produktvision.md`, Status, Entscheidungen, `docs/arbeitsplan.md`, den ausgewählten V1-Nachweis und danach bei Bedarf die historische Arbeitsnotiz lesen. Vorhandenen Code und ungesicherte Änderungen prüfen, bevor etwas geplant wird. Dokumente beschreiben Absichten; vorhandene Funktionen nur behaupten, wenn sie im Projekt nachvollziehbar sind. Die ursprüngliche Prompt-Sammlung unter `docs/context/` darf seit der Grundkorrektur vom 9.9.2026 nicht mechanisch fortgesetzt werden.
+Zuerst README, AGENTS.md, `docs/produktvision.md`, Status, Entscheidungen, `docs/arbeitsplan.md`, den ausgewählten V1-Nachweis und den K2-Machbarkeitscheck lesen; danach bei Bedarf die historische Arbeitsnotiz. Vorhandenen Code und ungesicherte Änderungen prüfen, bevor etwas geplant wird. Dokumente beschreiben Absichten; vorhandene Funktionen nur behaupten, wenn sie im Projekt nachvollziehbar sind. Die ursprüngliche Prompt-Sammlung unter `docs/context/` darf seit der Grundkorrektur vom 9.9.2026 nicht mechanisch fortgesetzt werden.

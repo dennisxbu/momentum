@@ -57,6 +57,8 @@ Als mögliche Übersetzung, noch keine gewählte Architektur:
 
 Freiheit darf nicht bedeuten, dass Dennis zuerst ein leeres System bauen und dauerhaft administrieren muss. Leitidee: **Orientierung als Standard, Freiheit auf Nachfrage.**
 
+Der [Machbarkeitscheck K2](machbarkeitscheck-k2.md) ergänzt eine Sicherheitsgrenze: Eine frei benannte Zahl oder ein Datum wird nicht automatisch zur Priorität, Frist oder Aufgabe. Soll eine eigene Eigenschaft Empfehlungen beeinflussen, müssen ihre Bedeutung und ihr Bezug zu einer aktiven Absicht bestätigt sein. Die App darf diese Zuordnung verständlich vorschlagen.
+
 ### 3. Assistenzschicht
 
 Der Assistent arbeitet nicht nach einer versteckten Sammlung starrer Lebensregeln. Ein sinnvoller Zyklus ist:
@@ -69,6 +71,8 @@ Der Assistent arbeitet nicht nach einer versteckten Sammlung starrer Lebensregel
 6. Korrekturen, Durchführung und beobachtete Ergebnisse für die nächste Beurteilung nutzen.
 
 Eine feste, überprüfbare Berechnung ist erlaubt und oft notwendig. Nicht akzeptabel ist, Lebensentscheidungen auf „Checkbox A + Checkbox B = immer Aktion C“ zu reduzieren oder diese Starrheit nur mit variierendem Text zu verdecken.
+
+Unabhängig von einer späteren KI-Entscheidung bleiben Faktenherkunft, Zustände, Einheiten, Zeitkonflikte und Schreibbefugnisse transparent prüfbar. Kontextuelle Beurteilung kann darauf aufsetzen, verändert persönliche Daten oder geltende Pläne aber nicht ohne Dennis' konkrete Bestätigung.
 
 ### 4. Ehrliche Entwicklung über Zeit
 
