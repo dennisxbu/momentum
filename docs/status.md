@@ -6,11 +6,11 @@ Stand: 9. September 2026
 
 | Ebene | Stand |
 | --- | --- |
-| Aktueller Schritt | **K3 — neue Assistenzkonzepte vergleichen.** Nach Dennis' Korrektur überarbeitet, Auswahl offen. |
+| Aktueller Schritt | **K3 — neue Assistenzkonzepte vergleichen: abgeschlossen.** |
 | Auftrag | Dennis hat K3 am 9. September 2026 ausdrücklich beauftragt. |
 | Konzepte | 1 „Briefing“, 2 „Studio“ und 3 „Delegat“ unterscheiden sich in Eröffnung, Arbeitsteilung, Korrektur und sichtbarer Freiheit. |
 | Empfehlung | Verständliches Briefing als Alltag, Änderungsvertrag aus 3 für Vertrauen, Studio aus 2 und optionale Werkzeuge auf Nachfrage für Freiheit und Tiefe. |
-| Produktentscheidung | Noch kein Konzept beschlossen. Vor K4 ist Dennis' Auswahl oder konkrete Korrektur erforderlich. |
+| Produktentscheidung | D24: Konzept 1 „Briefing“ mit verständlicher Bediengrammatik, Änderungsvertrag sowie Studio und optionalen Werkzeugen auf Nachfrage ist ausgewählt. |
 
 Die bisherige Empfehlung „A — Tag als Heimat“ bleibt zurückgezogen. Der ausgewählte V1-Nachweis ist ein Produktumfang, noch kein Bedienkonzept und keine Architektur.
 
@@ -27,7 +27,7 @@ Vorhanden sind:
 - dokumentierter K2-Trockenlauf, aber noch kein ausführbarer Assistenztest;
 - ausgearbeiteter K3-Konzeptvergleich mit interaktivem, wegwerfbarem Entwurf;
 - verbindliche Bediengrammatik „bekannt — Bedeutung — Vorschlag — Wirkung“ und Werkzeugmodell als K3-Korrektur;
-- noch keine validierte Bedienrichtung.
+- ausgewählte konzeptionelle Bedienrichtung, aber noch kein realer Benutzbarkeitstest.
 
 ## Aktuelle Quellenreihenfolge
 
@@ -43,7 +43,7 @@ Historische Beispiele oder frühere Vorschläge dürfen eine neuere Korrektur ni
 ## Offene Grenzen
 
 - **O1:** Der V1-Nachweis ist ausgewählt und konzeptionell mit Bedingungen machbar; ausführbare Qualität und spätere Umsetzung sind noch nicht belegt.
-- **O2:** Briefing, Studio und Delegat sind verglichen. V17 ist nach der Korrektur um intuitive Nachvollziehbarkeit und optionale Werkzeuge geschärft, aber noch nicht von Dennis ausgewählt. Die früheren A/B/C aus PR #5 bleiben verworfen.
+- **Bedienkonzept geklärt:** D24 wählt das verständliche Briefing als primären Alltag. Die früheren A/B/C aus PR #5 bleiben verworfen; reale Benutzbarkeit wird erst an einer ausführbaren Umsetzung geprüft.
 - **O3:** Technik-Stack, Offline-Verhalten und Speicherort sind offen.
 - **O4:** KI, Anbieter oder lokaler Betrieb, erlaubte Daten und Budget unter 50 Euro sind offen.
 - **O5:** Für V1 sind Analyse ohne Bestätigung, Datenänderung nach konkreter Bestätigung und keine externen Aktionen gewählt. Spätere Befugnisse bleiben offen.
@@ -63,9 +63,7 @@ Als synthetischer Prüffall dient „Arbeitsplatz verbessern“ mit „Stuhl-Kan
 
 ## Nächste inhaltliche Arbeit
 
-Der K3-Vergleich ist nach Dennis' Korrektur überarbeitet. Vor Architektur oder App-Code muss Dennis nur den dominierenden Grundmodus auswählen oder weiter konkret korrigieren. Die fachliche Empfehlung V17 lautet: verständliches Briefing als Alltag, Änderungsvertrag für Vertrauen sowie Studio und optionale Werkzeuge auf Nachfrage.
-
-Nach der Auswahl kann K3 abgeschlossen werden. K4 beginnt nicht automatisch durch die Ausarbeitung des Vergleichs.
+K3 ist durch D24 abgeschlossen. Der nächste mögliche Abschnitt ist K4: die technische Grundlage für den ausgewählten V1-Nachweis und die gewählte Bedienform entscheiden. K4 beginnt erst nach einem ausdrücklichen Auftrag.
 
 ## Abnahmeprotokoll
 
@@ -78,10 +76,11 @@ Nach der Auswahl kann K3 abgeschlossen werden. K4 beginnt nicht automatisch durc
 | Aktuelle Korrektur | vollständiger Chat, Repo-Dokumente und vier Screenshots gegen die ursprüngliche Vision geprüft | falsche Annahme identifiziert; Projektgedächtnis neu ausgerichtet |
 | K1 | V1-Nachweis, freie Struktur, Assistenzfluss, Datenumfang, Befugnisse und beobachtbare Abnahme | schmaler vertikaler Kern ausgewählt; keine Technik oder UI vorweggenommen |
 | K2 | zehn synthetische Kontrastfälle, drei Lösungsrichtungen, Mindestkontext und Pflegeaufwand | konzeptionell bestanden mit Bedingungen; reale Modell- und Bedienqualität ausdrücklich noch nicht geprüft |
-| K3, Vergleich | drei Arten der Zusammenarbeit gegen dieselben K1-/K2-Fälle ausgearbeitet | fachliche Empfehlung V17 vorhanden; persönliche Auswahl und Abnahme durch Dennis offen |
-| K3, Korrektur | intuitive Nachvollziehbarkeit und Kalender/Diätanalyse als optionale, anpassbare Werkzeuge eingeordnet | Empfehlung geschärft; keine Fachfunktion in V1 aufgenommen; Auswahl weiter offen |
+| K3, Vergleich | drei Arten der Zusammenarbeit gegen dieselben K1-/K2-Fälle ausgearbeitet | fachliche Empfehlung V17 vorhanden |
+| K3, Korrektur | intuitive Nachvollziehbarkeit und Kalender/Diätanalyse als optionale, anpassbare Werkzeuge eingeordnet | Empfehlung geschärft; keine Fachfunktion in V1 aufgenommen |
+| K3, Auswahl | überarbeitete Leitform von Dennis bestätigt | D24 beschlossen; K3 abgeschlossen |
 
-Noch keine App-Abnahme und kein ausgewähltes Bedienkonzept.
+Noch keine App-Abnahme. Das Bedienkonzept ist konzeptionell ausgewählt, aber noch nicht ausführbar auf Benutzbarkeit geprüft.
 
 ## GitHub
 

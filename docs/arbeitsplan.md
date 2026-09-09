@@ -50,7 +50,7 @@ Keine App, produktive Integration oder kostenpflichtige Modellnutzung ist entsta
 
 ## K3 — Neue Assistenzkonzepte vergleichen
 
-Status: **nach Dennis' Korrektur überarbeitet, Auswahl offen**
+Status: **abgeschlossen**
 
 In [bedienkonzepte.md](bedienkonzepte.md) sind drei unterschiedliche Grundmodi mit identischen K1-/K2-Fällen ausgearbeitet:
 
@@ -64,7 +64,7 @@ Dennis' Korrektur ergänzt zwei verbindliche Bedingungen: Die Zusammenarbeit fol
 
 Alle Konzepte zeigen Morgen, Rückfrage, Tagesänderung, Abend, Entwicklung, freies Thema und Wiedereinstieg. Zusätzlich werden die K2-Kontraste harte Rückgabe, belanglose Stuhlfarbe und zurückgehaltene Rezeptideen verwendet. Kein produktiver Stack und keine endgültige Oberfläche sind gewählt.
 
-K3 ist erst abgeschlossen, wenn Dennis die Empfehlung, 2, 3 oder eine konkrete Korrektur auswählt.
+Dennis hat die überarbeitete Empfehlung am 9. September 2026 ausgewählt. D24 legt Konzept 1 „Briefing“ als primären Alltag fest, ergänzt um die verbindliche Bediengrammatik, den begrenzten Änderungsvertrag sowie Studio und optionale Werkzeuge auf Nachfrage.
 
 ## K4 — Technische Grundlage entscheiden
 
@@ -108,4 +108,4 @@ Wie bisher getrennt prüfen:
 
 ## Aktuelle Grenze
 
-K0, K1 und K2 sind abgeschlossen. K3 ist ausgearbeitet und wartet auf Dennis' Auswahl. **K4 beginnt erst nach dieser Auswahl.** Implementierung ist nicht automatisch freigegeben.
+K0 bis K3 sind abgeschlossen. Der nächste mögliche Abschnitt ist K4. **K4 beginnt erst nach einem ausdrücklichen Auftrag.** Implementierung ist nicht automatisch freigegeben.

@@ -37,6 +37,7 @@ Die Arbeitsnotiz unter `docs/context/` bleibt historische Quelle. Neue Festlegun
 | D21 | Verlässliche Assistenzgrenze | beschlossen | Faktenherkunft, Zustand, Einheiten, Zeitkonflikte und Schreibbefugnisse werden unabhängig von einer möglichen kontextuellen Komponente transparent geprüft. Eine generative oder anderweitig kontextuelle Komponente erhält keine direkte Schreibbefugnis. | Ergebnis K2; [machbarkeitscheck-k2.md](machbarkeitscheck-k2.md) |
 | D22 | Verständlichkeit erzeugt Nutzengefühl | Fakt | Dennis möchte jederzeit intuitiv verstehen, was Momentum weiß, warum etwas relevant ist, was es empfiehlt und was sich dadurch ändern würde. Aus „Ich verstehe, was hier passiert“ soll das Gefühl entstehen: „Das bringt mich weiter.“ | Direkte Präzisierung Dennis 9.9.2026 |
 | D23 | Fachfähigkeiten sind optionale Werkzeuge | Fakt | Ein smarter Kalender und ein Werkzeug zum Erfassen und Analysieren einer Diät sind gewünschte Beispiele, aber keine verpflichtenden, fest verdrahteten Lebensbereiche. Solche Werkzeuge müssen veränderbar, verschiebbar, pausierbar und vollständig weglassbar sein. | Direkte Präzisierung Dennis 9.9.2026 |
+| D24 | K3-Bedienkonzept ausgewählt | beschlossen | Konzept 1 „Briefing“ ist der primäre Alltagsmodus. Verbindlich ergänzt werden die Bediengrammatik „bekannt — Bedeutung — Vorschlag — Wirkung“, der begrenzte Änderungsvertrag aus Konzept 3 sowie Studio und optionale Werkzeuge auf Nachfrage. | Zustimmung Dennis 9.9.2026; V17/V18; [bedienkonzepte.md](bedienkonzepte.md) |
 
 Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offen. D18 wählt einen begrenzten Produktnachweis, keine vollständige Notion-Funktionsliste.
 
@@ -67,8 +68,7 @@ Die konkrete Oberfläche, Datenarchitektur und technische Umsetzung bleiben offe
 
 | ID | Thema | Status | Warum es offen bleibt |
 | --- | --- | --- | --- |
-| O1 | Umsetzung des V1-Umfangs | offen | Der Produktnachweis ist mit D18 ausgewählt und in K2 konzeptionell unter Bedingungen als machbar bewertet. Bedienform, Architektur, ausführbare Prüfung und Implementierung folgen erst in K3–K5. |
-| O2 | Bedienkonzept | offen | Die früheren A/B/C sind verworfen. Die K3-Leitform wurde um die verbindliche Bediengrammatik und optionale Werkzeuge korrigiert; V17 bleibt die fachliche Empfehlung. Vor K4 braucht es Dennis' Auswahl oder weitere konkrete Korrektur. |
+| O1 | Umsetzung des V1-Umfangs | offen | Produktnachweis und Bedienform sind mit D18 und D24 ausgewählt. Architektur, ausführbare Prüfung und Implementierung folgen erst in K4–K5. |
 | O3 | Technik-Stack und Speicherung | offen | K4. Offline, lokale vs. externe Speicherung unklar. |
 | O4 | KI ja/nein, Anbieter, Daten, Budget | offen | 50 Euro ausgeschlossen; alles darunter und lokale KI unklar. |
 | O5 | Spätere Assistentenbefugnisse | offen | Für V1 gilt D19. Ob spätere Versionen in gesetzten Rahmen selbst planen oder externe Aktionen ausführen dürfen, bleibt eine getrennte Entscheidung. |

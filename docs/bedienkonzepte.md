@@ -1,6 +1,6 @@
 # K3 — Assistenzkonzepte vergleichen
 
-Stand: 9. September 2026 · **nach Dennis' Korrektur überarbeitet, Auswahl offen**
+Stand: 9. September 2026 · **K3 abgeschlossen, empfohlene Leitform von Dennis ausgewählt**
 
 ## Auftrag und Grenze
 
@@ -229,13 +229,14 @@ Das ist keine Vermischung aller Oberflächen. Die Rollen bleiben klar:
 - Bei Gestaltung oder Analyse: Dennis öffnet bewusst den tieferen Arbeitsraum.
 - Bei Fachbedarf: Dennis aktiviert ein passendes Werkzeug, verändert oder pausiert es, ohne sein übriges System umbauen zu müssen.
 
-## Vor K4 notwendige Auswahl
+## Auswahl und Abschluss
 
-Dennis muss nur entscheiden, ob diese nach seiner Korrektur überarbeitete Leitform die richtige Richtung trifft oder welcher Grundmodus stattdessen dominieren soll:
+Dennis hat die empfohlene Leitform am 9. September 2026 ausgewählt. Damit gilt für die weitere Arbeit:
 
-- **1 empfohlen:** verständliches Briefing als primärer Alltag, mit Änderungsvertrag, optionalem Studio und optionalen Werkzeugen;
-- **2:** Studio als primärer Denk- und Arbeitsraum;
-- **3:** Delegat mit gebündelten Freigaben als primärer Alltag;
-- **Korrektur:** keines trifft das gewünschte Gefühl; konkrete Rückmeldung ersetzt eine erzwungene Auswahl.
+- **Konzept 1 — Briefing** ist der primäre Alltagsmodus.
+- Die Bediengrammatik **bekannt — Bedeutung — Vorschlag — Wirkung** bleibt in jedem Modus verbindlich.
+- Der **Änderungsvertrag aus Konzept 3** begrenzt und erklärt wirksame Änderungen.
+- Das **Studio aus Konzept 2** dient auf Nachfrage der freien Gestaltung und tiefen Analyse, nicht als verpflichtende Startfläche.
+- Kalender, Diätanalyse und weitere Fachfähigkeiten sind optionale, veränderbare Werkzeuge auf der gemeinsamen Grundlage.
 
-Bis zu dieser Rückmeldung ist K3 **ausgearbeitet, aber nicht abgenommen**. K4 und App-Code beginnen nicht automatisch.
+K3 ist damit **abgeschlossen**. Ausgewählt sind die Zusammenarbeit und ihre Leitplanken, noch keine endgültige Oberfläche, technische Architektur oder produktive Umsetzung. K4 und App-Code beginnen nicht automatisch.

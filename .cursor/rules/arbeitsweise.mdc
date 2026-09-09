@@ -12,6 +12,7 @@ alwaysApply: true
 - Empfehlungen und vorbereitete Änderungen folgen der verständlichen Bediengrammatik: bekannt oder unbekannt, Bedeutung, Vorschlag, konkrete Wirkung nach Bestätigung. Keine Blackbox.
 - Notion-artige Freiheit bedeutet eigene Strukturen und Zusammenhänge bei fokussierter Standardnutzung; keine Notion-Kopie und kein leerer No-Code-Baukasten. A/B/C aus PR #5 sind verworfen.
 - Smarter Kalender, Diätanalyse und andere Fachfähigkeiten sind optionale Werkzeuge, keine Pflichtbereiche. Sie müssen anpassbar, verschiebbar, pausierbar und vollständig weglassbar sein; keine erzwungenen Ziele, Abläufe oder täglichen Eingaben.
+- D24 ist das ausgewählte K3-Bedienkonzept: verständliches Briefing als primärer Alltag, begrenzter Änderungsvertrag sowie Studio und optionale Werkzeuge auf Nachfrage. Daraus folgt noch keine Architektur- oder Implementierungsfreigabe.
 - Freie Felder beeinflussen Assistenz erst nach bestätigter Bedeutung und Beziehung. Ein Datums- oder Zahlenfeld erzeugt allein keine Pflicht, Priorität oder Handlung.
 - Fakten, Zustände, Einheiten, Zeitkonflikte und Schreibbefugnisse transparent prüfen. Eine kontextuelle oder generative Komponente darf persönliche Daten und geltende Pläne nicht direkt verändern.
 - Hochwertige, erfreuliche Nutzung gehört zur Vision; geringer Pflegeaufwand allein reicht nicht. Schutz vor Druck verbietet keine motivierende Rückmeldung.

@@ -58,7 +58,7 @@ Vorhandene gleichwertige Dateien weiterverwenden, statt widersprüchliche Doppel
 - [docs/nutzungskonzept.md](docs/nutzungskonzept.md) — Alltagsszenarien mit der aktuellen Grundkorrektur
 - [docs/umfang-v1.md](docs/umfang-v1.md) — ausgewählter vertikaler Produktnachweis für Version 1
 - [docs/machbarkeitscheck-k2.md](docs/machbarkeitscheck-k2.md) — K2-Ergebnisse zu Semantik, Datenbedarf, Stabilität und Assistenzgrenzen
-- [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — K3-Vergleich; Empfehlung V17 ist noch keine Auswahl durch Dennis
+- [docs/bedienkonzepte.md](docs/bedienkonzepte.md) — abgeschlossener K3-Vergleich; ausgewählte Leitform steht in D24
 - [docs/context/](docs/context/) — Arbeitsnotiz, Prompt-Sammlung, ursprüngliche Momentaufnahmen
 - [.cursor/rules/](.cursor/rules/) — kurze, immer geltende Agent-Regeln
 
